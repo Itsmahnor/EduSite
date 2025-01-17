@@ -1,0 +1,90 @@
+[
+  {
+    "route":"7",
+    "img": "https://skillseducation.pk/assets/skillsimages/coursesMedia/phhhp.jpg",
+    "rupees": 30000,
+    "title": "PHP Laravel Development",
+    "duration": 6,
+    "category": "backend"
+  },
+  {
+    "route":"5",
+    "img": "https://skillseducation.pk/assets/skillsimages/coursesMedia/mearn.jpg",
+    "rupees": 25000,
+    "title": "Mern Stack Web Development",
+    "duration": 4,
+    "category": "fullstack"
+  },
+  {
+    "route":"13",
+    "img": "https://skillseducation.pk/assets/skillsimages/coursesMedia/flutter.jpg",
+    "rupees": 25000,
+    "title": "App Development",
+    "duration": 4,
+    "category": "mobile"
+  },
+  {
+    "route":"1",
+    "img": "https://skillseducation.pk/assets/skillsimages/coursesMedia/django.jpg",
+    "rupees": 30000,
+    "title": "Python Django Development",
+    "duration": 6,
+    "category": "backend"
+  },
+  {
+    "route":"12",
+    "img": "https://skillseducation.pk/assets/skillsimages/coursesMedia/shopify.jpg",
+    "rupees": 25000,
+    "title": "Shopify Development",
+    "duration": 4,
+    "category": "ecommerce"
+  },
+  {
+    "route":"8",
+    "img": "https://skillseducation.pk/assets/skillsimages/coursesMedia/advancefront.jpg",
+    "rupees": 25000,
+    "title": "Frontend Development",
+    "duration": 4,
+    "category": "frontend"
+  },
+  {
+    "route":"9",
+    "img": "https://skillseducation.pk/assets/skillsimages/coursesMedia/backned2.jpg",
+    "rupees": 12000,
+    "title": "Backend Development",
+    "duration": 4,
+    "category": "backend"
+  },
+  {
+    "route":"10",
+    "img": "https://skillseducation.pk/assets/skillsimages/coursesMedia/onlinercat.jpg",
+    "rupees": 15000,
+    "title": "React Js Development",
+    "duration": 6,
+    "category": "frontend"
+  },
+  {
+    "route":"15",
+    "img": "https://skillseducation.pk/assets/skillsimages/coursesMedia/flutterflow.jpg",
+    "rupees": 25000,
+    "title": "FlutterFlow Development",
+    "duration": 4,
+    "category": "mobile"
+  },
+  {
+    "route":"16",
+    "img": "https://skillseducation.pk/assets/skillsimages/coursesMedia/flutterflow.jpg",
+    "rupees": 25000,
+    "title": "Android App Development",
+    "duration": 4,
+    "category": "mobile"
+  },
+  {
+    "route":"11",
+    "img": "https://skillseducation.pk/assets/skillsimages/coursesMedia/wpexpert.jpg",
+    "rupees": 12000,
+    "title": "WordPress Development",
+    "duration": 4,
+    "category": "ecommerce"
+  }
+]

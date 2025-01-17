@@ -1,0 +1,50 @@
+[
+  {
+    "month":1,
+    "title":"Introduction to PHP and Laravel",
+    "subTitle1":"PHP Basics",
+    "subTitle1Content":"Learn the basics of PHP programming, syntax, and its applications in web development.",
+     "subTitle2":"Introduction to Laravel",
+    "subTitle2Content":"Understand Laravel's MVC architecture, routing, and installation process."
+  },
+  {
+    "month":2,
+    "title":"Database Integration with MYSQL",
+    "subTitle1":"Database Design",
+    "subTitle1Content":"Learn to design and manage databases using MySQL for your Laravel applications..",
+     "subTitle2":"Eloquent ORM",
+    "subTitle2Content":"Master Laravel's Eloquent ORM for database interactions.."
+  },
+  {
+    "month":3,
+    "title":"Building RestFull Api",
+    "subTitle1":"API Fundamentals",
+    "subTitle1Content":"Understand the fundamentals of REST APIs and how to create them using Laravel.",
+     "subTitle2":"Authentication and Security",
+    "subTitle2Content":"Implement authentication systems and secure your APIs."
+  },
+  {
+    "month":4,
+    "title":"Frontent Integration",
+    "subTitle1":"HTML, CSS, and Bootstrap",
+    "subTitle1Content":"Integrate frontend designs using HTML, CSS, and Bootstrap frameworks",
+     "subTitle2":"Vue.js Basics",
+    "subTitle2Content":"Learn how to use Vue.js to enhance interactivity in Laravel projects."
+  },
+  {
+    "month":5,
+    "title":"Advance Features",
+    "subTitle1":"Queues and Jobs",
+    "subTitle1Content":"Use Laravel queues and jobs to handle asynchronous tasks.",
+     "subTitle2":"Testing and Debugging",
+    "subTitle2Content":"Learn how to test and debug your Laravel applications."
+  },
+  {
+    "month":6,
+    "title":"Deployement and Final Project",
+    "subTitle1":"Hosting Applications",
+    "subTitle1Content":"Deploy your Laravel applications to live servers..",
+     "subTitle2":"Final Project",
+    "subTitle2Content":"Build and present a complete Laravel-based application as your final project."
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "outline": [
+    {
+      "month": "Month 1",
+      "title": "Introduction to Flutter and Dart",
+      "topics": [
+        {
+          "heading": "Getting Started with Flutter and Dart",
+          "description": "Understand the basics of Flutter, set up the development environment, and learn Dart programming fundamentals."
+        },
+        {
+          "heading": "Building Simple UIs with Flutter Widgets",
+          "description": "Learn to create user interfaces using Flutter's widget library, focusing on layouts, styles, and interactive elements."
+        },
+        {
+          "heading": "Managing App State in Flutter",
+          "description": "Discover state management techniques such as Stateful Widgets and Provider to manage app state effectively."
+        }
+      ]
+    },
+    {
+      "month": "Month 2",
+      "title": "Intermediate Flutter Concepts and Backend Integration",
+      "topics": [
+        {
+          "heading": "Understanding Flutter Navigation",
+          "description": "Learn how to navigate between screens using Flutter's navigation system and manage routes efficiently."
+        },
+        {
+          "heading": "Working with REST APIs",
+          "description": "Integrate backend services by consuming REST APIs, handling HTTP requests, and parsing JSON data."
+        },
+        {
+          "heading": "Implementing Authentication",
+          "description": "Set up user authentication using Firebase or other third-party tools to secure your Flutter applications."
+        }
+      ]
+    },
+    {
+      "month": "Month 3",
+      "title": "Advanced Flutter Concepts and Deployment",
+      "topics": [
+        {
+          "heading": "Optimizing App Performance",
+          "description": "Learn techniques to optimize your app's performance by reducing build times and improving UI responsiveness."
+        },
+        {
+          "heading": "Publishing Apps to Play Store and App Store",
+          "description": "Understand the process of signing, building, and publishing your Flutter apps to Google Play and Apple App Store."
+        },
+        {
+          "heading": "Building for Web and Desktop",
+          "description": "Explore Flutter’s capability to build web and desktop applications alongside mobile apps."
+        }
+      ]
+    }
+  ],
+  "additionalInfo": {
+    "question": "When would you like to start?",
+    "description": "Start straight away and join a community of learners from across Pakistan. If the course hasn’t started yet, you’ll see the future date listed below."
+  }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "month":1,
+    "title":"Introduction to JavaScript and Reactjs",
+    "subTitle1":"JavaScript Fundamentals",
+    "subTitle1Content":"Master JavaScript basics, ES6+ features, and essential programming concepts.",
+     "subTitle2":"Introduction to React.js",
+    "subTitle2Content":"Learn React components, JSX, state, props, and the basics of building a dynamic UI."
+  },
+  {
+    "month":2,
+    "title":"Backend Development with Node.js and Express.js ",
+    "subTitle1":"Node.js Basics",
+    "subTitle1Content":"Understand the fundamentals of Node.js, including modules, file handling, and event-driven programming..",
+     "subTitle2":"Express.js Essentials",
+    "subTitle2Content":"Learn to build server-side applications using Express.js, including routing and middleware.."
+  },
+  {
+    "month":3,
+    "title":"Database Integration with Mongo db",
+    "subTitle1":"MongoDB Basics",
+    "subTitle1Content":"Learn the basics of MongoDB, including collections, documents, and CRUD operations.",
+     "subTitle2":"Mongoose Integration",
+    "subTitle2Content":"Integrate MongoDB with Node.js applications using Mongoose ORM."
+  },
+  {
+    "month":4,
+    "title":"Full Stack Integration and deployement",
+    "subTitle1":"Connecting Frontend and Backend",
+    "subTitle1Content":"Integrate React.js with Node.js and Express.js to build a complete application.",
+     "subTitle2":"Deployment",
+    "subTitle2Content":"Deploy your full-stack application on platforms like Heroku or Vercel."
+  }
+]

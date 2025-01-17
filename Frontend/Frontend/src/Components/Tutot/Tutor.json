@@ -1,0 +1,42 @@
+[
+  {
+    "name":"Umair Farooqi",
+    "subject":"WP developer",
+    "course":15,
+    "img":"https://skillseducation.pk/assets/skillsimages/nav-icons/meeeeee.png",
+    "no":"30k+ Students",
+    "experience":"5+ years experience"
+  },
+  {
+    "name":"Sumair",
+    "subject":"WordPress",
+    "course":2,
+    "img":"https://skillseducation.pk/assets/teacher/sum.jpg",
+    "no":"5k+ Students",
+    "experience":"2+ years experience"
+  },
+  {
+    "name":"Arsha Noor",
+    "subject":"Frontend Developer",
+    "course":2,
+    "img":"https://skillseducation.pk/assets/teacher/chozi.jpg",
+    "no":"3k+ Students",
+    "experience":"1+ years experience"
+  },
+  {
+    "name":"Imran Noori",
+    "subject":"English Tutor",
+    "course":1,
+    "img":"https://skillseducation.pk/assets/teacher/nori.jpg",
+    "no":"4k+ Students",
+    "experience":"7+ years experience"
+  },
+  {
+    "name":"Mr. Altaf",
+    "subject":"Freelancing",
+    "course":3,
+    "img":"https://skillseducation.pk/assets/teacher/altaf.jpg",
+    "no":"6k+ Students",
+    "experience":"8+ years experience"
+  }
+]

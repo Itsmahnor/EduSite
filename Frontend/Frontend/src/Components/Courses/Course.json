@@ -1,0 +1,20 @@
+[
+  {
+    "img":"https://www.shutterstock.com/image-photo/profile-side-view-portrait-beautiful-260nw-2148238991.jpg",
+"rupees":30000,
+"title":"PHP Laravel Development",
+"duration":6
+  },
+  {
+    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Yob8S56T9_RXhMqg_RKy5Npf-dfAkZ_LFA&s",
+    "rupees":25000,
+"title":"Mern Stack Web Development",
+"duration":4
+  },
+  {
+    "img":"https://www.skillreactor.io/blog/wp-content/uploads/2024/04/web-development-projects.jpg",
+    "rupees":25000,
+"title":"App Development",
+"duration":4
+  }
+]

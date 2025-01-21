@@ -25,8 +25,8 @@ export const BottomNav = () => {
     <div className='w-[100vw] h-[16vh] bg-white flex justify-center items-center text-[#098E68] font-bold text-[1.4rem]'>
       <div className='w-[80vw] flex justify-around bottom'>
         {/* img section */}
-        <div className='w-[280px] md:h-[200px] h-[180ox] p-[15px] text-[#098E68] flex justify-center items-center '>
-        <img src={logo} alt="Logo" className='h-[100%]' />
+        <div className='w-[280px] md:h-[200px] p-[15px] text-[#098E68] flex justify-center items-center '>
+        <img src={logo} alt="Logo" className=' ' />
 
       
         </div>

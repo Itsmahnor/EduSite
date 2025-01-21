@@ -26,7 +26,7 @@ export const BottomNav = () => {
       <div className='w-[80vw] flex justify-around bottom'>
         {/* img section */}
         <div className='w-[280px] md:h-[200px] h-[180ox] p-[15px] text-[#098E68] flex justify-center items-center '>
-        <img src={logo} alt="Logo" className='h-[100%]' />
+        <img src={logo} alt="Logo" className=' ' />
 
       
         </div>

@@ -44,8 +44,8 @@ export const BottomNav = () => {
             <div className="group-hover:flex hidden bg-[#098E68] text-[#098E68] widthof border  h-auto absolute top-[50px] left-1/2 transform -translate-x-1/2 p-6 shadow-lg rounded-md z-10 flex-col transition-all duration-300 ease-in-out">
               <div className="flex justify-between  gap-6">
                 {coursesData.map((category) => (
-                  <div className="flex flex-col gap-3 " key={category.category}>
-                    <h3 className="text-lg font-semibold text-black">{category.category}</h3>
+                  <div className="flex flex-col gap-3 text-[#098E68]" key={category.category}>
+                    <h3 className="text-lg font-semibold text-[#098E68]">{category.category}</h3>
                     <ul className="flex flex-col gap-2 text-[#098E68]">
                       {category.courses.map((course) => (
                         <Link to={`/course/${course.route}`} key={course.name}>

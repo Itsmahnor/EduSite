@@ -35,7 +35,7 @@ export const TopCatagories = () => {
   };
 
   return (
-    <div className='w-[100vw] lg:h-[80vh] pt-5 bg-[#04211e] flex justify-center text-[#ffffff] font-bold text-[1.2rem]'>
+    <div className='w-[100vw] lg:h-[90vh] pt-5 bg-[#04211e] flex justify-center text-[#ffffff] font-bold text-[1.2rem]'>
       <div className='w-[80vw] h-auto flex justify-around flex-wrap gap-3 flex-col'>
         {/* Section Header */}
         <HeaderSection />

@@ -1,4 +1,4 @@
-import { FaPython, FaReact, FaLaravel, FaWordpress, FaAndroid, FaRobot } from "react-icons/fa";
+import { FaPython, FaReact, FaLaravel, FaWordpress, FaAndroid, FaRobot, FaPaintBrush,FaBriefcase } from "react-icons/fa";
 import { SiMongodb, SiFlutter, SiShopify, SiGoogleads } from "react-icons/si";
 
 export const coursesData = [
@@ -39,6 +39,15 @@ export const coursesData = [
       { name: "Social Media Marketing", icon: SiGoogleads, route: "17" },
       { name: "Digital Marketing", icon: SiGoogleads, route: "18" },
       { name: "Google Ads", icon: SiGoogleads, route: "19" },
+    ],
+  },
+  {
+    category: "BUSINESS & DESIGN",
+    courses: [
+      { name: "Microsoft Office", icon: SiGoogleads, route: "20" },
+      { name: "Graphic Designing", icon: FaPaintBrush, route: "21" },
+      { name: "Freelancing", icon: FaBriefcase, route: "22" },
+     
     ],
   },
   

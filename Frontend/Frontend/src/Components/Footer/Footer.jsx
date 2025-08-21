@@ -51,11 +51,11 @@ const Footer = () => {
             {/* FBR Section */}
             <div className="flex items-center gap-2 mb-4">
               <div className="flex-shrink-0 w-16 sm:w-24 md:w-28 lg:w-32">
-                <img
+                {/* <img
                   src="https://skillseducation.pk/assets/skillsimages/nav-courses-images/fbr%20logo.png"
                   alt="FBR Logo"
                   className="w-full h-auto"
-                />
+                /> */}
               </div>
               <p className="m-0">Registered by FBR</p>
             </div>
@@ -63,11 +63,11 @@ const Footer = () => {
             {/* SECP Section */}
             <div className="flex items-center gap-3">
               <div className="flex-shrink-0 w-16 sm:w-24 md:w-28 lg:w-28">
-                <img
+                {/* <img
                   src="https://skillseducation.pk/assets/skillsimages/nav-courses-images/sssss.png"
                   alt="SECP Logo"
                   className="w-full h-auto"
-                />
+                /> */}
               </div>
               <p className="m-0">Registered by SECP</p>
             </div>

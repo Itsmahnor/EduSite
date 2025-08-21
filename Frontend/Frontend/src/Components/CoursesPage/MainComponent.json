@@ -3,1369 +3,1259 @@
     "courseId": "1",
     "header": {
       "title": "Python Programming",
-      "description": "Master the art of <span class='bg-[#04211e] text-white p-1'> Python </span> development. Python is a versatile, easy-to-learn, and powerful programming language used in web development, data science, machine learning, and more. This course will equip you with the skills to create efficient and scalable applications using Python's extensive libraries and frameworks."
+      "description": "Learn Python programming from basics to advanced. Master syntax, data structures, and more."
     },
     "firstHeading": "Master Python Programming",
-    "firstHeadingDescription": "Explore the world of Python, a powerful language that is beginner-friendly yet capable of tackling complex programming challenges. This course provides hands-on training and real-world examples to sharpen your coding skills.",
-    "overview": "Embark on a journey to learn Python programming from scratch. This comprehensive course will guide you through core programming concepts, advanced topics, and real-world applications. By the end of this course, you'll be proficient in Python and ready to tackle a variety of development challenges.",
+    "firstHeadingDescription": "Dive deep into Python, one of the most versatile programming languages.",
+    "overview": "This course covers Python programming fundamentals—from variables and data types to functions and libraries. Perfect for beginners and aspiring developers.",
     "whatYouWillLearn": [
-      "Core Python syntax and data structures",
-      "Object-Oriented Programming with Python",
-      "Web development with Flask and Django",
-      "Data analysis with Pandas and NumPy",
-      "Building RESTful APIs with FastAPI",
-      "Testing and debugging Python applications"
+      "Python syntax and fundamentals",
+      "Data structures and algorithms",
+      "File handling and modules",
+      "Object-Oriented Programming",
+      "Working with libraries like NumPy and Pandas",
+      "Debugging and best practices"
     ],
     "outline": [
       {
         "month": "Month 1",
-        "title": "Python Fundamentals",
-        "subTitle1": "Syntax and Data Types",
-        "subTitle1Content": "Learn Python syntax, variables, and data types including strings, lists, tuples, and dictionaries.",
-        "subTitle2": "Control Flow and Functions",
-        "subTitle2Content": "Understand conditional statements, loops, and writing reusable functions."
+        "title": "Introduction to Python",
+        "subTitle1": "Python Basics",
+        "subTitle1Content": "Understand variables, data types, and basic syntax.",
+        "subTitle2": "Control Structures",
+        "subTitle2Content": "Learn loops and conditional statements."
       },
       {
         "month": "Month 2",
-        "title": "Object-Oriented Programming",
-        "subTitle1": "Classes and Objects",
-        "subTitle1Content": "Learn to create classes and objects for structured and efficient code.",
-        "subTitle2": "Inheritance and Polymorphism",
-        "subTitle2Content": "Master advanced OOP concepts for code reusability and flexibility."
+        "title": "Intermediate Python",
+        "subTitle1": "Functions and Modules",
+        "subTitle1Content": "Learn to write functions and use modules.",
+        "subTitle2": "Data Structures",
+        "subTitle2Content": "Explore lists, tuples, dictionaries, and sets."
       },
       {
         "month": "Month 3",
-        "title": "Web Development with Python",
-        "subTitle1": "Flask Basics",
-        "subTitle1Content": "Build your first web application using Flask.",
-        "subTitle2": "Django Framework",
-        "subTitle2Content": "Develop scalable web applications with Django's powerful tools."
+        "title": "Advanced Concepts",
+        "subTitle1": "OOP and Error Handling",
+        "subTitle1Content": "Dive into classes, objects, and exception handling.",
+        "subTitle2": "Libraries and Tools",
+        "subTitle2Content": "An introduction to popular Python libraries."
       },
       {
         "month": "Month 4",
-        "title": "Data Analysis",
-        "subTitle1": "Pandas and NumPy",
-        "subTitle1Content": "Perform data manipulation and analysis using Pandas and NumPy libraries.",
-        "subTitle2": "Data Visualization",
-        "subTitle2Content": "Create meaningful visualizations using Matplotlib and Seaborn."
-      },
-      {
-        "month": "Month 5",
-        "title": "APIs and Deployment",
-        "subTitle1": "Building APIs",
-        "subTitle1Content": "Learn to create and test RESTful APIs using FastAPI.",
-        "subTitle2": "Deployment",
-        "subTitle2Content": "Deploy Python applications on cloud platforms like AWS or Heroku."
-      },
-      {
-        "month": "Month 6",
-        "title": "Capstone Project",
-        "subTitle1": "Project Planning",
-        "subTitle1Content": "Define and design your final project.",
-        "subTitle2": "Implementation and Presentation",
-        "subTitle2Content": "Build, test, and present your fully-functional Python application."
+        "title": "Project and Best Practices",
+        "subTitle1": "Real-world Projects",
+        "subTitle1Content": "Apply your skills in hands-on projects.",
+        "subTitle2": "Optimization and Debugging",
+        "subTitle2Content": "Learn how to optimize code and debug effectively."
       }
     ],
     "details": {
-      "duration": "6 Months",
+      "duration": "4 Months",
       "classType": "Weekend Classes",
       "classHours": "4 Hours",
-      "students": "4200 Students",
+      "students": "3000 Students",
       "courseType": "100% Online"
     }
   },
-    {
-      "courseId": "2",
-      "header": {
-        "title": "Generative AI",
-        "description": "Delve into the exciting world of  Generative AI. Learn how to design and implement AI models capable of creating new content, from text to images, with cutting-edge tools like GPT and GANs."
-      },
-      "firstHeading": "Unlock the Power of Generative AI",
-      "firstHeadingDescription": "Discover how to leverage AI to create innovative applications. This course introduces the foundational techniques of Generative AI, equipping you with the skills to develop AI-powered creative solutions.",
-      "overview": "Explore the principles and practices of Generative AI, from neural networks to advanced architectures like transformers and GANs. Gain hands-on experience and insights into real-world applications.",
-      "whatYouWillLearn": [
-        "Basics of neural networks and deep learning",
-        "Understanding Generative Adversarial Networks (GANs)",
-        "Working with transformers and GPT models",
-        "Text generation and language modeling",
-        "Image and video synthesis techniques",
-        "Applications of Generative AI in creative industries"
-      ],
-      "outline": [
-        {
-          "month": "Month 1",
-          "title": "Introduction to Generative AI",
-          "subTitle1": "Neural Network Basics",
-          "subTitle1Content": "Understand the foundations of neural networks and deep learning.",
-          "subTitle2": "Data Preparation",
-          "subTitle2Content": "Learn techniques for preprocessing and preparing data for AI models."
-        },
-        {
-          "month": "Month 2",
-          "title": "Generative Adversarial Networks",
-          "subTitle1": "GAN Theory",
-          "subTitle1Content": "Explore the structure and working of GANs.",
-          "subTitle2": "Implementing GANs",
-          "subTitle2Content": "Build and train your own GANs for image synthesis."
-        },
-        {
-          "month": "Month 3",
-          "title": "Transformers and GPT Models",
-          "subTitle1": "Transformer Architecture",
-          "subTitle1Content": "Understand how transformers revolutionized AI.",
-          "subTitle2": "Text Generation",
-          "subTitle2Content": "Learn to implement and fine-tune GPT models for text generation."
-        },
-        {
-          "month": "Month 4",
-          "title": "Creative Applications",
-          "subTitle1": "AI in Art and Design",
-          "subTitle1Content": "Explore AI-driven tools for creating art and music.",
-          "subTitle2": "Media Content Creation",
-          "subTitle2Content": "Learn techniques for AI-powered video and animation generation."
-        },
-        {
-          "month": "Month 5",
-          "title": "Deploying Generative AI Models",
-          "subTitle1": "Model Optimization",
-          "subTitle1Content": "Optimize models for performance and scalability.",
-          "subTitle2": "Deployment",
-          "subTitle2Content": "Deploy Generative AI applications to cloud platforms."
-        },
-        {
-          "month": "Month 6",
-          "title": "Capstone Project",
-          "subTitle1": "Project Planning",
-          "subTitle1Content": "Define and design your final project.",
-          "subTitle2": "Implementation and Presentation",
-          "subTitle2Content": "Build, test, and present your fully-functional Generative AI solution."
-        }
-      ],
-      "details": {
-        "duration": "6 Months",
-        "classType": "Weekend Classes",
-        "classHours": "4 Hours",
-        "students": "3200 Students",
-        "courseType": "100% Online"
-      }
+  {
+    "courseId": "2",
+    "header": {
+      "title": "Generative AI",
+      "description": "Explore the capabilities of Generative AI. Learn to design models that create text, images, and more."
     },
-    {
-      "courseId": "3",
-      "header": {
-        "title": "Machine Learning",
-        "description": "Master the principles of Machine Learning and gain the skills to build intelligent systems. This course covers supervised, unsupervised, and reinforcement learning techniques with real-world applications."
-      },
-      "firstHeading": "Become a Machine Learning Expert",
-      "firstHeadingDescription": "Dive into the fundamentals of Machine Learning, from regression to neural networks, and learn to create AI models for real-world problems.",
-      "overview": "This course provides a thorough understanding of Machine Learning techniques, tools, and frameworks. By the end, you’ll have the expertise to develop predictive models and deploy AI solutions.",
-      "whatYouWillLearn": [
-        "Supervised and Unsupervised Learning",
-        "Feature Engineering and Data Preprocessing",
-        "Building Models with Scikit-learn and TensorFlow",
-        "Clustering and Dimensionality Reduction",
-        "Deep Learning Basics",
-        "Evaluation and Optimization of AI Models"
-      ],
-      "outline": [
-        {
-          "month": "Month 1",
-          "title": "Machine Learning Foundations",
-          "subTitle1": "Data Preprocessing",
-          "subTitle1Content": "Learn to clean and preprocess data for AI models.",
-          "subTitle2": "Supervised Learning",
-          "subTitle2Content": "Understand regression and classification algorithms."
-        },
-        {
-          "month": "Month 2",
-          "title": "Advanced Topics",
-          "subTitle1": "Unsupervised Learning",
-          "subTitle1Content": "Explore clustering and dimensionality reduction techniques.",
-          "subTitle2": "Reinforcement Learning",
-          "subTitle2Content": "Learn the basics of reinforcement learning and its applications."
-        },
-        {
-          "month": "Month 3",
-          "title": "Deep Learning",
-          "subTitle1": "Neural Networks",
-          "subTitle1Content": "Understand the structure and working of neural networks.",
-          "subTitle2": "Deep Learning Frameworks",
-          "subTitle2Content": "Work with TensorFlow and Keras to build models."
-        },
-        {
-          "month": "Month 4",
-          "title": "Model Evaluation and Deployment",
-          "subTitle1": "Evaluation Metrics",
-          "subTitle1Content": "Learn metrics to assess model performance.",
-          "subTitle2": "Deployment",
-          "subTitle2Content": "Deploy Machine Learning models in production environments."
-        },
-        {
-          "month": "Month 5",
-          "title": "Advanced Applications",
-          "subTitle1": "Time Series Analysis",
-          "subTitle1Content": "Apply Machine Learning to time series data.",
-          "subTitle2": "AI in Business",
-          "subTitle2Content": "Explore use cases of AI in industries like finance and healthcare."
-        },
-        {
-          "month": "Month 6",
-          "title": "Capstone Project",
-          "subTitle1": "Project Planning",
-          "subTitle1Content": "Define and design your final project.",
-          "subTitle2": "Implementation and Presentation",
-          "subTitle2Content": "Build, test, and present your fully-functional Machine Learning solution."
-        }
-      ],
-      "details": {
-        "duration": "6 Months",
-        "classType": "Weekend Classes",
-        "classHours": "4 Hours",
-        "students": "4500 Students",
-        "courseType": "100% Online"
-      }
-    },
-    {
-      "courseId": "4",
-      "header": {
-        "title": "Chatbot Development",
-        "description": "Learn to build intelligent chatbots from scratch. This course covers natural language processing, dialogue management, and deployment of chatbot applications."
-      },
-      "firstHeading": "Master Chatbot Development",
-      "firstHeadingDescription": "Develop the expertise to create interactive and intelligent chatbots for various platforms, using cutting-edge NLP techniques and frameworks.",
-      "overview": "This course provides comprehensive training in Chatbot Development, focusing on building applications that understand and respond to user queries effectively.",
-      "whatYouWillLearn": [
-        "Basics of Natural Language Processing (NLP)",
-        "Intent Recognition and Entity Extraction",
-        "Building Chatbots with Dialogflow and Rasa",
-        "Integration with Messaging Platforms",
-        "Testing and Optimizing Chatbot Interactions",
-        "Deployment on Cloud Platforms"
-      ],
-      "outline": [
-        {
-          "month": "Month 1",
-          "title": "NLP Fundamentals",
-          "subTitle1": "Language Understanding",
-          "subTitle1Content": "Learn the basics of NLP and language models.",
-          "subTitle2": "Text Processing",
-          "subTitle2Content": "Understand tokenization, stemming, and lemmatization."
-        },
-        {
-          "month": "Month 2",
-          "title": "Chatbot Frameworks",
-          "subTitle1": "Dialogflow",
-          "subTitle1Content": "Build basic chatbots using Dialogflow.",
-          "subTitle2": "Rasa",
-          "subTitle2Content": "Implement custom chatbots using Rasa."
-        },
-        {
-          "month": "Month 3",
-          "title": "Advanced Dialogue Systems",
-          "subTitle1": "Dialogue Management",
-          "subTitle1Content": "Learn techniques for effective dialogue flow.",
-          "subTitle2": "Handling Complex Queries",
-          "subTitle2Content": "Develop bots capable of understanding multi-turn conversations."
-        },
-        {
-          "month": "Month 4",
-          "title": "Integration",
-          "subTitle1": "Messaging Platforms",
-          "subTitle1Content": "Integrate chatbots with platforms like WhatsApp and Facebook Messenger.",
-          "subTitle2": "Backend APIs",
-          "subTitle2Content": "Connect chatbots to external APIs for dynamic responses."
-        },
-        {
-          "month": "Month 5",
-          "title": "Testing and Deployment",
-          "subTitle1": "Bot Testing",
-          "subTitle1Content": "Optimize and test chatbot performance.",
-          "subTitle2": "Deployment",
-          "subTitle2Content": "Deploy chatbots on cloud services for scalability."
-        },
-        {
-          "month": "Month 6",
-          "title": "Capstone Project",
-          "subTitle1": "Project Planning",
-          "subTitle1Content": "Define and design your final project.",
-          "subTitle2": "Implementation and Presentation",
-          "subTitle2Content": "Build, test, and present your fully-functional chatbot."
-        }
-      ],
-      "details": {
-        "duration": "6 Months",
-        "classType": "Weekend Classes",
-        "classHours": "4 Hours",
-        "students": "3800 Students",
-        "courseType": "100% Online"
-      }
-    },
+    "firstHeading": "Unlock the Power of Generative AI",
+    "firstHeadingDescription": "Build AI models that generate creative content.",
+    "overview": "This course introduces the fundamentals of Generative AI, covering model architectures and real-world applications.",
+    "whatYouWillLearn": [
+      "Introduction to generative models",
+      "Understanding GANs and VAEs",
+      "Model training and evaluation",
+      "Practical content generation",
+      "Ethical considerations in AI"
+    ],
+    "outline": [
       {
-        "courseId": "5",
-        "header": {
-          "title": "MERN Stack Development",
-          "description": "Learn to build modern web applications using the MERN stack (MongoDB, Express.js, React.js, and Node.js). This course will equip you with full-stack development skills to create robust and scalable web solutions."
-        },
-        "firstHeading": "Master MERN Stack Development",
-        "firstHeadingDescription": "Gain hands-on experience in developing full-stack applications using the MERN stack. This course focuses on real-world projects to help you build dynamic, interactive web applications.",
-        "overview": "Become proficient in full-stack development using the MERN stack. Learn backend, frontend, and database integration to build scalable web applications.",
-        "whatYouWillLearn": [
-          "Setting up the MERN development environment",
-          "Backend development with Node.js and Express",
-          "Frontend development with React.js",
-          "Database integration with MongoDB",
-          "RESTful API development",
-          "Deploying MERN applications"
-        ],
-        "outline": [
-          {
-            "month": "Month 1",
-            "title": "Introduction to MERN Stack",
-            "subTitle1": "Setup and Basics",
-            "subTitle1Content": "Learn how to set up a MERN project and understand its architecture.",
-            "subTitle2": "Node.js Fundamentals",
-            "subTitle2Content": "Understand server-side development with Node.js."
-          },
-          {
-            "month": "Month 2",
-            "title": "Backend Development",
-            "subTitle1": "Express.js",
-            "subTitle1Content": "Build backend routes and middleware using Express.js.",
-            "subTitle2": "Database Integration",
-            "subTitle2Content": "Work with MongoDB to store and retrieve data."
-          },
-          {
-            "month": "Month 3",
-            "title": "Frontend Development",
-            "subTitle1": "React Basics",
-            "subTitle1Content": "Learn React fundamentals and component-based architecture.",
-            "subTitle2": "State Management",
-            "subTitle2Content": "Manage application state using Redux or Context API."
-          },
-          {
-            "month": "Month 4",
-            "title": "Advanced Topics",
-            "subTitle1": "Authentication",
-            "subTitle1Content": "Implement user authentication and authorization.",
-            "subTitle2": "API Integration",
-            "subTitle2Content": "Integrate frontend with backend APIs."
-          },
-          {
-            "month": "Month 5",
-            "title": "Project Development",
-            "subTitle1": "Planning and Design",
-            "subTitle1Content": "Plan and design your capstone project.",
-            "subTitle2": "Implementation",
-            "subTitle2Content": "Build a full-stack application using the MERN stack."
-          },
-          {
-            "month": "Month 6",
-            "title": "Deployment and Presentation",
-            "subTitle1": "Deploy Applications",
-            "subTitle1Content": "Deploy your application on platforms like Heroku or Vercel.",
-            "subTitle2": "Final Presentation",
-            "subTitle2Content": "Showcase your project and receive feedback."
-          }
-        ],
-        "details": {
-          "duration": "6 Months",
-          "classType": "Weekend Classes",
-          "classHours": "4 Hours",
-          "students": "5000 Students",
-          "courseType": "100% Online"
-        }
+        "month": "Month 1",
+        "title": "Foundations of Generative AI",
+        "subTitle1": "AI Fundamentals",
+        "subTitle1Content": "Overview of AI and machine learning.",
+        "subTitle2": "Generative Concepts",
+        "subTitle2Content": "Introduction to GANs and VAEs."
       },
       {
-        "courseId": "6",
-        "header": {
-          "title": "Python Django Development",
-          "description": "Learn how to build secure and scalable web applications using Python and the Django framework. This course covers everything from Django basics to advanced web development techniques."
-        },
-        "firstHeading": "Master Django Development",
-        "firstHeadingDescription": "Dive into Django, one of the most popular Python web frameworks. This course focuses on building robust and dynamic web applications with Django.",
-        "overview": "Master the Django framework and learn to develop web applications efficiently using Python. This course covers backend development, database integration, and web application deployment.",
-        "whatYouWillLearn": [
-          "Setting up Django projects",
-          "Building models, views, and templates",
-          "Handling forms and user authentication",
-          "Database operations with Django ORM",
-          "RESTful API development with Django Rest Framework",
-          "Deploying Django applications"
-        ],
-        "outline": [
-          {
-            "month": "Month 1",
-            "title": "Introduction to Django",
-            "subTitle1": "Django Basics",
-            "subTitle1Content": "Learn how to set up and configure Django projects.",
-            "subTitle2": "Views and Templates",
-            "subTitle2Content": "Understand Django's views and template system."
-          },
-          {
-            "month": "Month 2",
-            "title": "Database Integration",
-            "subTitle1": "Django ORM",
-            "subTitle1Content": "Learn how to interact with databases using Django ORM.",
-            "subTitle2": "Database Migrations",
-            "subTitle2Content": "Manage database changes efficiently with migrations."
-          },
-          {
-            "month": "Month 3",
-            "title": "Advanced Django Topics",
-            "subTitle1": "Forms and Authentication",
-            "subTitle1Content": "Implement forms and user authentication in Django applications.",
-            "subTitle2": "REST API Development",
-            "subTitle2Content": "Build APIs using Django Rest Framework."
-          },
-          {
-            "month": "Month 4",
-            "title": "Project Development",
-            "subTitle1": "Project Planning",
-            "subTitle1Content": "Define and design your project.",
-            "subTitle2": "Implementation",
-            "subTitle2Content": "Build a web application using Django."
-          },
-          {
-            "month": "Month 5",
-            "title": "Deployment",
-            "subTitle1": "Deployment Basics",
-            "subTitle1Content": "Deploy your application to platforms like AWS or Heroku.",
-            "subTitle2": "Optimizations",
-            "subTitle2Content": "Optimize your application for better performance."
-          },
-          {
-            "month": "Month 6",
-            "title": "Capstone Project",
-            "subTitle1": "Project Showcase",
-            "subTitle1Content": "Present your project and gather feedback.",
-            "subTitle2": "Final Review",
-            "subTitle2Content": "Refine and finalize your Django application."
-          }
-        ],
-        "details": {
-          "duration": "6 Months",
-          "classType": "Weekend Classes",
-          "classHours": "4 Hours",
-          "students": "4000 Students",
-          "courseType": "100% Online"
-        }
+        "month": "Month 2",
+        "title": "Building Models",
+        "subTitle1": "Designing GANs",
+        "subTitle1Content": "Learn the architecture of GANs.",
+        "subTitle2": "Exploring VAEs",
+        "subTitle2Content": "Understand variational autoencoders."
       },
-      
-      
-        {
-          "courseId": "7",
-          "header": {
-            "title": "PHP Laravel Development",
-            "description": "Master web development with PHP and the Laravel framework. Build secure, efficient, and dynamic applications using Laravel's tools and best practices."
-          },
-          "firstHeading": "Become a Laravel Expert",
-          "firstHeadingDescription": "Dive into Laravel, the most popular PHP framework for web development. This course will teach you how to build feature-rich web applications efficiently.",
-          "overview": "Learn Laravel from the ground up and develop the skills to create robust web applications. This course emphasizes practical projects and real-world applications.",
-          "whatYouWillLearn": [
-            "Setting up Laravel projects",
-            "MVC architecture in Laravel",
-            "Database operations with Eloquent ORM",
-            "Building APIs with Laravel",
-            "Authentication and authorization",
-            "Deploying Laravel applications"
-          ],
-          "outline": [
-            {
-              "month": "Month 1",
-              "title": "Laravel Basics",
-              "subTitle1": "Introduction to Laravel",
-              "subTitle1Content": "Learn about Laravel's features and setup.",
-              "subTitle2": "Routes and Controllers",
-              "subTitle2Content": "Understand how to define and manage routes and controllers."
-            },
-            {
-              "month": "Month 2",
-              "title": "Database Integration",
-              "subTitle1": "Eloquent ORM",
-              "subTitle1Content": "Master database management with Eloquent ORM.",
-              "subTitle2": "Migrations and Seeders",
-              "subTitle2Content": "Efficiently manage database schemas and data."
-            },
-            {
-              "month": "Month 3",
-              "title": "Advanced Topics",
-              "subTitle1": "Middleware",
-              "subTitle1Content": "Learn how to use middleware for request handling.",
-              "subTitle2": "APIs and JSON Responses",
-              "subTitle2Content": "Build RESTful APIs with Laravel."
-            },
-            {
-              "month": "Month 4",
-              "title": "Authentication and Security",
-              "subTitle1": "User Authentication",
-              "subTitle1Content": "Implement login, registration, and password reset features.",
-              "subTitle2": "Security Best Practices",
-              "subTitle2Content": "Secure your application against common vulnerabilities."
-            },
-            {
-              "month": "Month 5",
-              "title": "Project Development",
-              "subTitle1": "Project Planning",
-              "subTitle1Content": "Define and design your Laravel project.",
-              "subTitle2": "Implementation",
-              "subTitle2Content": "Build a feature-rich Laravel application."
-            },
-            {
-              "month": "Month 6",
-              "title": "Deployment and Presentation",
-              "subTitle1": "Deploying Laravel Apps",
-              "subTitle1Content": "Deploy your application to production environments.",
-              "subTitle2": "Final Presentation",
-              "subTitle2Content": "Present your project and gather feedback."
-            }
-          ],
-          "details": {
-            "duration": "6 Months",
-            "classType": "Weekend Classes",
-            "classHours": "4 Hours",
-            "students": "3500 Students",
-            "courseType": "100% Online"
-          }
-        },
-        {
-          "courseId": "8",
-          "header": {
-            "title": "Frontend Development",
-            "description": "Learn the art of creating visually appealing and responsive websites. This course covers essential frontend technologies like HTML, CSS, JavaScript, and modern frameworks."
-          },
-          "firstHeading": "Master Frontend Development",
-          "firstHeadingDescription": "Develop the skills to create dynamic and responsive user interfaces with modern frontend tools and technologies.",
-          "overview": "Learn to build beautiful, responsive, and user-friendly websites using the latest frontend technologies and frameworks.",
-          "whatYouWillLearn": [
-            "HTML5 and CSS3 fundamentals",
-            "Responsive web design with Flexbox and Grid",
-            "JavaScript and DOM manipulation",
-            "Frameworks like React or Vue.js",
-            "CSS preprocessors like Sass",
-            "Frontend performance optimization"
-          ],
-          "outline": [
-            {
-              "month": "Month 1",
-              "title": "HTML and CSS",
-              "subTitle1": "HTML Basics",
-              "subTitle1Content": "Understand the structure of web pages with HTML.",
-              "subTitle2": "CSS Styling",
-              "subTitle2Content": "Style websites with CSS and learn about selectors, properties, and values."
-            },
-            {
-              "month": "Month 2",
-              "title": "Responsive Design",
-              "subTitle1": "Media Queries",
-              "subTitle1Content": "Make your website adaptable to different screen sizes.",
-              "subTitle2": "Flexbox and Grid",
-              "subTitle2Content": "Learn modern layout techniques."
-            },
-            {
-              "month": "Month 3",
-              "title": "JavaScript Basics",
-              "subTitle1": "Programming Fundamentals",
-              "subTitle1Content": "Understand JavaScript basics like variables, loops, and functions.",
-              "subTitle2": "DOM Manipulation",
-              "subTitle2Content": "Interact with web pages dynamically."
-            },
-            {
-              "month": "Month 4",
-              "title": "Frameworks",
-              "subTitle1": "React Basics",
-              "subTitle1Content": "Learn to build components and manage state.",
-              "subTitle2": "Vue.js Introduction",
-              "subTitle2Content": "Get started with Vue for building user interfaces."
-            },
-            {
-              "month": "Month 5",
-              "title": "Advanced Topics",
-              "subTitle1": "CSS Preprocessors",
-              "subTitle1Content": "Use Sass to write maintainable CSS.",
-              "subTitle2": "Performance Optimization",
-              "subTitle2Content": "Optimize frontend code for better performance."
-            },
-            {
-              "month": "Month 6",
-              "title": "Capstone Project",
-              "subTitle1": "Project Design",
-              "subTitle1Content": "Plan your final project.",
-              "subTitle2": "Project Showcase",
-              "subTitle2Content": "Build and present your frontend application."
-            }
-          ],
-          "details": {
-            "duration": "6 Months",
-            "classType": "Weekend Classes",
-            "classHours": "4 Hours",
-            "students": "4500 Students",
-            "courseType": "100% Online"
-          }
-        },
-          {
-            "courseId": "9",
-            "header": {
-              "title": "Backend Development",
-              "description": "Learn the fundamentals of backend development, including server-side programming, database management, and API creation."
-            },
-            "firstHeading": "Become a Backend Developer",
-            "firstHeadingDescription": "Dive into backend technologies and learn how to build robust server-side applications.",
-            "overview": "This course covers essential backend development skills, including working with databases, creating APIs, and server management.",
-            "whatYouWillLearn": [
-              "Server-side programming with Node.js",
-              "Database management with SQL and NoSQL",
-              "Building RESTful APIs",
-              "Authentication and authorization",
-              "Deployment of backend applications",
-              "Best practices for backend development"
-            ],
-            "outline": [
-              {
-                "month": "Month 1",
-                "title": "Introduction to Backend Development",
-                "subTitle1": "Server Basics",
-                "subTitle1Content": "Understand server architecture and how to set up a server.",
-                "subTitle2": "Node.js Fundamentals",
-                "subTitle2Content": "Learn the basics of Node.js and its ecosystem."
-              },
-              {
-                "month": "Month 2",
-                "title": "Database Management",
-                "subTitle1": "SQL vs NoSQL",
-                "subTitle1Content": "Explore the differences between SQL and NoSQL databases.",
-                "subTitle2": "Database Operations",
-                "subTitle2Content": "Learn how to perform CRUD operations."
-              },
-              {
-                "month": "Month 3",
-                "title": "API Development",
-                "subTitle1": "Building RESTful APIs",
-                "subTitle1Content": "Create and manage RESTful APIs using Express.js.",
-                "subTitle2": "API Security",
-                "subTitle2Content": "Implement authentication and authorization in APIs."
-              },
-              {
-                "month": "Month 4",
-                "title": "Deployment",
-                "subTitle1": "Deployment Basics",
-                "subTitle1Content": "Learn how to deploy backend applications to cloud platforms.",
-                "subTitle2": "Monitoring and Maintenance",
-                "subTitle2Content": "Understand how to monitor and maintain deployed applications."
-              },
-              {
-                "month": "Month 5",
-                "title": "Advanced Topics",
-                "subTitle1": "Microservices Architecture",
-                "subTitle1Content": "Explore microservices and their benefits.",
-                "subTitle2": "Serverless Computing",
-                "subTitle2Content": "Learn about serverless architecture and its applications."
-              },
-              {
-                "month": "Month 6",
-                "title": "Capstone Project",
-                "subTitle1": "Project Planning",
-                "subTitle1Content": "Define and design your final project.",
-                "subTitle2": "Implementation and Presentation",
-                "subTitle2Content": "Build, test, and present your fully-functional backend application."
-              }
-            ],
-            "details": {
-              "duration": "6 Months",
-              "classType": "Weekend Classes",
-              "classHours": "4 Hours",
-              "students": "3000 Students",
-              "courseType": "100% Online"
-            }
-          },
-          
-            {
-              "courseId": "10",
-              "header": {
-                "title": "React JS Development",
-                "description": "Master React JS, a popular JavaScript library for building user interfaces. This course covers everything from the basics to advanced concepts."
-              },
-              "firstHeading": "Become a React Developer",
-              "firstHeadingDescription": "Learn to build dynamic and responsive web applications using React JS.",
-              "overview": "This course provides a comprehensive understanding of React JS, including component-based architecture, state management, and routing.",
-              "whatYouWillLearn": [
-                "React fundamentals and component lifecycle",
-                "State and props management",
-                "React Router for navigation",
-                "Hooks and context API",
-                "Building and deploying React applications",
-                "Performance optimization techniques"
-              ],
-              "outline": [
-                {
-                  "month": "Month 1",
-                  "title": "React Basics",
-                  "subTitle1": "Introduction to React",
-                  "subTitle1Content": "Understand the core concepts of React and its ecosystem.",
-                  "subTitle2": "Components and Props",
-                  "subTitle2Content": "Learn how to create and manage components and props."
-                },
-                {
-                  "month": "Month 2",
-                  "title": "State Management",
-                  "subTitle1": "State in React",
-                  "subTitle1Content": "Explore how to manage state in React applications.",
-                  "subTitle2": "Props vs State",
-                  "subTitle2Content": "Understand the differences and when to use each."
-                },
-                {
-                  "month": "Month 3",
-                  "title": "Routing and Navigation",
-                  "subTitle1": "React Router",
-                  "subTitle1Content": "Learn to implement routing in your React applications.",
-                  "subTitle2": "Dynamic Routing",
-                  "subTitle2Content": "Create dynamic routes based on user input."
-                },
-                {
-                  "month": "Month 4",
-                  "title": "Advanced React",
-                  "subTitle1": "Hooks",
-                  "subTitle1Content": "Understand and use React hooks for state and lifecycle management.",
-                  "subTitle2": "Context API",
-                  "subTitle2Content": "Learn to manage global state with Context API."
-                },
-                {
-                  "month": "Month 5",
-                  "title": "Building Applications",
-                  "subTitle1": "Creating a Full-Stack App",
-                  "subTitle1Content": "Build a full-stack application using React and a backend service.",
-                  "subTitle2": "Deployment",
-                  "subTitle2Content": "Learn how to deploy your React applications."
-                },
-                {
-                  "month": "Month 6",
-                  "title": "Capstone Project",
-                  "subTitle1": "Project Planning",
-                  "subTitle1Content": "Define and design your final project.",
-                  "subTitle2": "Implementation and Presentation",
-                  "subTitle2Content": "Build, test, and present your fully-functional React application."
-                }
-              ],
-              "details": {
-                "duration": "6 Months",
-                "classType": "Weekend Classes",
-                "classHours": "4 Hours",
-                "students": "4000 Students",
-                "courseType": "100% Online"
-              }
-            },
-            {
-              "courseId": "11",
-              "header": {
-                "title": "WordPress Development",
-                "description": "Learn how to create and manage websites using WordPress, the world's most popular content management system."
-              },
-              "firstHeading": "Become a WordPress Developer",
-              "firstHeadingDescription": "Master the skills to build and customize WordPress websites.",
-              "overview": "This course covers everything from setting up WordPress to creating custom themes and plugins.",
-              "whatYouWillLearn": [
-                "Installing and configuring WordPress",
-                "Creating and managing content",
-                "Customizing themes and plugins",
-                "SEO best practices for WordPress",
-                "E-commerce with WooCommerce",
-                "Website security and maintenance"
-              ],
-              "outline": [
-                {
-                  "month": "Month 1",
-                  "title": "Getting Started with WordPress",
-                  "subTitle1": "Installation and Setup",
-                  "subTitle1Content": "Learn how to install WordPress and configure basic settings.",
-                  "subTitle2": "Understanding the Dashboard",
-                  "subTitle2Content": "Familiarize yourself with the WordPress dashboard and its features."
-                },
-                {
-                  "month": "Month 2",
-                  "title": "Content Management",
-                  "subTitle1": " Creating Posts and Pages",
-                  "subTitle1Content": "Learn how to create and manage posts and pages effectively.",
-                  "subTitle2": "Media Management",
-                  "subTitle2Content": "Understand how to upload and manage media files."
-                },
-                {
-                  "month": "Month 3",
-                  "title": "Theme Customization",
-                  "subTitle1": "Choosing a Theme",
-                  "subTitle1Content": "Explore how to select and install themes.",
-                  "subTitle2": "Customizing Themes",
-                  "subTitle2Content": "Learn to customize themes using the WordPress Customizer."
-                },
-                {
-                  "month": "Month 4",
-                  "title": "Plugins and Functionality",
-                  "subTitle1": "Installing Plugins",
-                  "subTitle1Content": "Discover how to install and configure plugins to extend functionality.",
-                  "subTitle2": "Creating Custom Plugins",
-                  "subTitle2Content": "Learn the basics of developing your own WordPress plugins."
-                },
-                {
-                  "month": "Month 5",
-                  "title": "SEO and Marketing",
-                  "subTitle1": "SEO Best Practices",
-                  "subTitle1Content": "Understand the fundamentals of SEO for WordPress.",
-                  "subTitle2": "Marketing Your Website",
-                  "subTitle2Content": "Learn strategies to promote your WordPress site."
-                },
-                {
-                  "month": "Month 6",
-                  "title": "E-commerce and Security",
-                  "subTitle1": "Setting Up WooCommerce",
-                  "subTitle1Content": "Learn how to set up an online store using WooCommerce.",
-                  "subTitle2": "Website Security",
-                  "subTitle2Content": "Understand best practices for securing your WordPress site."
-                }
-              ],
-              "details": {
-                "duration": "6 Months",
-                "classType": "Evening Classes",
-                "classHours": "3 Hours",
-                "students": "3000 Students",
-                "courseType": "100% Online"
-              }
-            },
-              {
-                "courseId": "12",
-                "header": {
-                  "title": "Shopify Development",
-                  "description": "Learn how to create and customize e-commerce stores using Shopify. This course covers everything from setting up a store to building custom themes and apps for a seamless online shopping experience."
-                },
-                "firstHeading": "Master Shopify Development",
-                "firstHeadingDescription": "Dive into Shopify's ecosystem to build and customize stunning e-commerce websites.",
-                "overview": "This course equips you with the knowledge to set up Shopify stores, develop custom themes, and create apps to enhance online shopping experiences.",
-                "whatYouWillLearn": [
-                  "Shopify store setup and configuration",
-                  "Liquid programming for custom themes",
-                  "Theme customization and design principles",
-                  "Integration with third-party apps and APIs",
-                  "Building custom Shopify apps",
-                  "Store performance optimization and SEO"
-                ],
-                "outline": [
-                  {
-                    "month": "Month 1",
-                    "title": "Getting Started with Shopify",
-                    "subTitle1": "Shopify Basics",
-                    "subTitle1Content": "Learn to set up and configure your Shopify store.",
-                    "subTitle2": "Theme Customization",
-                    "subTitle2Content": "Understand how to use Shopify's theme editor for basic customization."
-                  },
-                  {
-                    "month": "Month 2",
-                    "title": "Liquid Programming",
-                    "subTitle1": "Introduction to Liquid",
-                    "subTitle1Content": "Learn Liquid syntax and its role in Shopify theme development.",
-                    "subTitle2": "Advanced Liquid Concepts",
-                    "subTitle2Content": "Implement dynamic and reusable components using Liquid."
-                  },
-                  {
-                    "month": "Month 3",
-                    "title": "Custom Shopify Apps",
-                    "subTitle1": "App Development Basics",
-                    "subTitle1Content": "Learn the essentials of building Shopify apps.",
-                    "subTitle2": "API Integration",
-                    "subTitle2Content": "Integrate external services with Shopify's APIs."
-                  },
-                  {
-                    "month": "Month 4",
-                    "title": "Performance and SEO",
-                    "subTitle1": "Store Optimization",
-                    "subTitle1Content": "Enhance store performance with optimization techniques.",
-                    "subTitle2": "Search Engine Optimization",
-                    "subTitle2Content": "Boost store visibility with effective SEO strategies."
-                  }
-                ],
-                "details": {
-                  "duration": "4 Months",
-                  "classType": "Weekend Classes",
-                  "classHours": "4 Hours",
-                  "students": "1500 Students",
-                  "courseType": "100% Online"
-                }
-              },
-              {
-                "courseId": "13",
-                "header": {
-                  "title": "Flutter App Development",
-                  "description": "Master cross-platform mobile app development using Flutter. Learn to create stunning, responsive, and high-performing apps for both Android and iOS from a single codebase."
-                },
-                "firstHeading": "Master Flutter App Development",
-                "firstHeadingDescription": "Build beautiful, natively compiled apps for mobile, web, and desktop with Flutter.",
-                "overview": "This course takes you through the Flutter framework, focusing on creating responsive and high-performance mobile apps with Dart programming.",
-                "whatYouWillLearn": [
-                  "Flutter basics and Dart programming",
-                  "Building interactive UIs with widgets",
-                  "State management with Provider and Riverpod",
-                  "Integration with REST APIs and Firebase",
-                  "Testing and debugging Flutter apps",
-                  "Publishing apps to the App Store and Google Play"
-                ],
-                "outline": [
-                  {
-                    "month": "Month 1",
-                    "title": "Getting Started with Flutter",
-                    "subTitle1": "Introduction to Flutter",
-                    "subTitle1Content": "Learn the basics of Flutter and Dart programming.",
-                    "subTitle2": "Building Your First App",
-                    "subTitle2Content": "Create a simple app with widgets and layouts."
-                  },
-                  {
-                    "month": "Month 2",
-                    "title": "Intermediate Flutter Concepts",
-                    "subTitle1": "Stateful and Stateless Widgets",
-                    "subTitle1Content": "Understand state management and widget lifecycle.",
-                    "subTitle2": "Navigation and Routing",
-                    "subTitle2Content": "Implement navigation between screens and manage routes."
-                  },
-                  {
-                    "month": "Month 3",
-                    "title": "Advanced Flutter Development",
-                    "subTitle1": "Integration with APIs",
-                    "subTitle1Content": "Fetch and manage data from REST APIs.",
-                    "subTitle2": "Firebase Integration",
-                    "subTitle2Content": "Leverage Firebase for authentication, database, and storage."
-                  },
-                  {
-                    "month": "Month 4",
-                    "title": "Testing and Deployment",
-                    "subTitle1": "Testing Flutter Apps",
-                    "subTitle1Content": "Write unit and integration tests for your app.",
-                    "subTitle2": "Publishing Your App",
-                    "subTitle2Content": "Prepare and publish your app to the App Store and Google Play."
-                  }
-                ],
-                "details": {
-                  "duration": "4 Months",
-                  "classType": "Weekend Classes",
-                  "classHours": "4 Hours",
-                  "students": "2000 Students",
-                  "courseType": "100% Online"
-                }
-              }
-            ,
-              {
-                "courseId": "14",
-                "header": {
-                  "title": "React Native App Development",
-                  "description": "Learn to build mobile applications using React Native, a popular framework for cross-platform app development."
-                },
-                "firstHeading": "Become a React Native Developer",
-                "firstHeadingDescription": "Master the skills to create high-quality mobile applications for both iOS and Android.",
-                "overview": "This course covers the fundamentals of React Native, including components, navigation, and state management.",
-                "whatYouWillLearn": [
-                  "Setting up the React Native environment",
-                  "Building user interfaces with React Native components",
-                  "Managing state with Redux",
-                  "Implementing navigation in mobile apps",
-                  "Integrating APIs and third-party libraries",
-                  "Publishing apps to app stores"
-                ],
-                "outline": [
-                  {
-                    "month": "Month 1",
-                    "title": "Introduction to React Native",
-                    "subTitle1": "Getting Started",
-                    "subTitle1Content": "Learn about React Native and its advantages for mobile development.",
-                    "subTitle2": "Setting Up Your Environment",
-                    "subTitle2Content": "Install and configure the necessary tools for React Native development."
-                  },
-                  {
-                    "month": "Month 2",
-                    "title": "Building User Interfaces",
-                    "subTitle1": "React Native Components",
-                    "subTitle1Content": "Explore the core components of React Native and how to use them.",
-                    "subTitle2": "Styling in React Native",
-                    "subTitle2Content": "Learn to style your applications using Flexbox and StyleSheet."
-                  },
-                  {
-                    "month": "Month 3",
-                    "title": "State Management",
-                    "subTitle1": "Understanding State",
-                    "subTitle1Content": "Learn how to manage state in React Native applications.",
-                    "subTitle2": "Using Redux",
-                    "subTitle2Content": "Implement Redux for state management in larger applications."
-                  },
-                  {
-                    "month": "Month 4",
-                    "title": "Navigation",
-                    "subTitle1": "React Navigation",
-                    "subTitle1Content": "Learn to implement navigation in your React Native apps.",
-                    "subTitle2": "Deep Linking",
-                    "subTitle2Content": "Understand how to handle deep linking in mobile applications."
-                  },
-                  {
-                    "month": "Month 5",
-                    "title": "APIs and Libraries",
-                    "subTitle1": "Integrating APIs",
-                    "subTitle1Content": "Learn to fetch data from REST APIs and display it in your app.",
-                    "subTitle2": "Using Third-Party Libraries",
-                    "subTitle2Content": "Explore popular libraries to enhance your app's functionality."
-                  },
-                  {
-                    "month": "Month 6",
-                    "title": "Publishing Your App",
-                    "subTitle1": "Preparing for Launch",
-                    "subTitle1Content": "Understand the steps to prepare your app for release.",
-                    "subTitle2": "Publishing to App Stores",
-                    "subTitle2Content": "Learn how to publish your app on the App Store and Google Play."
-                  }
-                ],
-                "details": {
-                  "duration": "6 Months",
-                  "classType": "Evening Classes",
-                  "classHours": "3 Hours",
-                  "students": "1500 Students",
-                  "courseType": "100% Online"
-                }
-              },
-              {
-                "courseId": "15",
-                "header": {
-                  "title": "FlutterFlow App Development",
-                  "description": "Learn to build applications visually using FlutterFlow, a low-code platform for Flutter."
-                },
-                "firstHeading": "Become a FlutterFlow Developer",
-                "firstHeadingDescription": "Master the skills to create applications quickly with minimal coding.",
-                "overview": "This course covers the basics of using FlutterFlow to design and deploy applications.",
-                "whatYouWillLearn": [
-                  "Understanding the FlutterFlow interface",
-                  "Creating UI components visually",
-                  "Integrating backend services",
-                  "Managing app state with FlutterFlow",
-                  "Deploying applications to the web and mobile",
-                  "Best practices for low-code development"
-                ],
-                "outline": [
-                  {
-                    "month": "Month 1",
-                    "title": "Getting Started with FlutterFlow",
-                    "subTitle1": "Introduction to FlutterFlow",
-                    "subTitle1Content": "Learn about FlutterFlow and its capabilities.",
-                    "subTitle2": "Setting Up Your Account",
-                    "subTitle2Content": "Create an account and navigate the FlutterFlow interface."
-                  },
-                  {
-                    "month": "Month 2",
-                    "title": "Designing User Interfaces",
-                    "subTitle1": "Creating UI Components",
-                    "subTitle1Content": "Learn to design UI components using the visual editor.",
-                    "subTitle2": "Responsive Design",
-                     "subTitle2Content": "Understand how to create responsive layouts for different devices."
-                  },
-                  {
-                    "month": "Month 3",
-                    "title": "Integrating Backend Services",
-                    "subTitle1": "Connecting to APIs",
-                    "subTitle1Content": "Learn how to connect your app to external APIs for data.",
-                    "subTitle2": "Using Firebase with FlutterFlow",
-                    "subTitle2Content": "Integrate Firebase for authentication and database services."
-                  },
-                  {
-                    "month": "Month 4",
-                    "title": "Managing App State",
-                    "subTitle1": "State Management in FlutterFlow",
-                    "subTitle1Content": "Understand how to manage app state using FlutterFlow features.",
-                    "subTitle2": "Using Variables and Actions",
-                    "subTitle2Content": "Learn to use variables and actions to control app behavior."
-                  },
-                  {
-                    "month": "Month 5",
-                    "title": "Deploying Your Application",
-                    "subTitle1": "Preparing for Deployment",
-                    "subTitle1Content": "Understand the steps to prepare your app for deployment.",
-                    "subTitle2": "Publishing to Web and Mobile",
-                    "subTitle2Content": "Learn how to deploy your application to web and mobile platforms."
-                  },
-                  {
-                    "month": "Month 6",
-                    "title": "Capstone Project",
-                    "subTitle1": "Building Your Final Project",
-                    "subTitle1Content": "Work on a final project to showcase your skills in FlutterFlow.",
-                    "subTitle2": "Presentation and Feedback",
-                    "subTitle2Content": "Present your project and receive feedback from instructors."
-                  }
-                ],
-                "details": {
-                  "duration": "6 Months",
-                  "classType": "Evening Classes",
-                  "classHours": "3 Hours",
-                  "students": "1200 Students",
-                  "courseType": "100% Online"
-                }
-              },
-
-                {
-                  "courseId": "16",
-                  "header": {
-                    "title": "Beast Android Development: Parsing Json Data",
-                    "description": "Learn to parse Json data into your Android applications effectively."
-                  },
-                  "firstHeading": "Master Android Development",
-                  "firstHeadingDescription": "Gain the skills to create robust Android applications that utilize JSON data.",
-                  "overview": "This course covers the fundamentals of Android development, focusing on JSON parsing and data handling.",
-                  "whatYouWillLearn": [
-                    "Setting up the Android development environment",
-                    "Understanding JSON structure and syntax",
-                    "Parsing JSON data in Android applications",
-                    "Displaying data in ListViews and RecyclerViews",
-                    "Implementing network operations to fetch JSON data",
-                    "Best practices for Android app development"
-                  ],
-                  "outline": [
-                    {
-                      "month": "Month 1",
-                      "title": "Introduction to Android Development",
-                      "subTitle1": "Getting Started",
-                      "subTitle1Content": "Learn about Android and its architecture.",
-                      "subTitle2": "Setting Up Your Environment",
-                      "subTitle2Content": "Install Android Studio and configure your first project."
-                    },
-                    {
-                      "month": "Month 2",
-                      "title": "Understanding JSON",
-                      "subTitle1": "JSON Basics",
-                      "subTitle1Content": "Learn about JSON syntax and data types.",
-                      "subTitle2": "Working with JSON Data",
-                      "subTitle2Content": "Explore how to read and write JSON data."
-                    },
-                    {
-                      "month": "Month 3",
-                      "title": "Parsing JSON in Android",
-                      "subTitle1": "Fetching JSON Data",
-                      "subTitle1Content": "Learn to make network requests to fetch JSON data.",
-                      "subTitle2": "Parsing Techniques",
-                      "subTitle2Content": "Implement JSON parsing using libraries like Gson."
-                    },
-                    {
-                      "month": "Month 4",
-                      "title": "Displaying Data",
-                      "subTitle1": "Using ListViews",
-                      "subTitle1Content": "Learn to display JSON data in ListViews.",
-                      "subTitle2": "RecyclerViews",
-                      "subTitle2Content": "Implement RecyclerViews for better performance."
-                    },
-                    {
-                      "month": "Month 5",
-                      "title": "Advanced Topics",
-                      "subTitle1": "Error Handling",
-                      "subTitle1Content": "Learn to handle errors during JSON parsing.",
-                      "subTitle2": "Best Practices",
-                      "subTitle2Content": "Explore best practices for Android development."
-                    },
-                    {
-                      "month": "Month 6",
-                      "title": "Final Project",
-                      "subTitle1": "Building Your App",
-                      "subTitle1Content": "Create a complete Android app that utilizes JSON data.",
-                      "subTitle2": "Presentation",
-                      "subTitle2Content": "Present your app and receive feedback."
-                    }
-                  ],
-                  "details": {
-                    "duration": "6 Months",
-                    "classType": "Evening Classes",
-                    "classHours": "3 Hours",
-                    "students": "2000 Students",
-                    "courseType": "100% Online"
-                  }
-                },
-                {
-                  "courseId": "17",
-                  "header": {
-                    "title": "Social Media Marketing Mastery",
-                    "description": "Learn to effectively market your products and services on social media platforms."
-                  },
-                  "firstHeading": "Become a Social Media Marketing Expert",
-                  "firstHeadingDescription": "Master the strategies to grow your brand and engage with your audience.",
-                  "overview": "This course covers the essentials of social media marketing, including strategy development and content creation.",
-                  "whatYouWillLearn": [
-                    "Understanding social media platforms",
-                    "Creating a social media marketing strategy",
-                    "Content creation and curation",
-                    "Engagement and community management",
-                    "Analyzing social media metrics",
-                    "Running paid advertising campaigns"
-                  ],
-                  "outline": [
-                    {
-                      "month": "Month 1",
-                      "title": "Introduction to Social Media Marketing",
-                      "subTitle1": "Understanding Social Media",
-                      "subTitle1Content": "Learn about different social media platforms and their audiences.",
-                      "subTitle2": "Setting Goals",
-                      "subTitle2Content": "Define your marketing goals and objectives."
-                    },
-                    {
-                      "month": "Month 2",
-                      "title": "Content Strategy",
-                      "subTitle1": "Creating Engaging Content",
-                      "subTitle1Content": "Learn to create content that resonates with your audience.",
-                      "subTitle2": "Content Calendar",
-                      "subTitle2Content": "Develop a content calendar for consistent posting."
-                    },
-                    {
-                      "month": "Month 3",
-                      "title": "Community Management",
-                      "subTitle1": "Engaging with Your Audience",
-                      "subTitle1Content": "Learn strategies for engaging with your audience and building a community.",
-                      "subTitle2": "Handling Feedback",
-                      "subTitle2Content": "Understand how to manage feedback and respond to comments."
-                    },
-                    {
-                      "month": "Month 4",
-                      "title": "Analyzing Performance",
-                      "subTitle1": "Social Media Metrics",
-                      "subTitle1Content": "Learn to track and analyze social media metrics to measure success.",
-                      "subTitle2": "Adjusting Strategies",
-                      "subTitle2Content": "Use data insights to refine your marketing strategies."
-                    },
-                    {
-                      "month": "Month 5",
-                      "title": "Paid Advertising",
-                      "subTitle1": "Running Ads on Social Media",
-                      "subTitle1Content": "Learn how to create and manage paid advertising campaigns.",
-                      "subTitle2": "Targeting and Retargeting",
-                      "subTitle2Content": "Understand audience targeting and retargeting strategies."
-                    },
-                    {
-                      "month": "Month 6",
-                      "title": "Capstone Project",
-                      "subTitle1": "Developing a Social Media Campaign",
-                      "subTitle1Content": "Create a comprehensive social media marketing campaign.",
-                      "subTitle2": "Presentation and Review",
-                      "subTitle2Content": "Present your campaign and receive constructive feedback."
-                    }
-                  ],
-                  "details": {
-                    "duration": "6 Months",
-                    "classType": "Evening Classes",
-                    "classHours": "3 Hours",
-                    "students": "1800 Students",
-                    "courseType": "100% Online"
-                  }
-                },
-                
-                  {
-                    "courseId": "18",
-                    "header": {
-                      "title": "Digital Marketing",
-                      "description": "Master the art of digital marketing to grow businesses online. This course covers SEO, social media marketing, email marketing, content strategy, and analytics to help you create impactful campaigns."
-                    },
-                    "firstHeading": "Become a Digital Marketing Expert",
-                    "firstHeadingDescription": "Learn to plan, execute, and analyze digital marketing strategies for business growth.",
-                    "overview": "This comprehensive course provides hands-on training in digital marketing, covering all essential aspects such as SEO, social media, email campaigns, and more. Perfect for entrepreneurs, marketers, and career changers.",
-                    "whatYouWillLearn": [
-                      "SEO strategies to rank higher on search engines",
-                      "Social media marketing for engagement and growth",
-                      "Email marketing campaigns and tools",
-                      "Content creation and marketing techniques",
-                      "Analytics and performance tracking",
-                      "PPC advertising with Google and Facebook Ads"
-                    ],
-                    "outline": [
-                      {
-                        "month": "Month 1",
-                        "title": "Introduction to Digital Marketing",
-                        "subTitle1": "Understanding Digital Marketing",
-                        "subTitle1Content": "Learn the basics of digital marketing and its importance.",
-                        "subTitle2": "Marketing Channels",
-                        "subTitle2Content": "Explore various online marketing channels and platforms."
-                      },
-                      {
-                        "month": "Month 2",
-                        "title": "SEO and Content Marketing",
-                        "subTitle1": "Search Engine Optimization",
-                        "subTitle1Content": "Learn on-page and off-page SEO techniques.",
-                        "subTitle2": "Content Strategy",
-                        "subTitle2Content": "Create and distribute engaging content for your audience."
-                      },
-                      {
-                        "month": "Month 3",
-                        "title": "Social Media and Email Marketing",
-                        "subTitle1": "Social Media Marketing",
-                        "subTitle1Content": "Build effective campaigns on platforms like Facebook, Instagram, and LinkedIn.",
-                        "subTitle2": "Email Marketing",
-                        "subTitle2Content": "Master tools like Mailchimp for successful email campaigns."
-                      },
-                      {
-                        "month": "Month 4",
-                        "title": "Analytics and Paid Advertising",
-                        "subTitle1": "Analytics and Metrics",
-                        "subTitle1Content": "Track and analyze the performance of your campaigns.",
-                        "subTitle2": "PPC Advertising",
-                        "subTitle2Content": "Learn the fundamentals of pay-per-click advertising."
-                      }
-                    ],
-                    "details": {
-                      "duration": "4 Months",
-                      "classType": "Weekend Classes",
-                      "classHours": "4 Hours",
-                      "students": "3000 Students",
-                      "courseType": "100% Online"
-                    }
-                  },
-                  {
-                    "courseId": "19",
-                    "header": {
-                      "title": "Google Ads",
-                      "description": "Learn to create, manage, and optimize Google Ads campaigns. This course will teach you how to drive traffic, increase conversions, and grow your business with targeted advertising on Google's platform."
-                    },
-                    "firstHeading": "Master Google Ads",
-                    "firstHeadingDescription": "Unlock the power of Google Ads to reach your audience effectively and achieve measurable results.",
-                    "overview": "This course provides step-by-step guidance on Google Ads, from campaign setup to optimization. Learn to target the right audience, manage budgets, and measure performance effectively.",
-                    "whatYouWillLearn": [
-                      "Google Ads account and campaign setup",
-                      "Keyword research and bidding strategies",
-                      "Creating high-performing ad copies",
-                      "Targeting options and audience segmentation",
-                      "Analyzing and optimizing ad performance",
-                      "Retargeting and advanced strategies"
-                    ],
-                    "outline": [
-                      {
-                        "month": "Month 1",
-                        "title": "Getting Started with Google Ads",
-                        "subTitle1": "Introduction to Google Ads",
-                        "subTitle1Content": "Understand the basics of Google Ads and its advertising network.",
-                        "subTitle2": "Campaign Setup",
-                        "subTitle2Content": "Create your first ad campaign step by step."
-                      },
-                      {
-                        "month": "Month 2",
-                        "title": "Targeting and Bidding",
-                        "subTitle1": "Keyword Research",
-                        "subTitle1Content": "Learn to identify and target the right keywords for your ads.",
-                        "subTitle2": "Bidding Strategies",
-                        "subTitle2Content": "Optimize bids to maximize ROI within your budget."
-                      },
-                      {
-                        "month": "Month 3",
-                        "title": "Ad Creation and Optimization",
-                        "subTitle1": "Writing Ad Copy",
-                        "subTitle1Content": "Craft compelling ad copies to boost click-through rates.",
-                        "subTitle2": "Performance Tracking",
-                        "subTitle2Content": "Use analytics tools to measure and optimize ad performance."
-                      },
-                      {
-                        "month": "Month 4",
-                        "title": "Advanced Google Ads Strategies",
-                        "subTitle1": "Retargeting Campaigns",
-                        "subTitle1Content": "Re-engage visitors with retargeting strategies.",
-                        "subTitle2": "Scaling Ads",
-                        "subTitle2Content": "Learn advanced tactics to scale successful campaigns."
-                      }
-                    ],
-                    "details": {
-                      "duration": "4 Months",
-                      "classType": "Weekend Classes",
-                      "classHours": "4 Hours",
-                      "students": "2500 Students",
-                      "courseType": "100% Online"
-                    }
-                  }
-            
-  
+      {
+        "month": "Month 3",
+        "title": "Advanced Techniques",
+        "subTitle1": "Model Fine-Tuning",
+        "subTitle1Content": "Techniques to improve model performance.",
+        "subTitle2": "Real-world Applications",
+        "subTitle2Content": "Case studies and practical applications."
+      },
+      {
+        "month": "Month 4",
+        "title": "Ethics and Deployment",
+        "subTitle1": "Ethical Considerations",
+        "subTitle1Content": "Discuss ethics in AI development.",
+        "subTitle2": "Deployment Strategies",
+        "subTitle2Content": "Learn to deploy generative models."
+      }
+    ],
+    "details": {
+      "duration": "4 Months",
+      "classType": "Weekend Classes",
+      "classHours": "4 Hours",
+      "students": "2000 Students",
+      "courseType": "100% Online"
+    }
+  },
+  {
+    "courseId": "3",
+    "header": {
+      "title": "Machine Learning",
+      "description": "Dive into machine learning algorithms and techniques to build predictive models and solve real-world problems."
+    },
+    "firstHeading": "Master Machine Learning",
+    "firstHeadingDescription": "Learn the essential algorithms and data processing techniques.",
+    "overview": "This course provides a comprehensive introduction to machine learning including supervised, unsupervised, and reinforcement learning methods.",
+    "whatYouWillLearn": [
+      "Core ML algorithms",
+      "Data preprocessing and feature engineering",
+      "Model evaluation and tuning",
+      "Practical applications in various domains"
+    ],
+    "outline": [
+      {
+        "month": "Month 1",
+        "title": "ML Fundamentals",
+        "subTitle1": "Introduction to ML",
+        "subTitle1Content": "Basics of machine learning and its importance.",
+        "subTitle2": "Algorithm Overview",
+        "subTitle2Content": "A survey of key ML algorithms."
+      },
+      {
+        "month": "Month 2",
+        "title": "Supervised Learning",
+        "subTitle1": "Regression and Classification",
+        "subTitle1Content": "Deep dive into supervised techniques.",
+        "subTitle2": "Evaluation Metrics",
+        "subTitle2Content": "Measure model performance."
+      },
+      {
+        "month": "Month 3",
+        "title": "Unsupervised Learning",
+        "subTitle1": "Clustering Techniques",
+        "subTitle1Content": "Explore clustering algorithms.",
+        "subTitle2": "Dimensionality Reduction",
+        "subTitle2Content": "Techniques to simplify data."
+      },
+      {
+        "month": "Month 4",
+        "title": "Advanced Topics",
+        "subTitle1": "Reinforcement Learning",
+        "subTitle1Content": "An introduction to RL concepts.",
+        "subTitle2": "Real-world Projects",
+        "subTitle2Content": "Apply your skills in practical projects."
+      }
+    ],
+    "details": {
+      "duration": "4 Months",
+      "classType": "Weekend Classes",
+      "classHours": "4 Hours",
+      "students": "2500 Students",
+      "courseType": "100% Online"
+    }
+  },
+  {
+    "courseId": "4",
+    "header": {
+      "title": "Chatbot Development",
+      "description": "Learn to design and develop intelligent chatbots using modern AI and NLP techniques."
+    },
+    "firstHeading": "Create Intelligent Chatbots",
+    "firstHeadingDescription": "Build conversational agents that can engage and assist users.",
+    "overview": "This course covers chatbot architecture, natural language processing, and integration with messaging platforms.",
+    "whatYouWillLearn": [
+      "Chatbot design principles",
+      "Natural Language Processing basics",
+      "Integrating chatbots with APIs",
+      "Testing and deploying chatbots"
+    ],
+    "outline": [
+      {
+        "month": "Month 1",
+        "title": "Chatbot Basics",
+        "subTitle1": "Introduction",
+        "subTitle1Content": "Learn the fundamentals of chatbots.",
+        "subTitle2": "Design Principles",
+        "subTitle2Content": "Understand conversational design."
+      },
+      {
+        "month": "Month 2",
+        "title": "NLP Integration",
+        "subTitle1": "NLP Concepts",
+        "subTitle1Content": "Integrate natural language understanding.",
+        "subTitle2": "Building Conversational Flows",
+        "subTitle2Content": "Design effective user interactions."
+      },
+      {
+        "month": "Month 3",
+        "title": "Developing the Chatbot",
+        "subTitle1": "Implementation",
+        "subTitle1Content": "Build your chatbot using code.",
+        "subTitle2": "Testing Strategies",
+        "subTitle2Content": "Learn how to test your chatbot thoroughly."
+      },
+      {
+        "month": "Month 4",
+        "title": "Deployment and Optimization",
+        "subTitle1": "Deployment",
+        "subTitle1Content": "Deploy your chatbot to live platforms.",
+        "subTitle2": "Continuous Improvement",
+        "subTitle2Content": "Optimize based on user feedback."
+      }
+    ],
+    "details": {
+      "duration": "4 Months",
+      "classType": "Weekend Classes",
+      "classHours": "4 Hours",
+      "students": "2200 Students",
+      "courseType": "100% Online"
+    }
+  },
+  {
+    "courseId": "5",
+    "header": {
+      "title": "Mern Stack Development",
+      "description": "Become proficient in the MERN stack (MongoDB, Express, React, Node.js) to build dynamic web applications."
+    },
+    "firstHeading": "Master the MERN Stack",
+    "firstHeadingDescription": "Build full-stack applications using modern JavaScript technologies.",
+    "overview": "This course guides you through building RESTful APIs and dynamic user interfaces using the MERN stack.",
+    "whatYouWillLearn": [
+      "Setting up a MERN project",
+      "Building RESTful APIs with Node.js and Express",
+      "Developing interactive UIs with React",
+      "Database integration with MongoDB"
+    ],
+    "outline": [
+      {
+        "month": "Month 1",
+        "title": "Introduction to MERN",
+        "subTitle1": "Overview of Technologies",
+        "subTitle1Content": "Understand each component of the stack.",
+        "subTitle2": "Environment Setup",
+        "subTitle2Content": "Set up your development environment."
+      },
+      {
+        "month": "Month 2",
+        "title": "Backend Development",
+        "subTitle1": "Node.js and Express",
+        "subTitle1Content": "Build and manage RESTful APIs.",
+        "subTitle2": "Database Connection",
+        "subTitle2Content": "Integrate MongoDB with your backend."
+      },
+      {
+        "month": "Month 3",
+        "title": "Frontend Development",
+        "subTitle1": "React Basics",
+        "subTitle1Content": "Learn to build interactive user interfaces.",
+        "subTitle2": "State Management",
+        "subTitle2Content": "Handle state in complex applications."
+      },
+      {
+        "month": "Month 4",
+        "title": "Project and Deployment",
+        "subTitle1": "Full-stack Project",
+        "subTitle1Content": "Integrate frontend and backend in a real project.",
+        "subTitle2": "Deployment",
+        "subTitle2Content": "Learn deployment strategies for production."
+      }
+    ],
+    "details": {
+      "duration": "4 Months",
+      "classType": "Weekend Classes",
+      "classHours": "5 Hours",
+      "students": "2800 Students",
+      "courseType": "100% Online"
+    }
+  },
+  {
+    "courseId": "6",
+    "header": {
+      "title": "Python Django Development",
+      "description": "Learn to build robust web applications using Python and the Django framework."
+    },
+    "firstHeading": "Master Django Development",
+    "firstHeadingDescription": "Create scalable and secure web applications with Django.",
+    "overview": "This course covers Django fundamentals including models, views, and templates as well as REST API development.",
+    "whatYouWillLearn": [
+      "Django project setup",
+      "MVC architecture with Django",
+      "Database integration using Django ORM",
+      "Developing RESTful APIs"
+    ],
+    "outline": [
+      {
+        "month": "Month 1",
+        "title": "Introduction to Django",
+        "subTitle1": "Django Basics",
+        "subTitle1Content": "Learn the fundamentals and install Django.",
+        "subTitle2": "Project Setup",
+        "subTitle2Content": "Start your first Django project."
+      },
+      {
+        "month": "Month 2",
+        "title": "Core Concepts",
+        "subTitle1": "Models and Views",
+        "subTitle1Content": "Build models and create views.",
+        "subTitle2": "Templates and Forms",
+        "subTitle2Content": "Design dynamic web pages."
+      },
+      {
+        "month": "Month 3",
+        "title": "Advanced Django",
+        "subTitle1": "Authentication and Security",
+        "subTitle1Content": "Implement secure user authentication.",
+        "subTitle2": "REST API Development",
+        "subTitle2Content": "Build APIs with Django Rest Framework."
+      },
+      {
+        "month": "Month 4",
+        "title": "Deployment and Best Practices",
+        "subTitle1": "Deploying Django Apps",
+        "subTitle1Content": "Learn deployment strategies.",
+        "subTitle2": "Optimization",
+        "subTitle2Content": "Improve performance and maintainability."
+      }
+    ],
+    "details": {
+      "duration": "4 Months",
+      "classType": "Weekend Classes",
+      "classHours": "5 Hours",
+      "students": "2600 Students",
+      "courseType": "100% Online"
+    }
+  },
+  {
+    "courseId": "7",
+    "header": {
+      "title": "PHP Laravel Development",
+      "description": "Master Laravel to build modern, robust, and scalable web applications using PHP."
+    },
+    "firstHeading": "Master Laravel Development",
+    "firstHeadingDescription": "Learn to create dynamic web apps using Laravel's elegant syntax.",
+    "overview": "This course covers Laravel fundamentals including routing, middleware, Eloquent ORM, and API development.",
+    "whatYouWillLearn": [
+      "Laravel framework basics",
+      "MVC architecture in Laravel",
+      "Database management with Eloquent",
+      "Building RESTful APIs"
+    ],
+    "outline": [
+      {
+        "month": "Month 1",
+        "title": "Getting Started",
+        "subTitle1": "Introduction to Laravel",
+        "subTitle1Content": "Learn about the Laravel framework.",
+        "subTitle2": "Basic Routing",
+        "subTitle2Content": "Understand Laravel routing."
+      },
+      {
+        "month": "Month 2",
+        "title": "Core Development",
+        "subTitle1": "Controllers and Views",
+        "subTitle1Content": "Build your application structure.",
+        "subTitle2": "Database Integration",
+        "subTitle2Content": "Manage databases using Eloquent ORM."
+      },
+      {
+        "month": "Month 3",
+        "title": "Advanced Laravel",
+        "subTitle1": "APIs and Authentication",
+        "subTitle1Content": "Build secure and efficient APIs.",
+        "subTitle2": "Middleware",
+        "subTitle2Content": "Learn about middleware for request filtering."
+      },
+      {
+        "month": "Month 4",
+        "title": "Project and Deployment",
+        "subTitle1": "Real-world Application",
+        "subTitle1Content": "Integrate your skills in a full project.",
+        "subTitle2": "Deployment Strategies",
+        "subTitle2Content": "Learn to deploy Laravel applications."
+      }
+    ],
+    "details": {
+      "duration": "4 Months",
+      "classType": "Weekend Classes",
+      "classHours": "5 Hours",
+      "students": "2400 Students",
+      "courseType": "100% Online"
+    }
+  },
+  {
+    "courseId": "8",
+    "header": {
+      "title": "Frontend Development",
+      "description": "Learn HTML, CSS, and JavaScript to build responsive and interactive websites."
+    },
+    "firstHeading": "Master Frontend Development",
+    "firstHeadingDescription": "Build modern, responsive websites using best practices.",
+    "overview": "This course covers the fundamentals of frontend development along with modern libraries and frameworks for creating engaging UIs.",
+    "whatYouWillLearn": [
+      "HTML and CSS basics",
+      "Responsive design principles",
+      "JavaScript fundamentals",
+      "Introduction to frontend libraries"
+    ],
+    "outline": [
+      {
+        "month": "Month 1",
+        "title": "HTML & CSS",
+        "subTitle1": "Basics of HTML",
+        "subTitle1Content": "Learn the structure of web pages.",
+        "subTitle2": "Styling with CSS",
+        "subTitle2Content": "Understand how to style pages effectively."
+      },
+      {
+        "month": "Month 2",
+        "title": "JavaScript Essentials",
+        "subTitle1": "Core JavaScript",
+        "subTitle1Content": "Learn JavaScript syntax and concepts.",
+        "subTitle2": "DOM Manipulation",
+        "subTitle2Content": "Interact with web page elements."
+      },
+      {
+        "month": "Month 3",
+        "title": "Advanced Techniques",
+        "subTitle1": "Responsive Design",
+        "subTitle1Content": "Build websites that work on all devices.",
+        "subTitle2": "Frontend Libraries",
+        "subTitle2Content": "Introduction to popular frameworks."
+      },
+      {
+        "month": "Month 4",
+        "title": "Project and Optimization",
+        "subTitle1": "Real Project",
+        "subTitle1Content": "Implement your skills in a hands-on project.",
+        "subTitle2": "Performance Optimization",
+        "subTitle2Content": "Learn techniques to enhance performance."
+      }
+    ],
+    "details": {
+      "duration": "4 Months",
+      "classType": "Weekend Classes",
+      "classHours": "4 Hours",
+      "students": "3200 Students",
+      "courseType": "100% Online"
+    }
+  },
+  {
+    "courseId": "9",
+    "header": {
+      "title": "Backend Development",
+      "description": "Master server-side programming and database management to build robust backend systems."
+    },
+    "firstHeading": "Master Backend Development",
+    "firstHeadingDescription": "Build powerful backend systems and APIs.",
+    "overview": "This course covers server-side concepts, RESTful API design, and database integration for scalable web applications.",
+    "whatYouWillLearn": [
+      "Server-side programming concepts",
+      "RESTful API design",
+      "Database management",
+      "Authentication and security"
+    ],
+    "outline": [
+      {
+        "month": "Month 1",
+        "title": "Introduction to Backend",
+        "subTitle1": "Server Basics",
+        "subTitle1Content": "Learn the fundamentals of server-side programming.",
+        "subTitle2": "API Overview",
+        "subTitle2Content": "Understand how APIs work."
+      },
+      {
+        "month": "Month 2",
+        "title": "Building APIs",
+        "subTitle1": "RESTful Design",
+        "subTitle1Content": "Learn to design and implement RESTful APIs.",
+        "subTitle2": "Database Integration",
+        "subTitle2Content": "Connect APIs with databases."
+      },
+      {
+        "month": "Month 3",
+        "title": "Advanced Backend Concepts",
+        "subTitle1": "Authentication",
+        "subTitle1Content": "Implement secure user authentication.",
+        "subTitle2": "Security Best Practices",
+        "subTitle2Content": "Learn methods to secure backend systems."
+      },
+      {
+        "month": "Month 4",
+        "title": "Project and Deployment",
+        "subTitle1": "Complete Backend Project",
+        "subTitle1Content": "Apply your knowledge in a comprehensive project.",
+        "subTitle2": "Deployment Strategies",
+        "subTitle2Content": "Learn how to deploy backend services."
+      }
+    ],
+    "details": {
+      "duration": "4 Months",
+      "classType": "Weekend Classes",
+      "classHours": "4 Hours",
+      "students": "3000 Students",
+      "courseType": "100% Online"
+    }
+  },
+  {
+    "courseId": "10",
+    "header": {
+      "title": "React JS Development",
+      "description": "Learn to build dynamic web applications using React JS and modern JavaScript techniques."
+    },
+    "firstHeading": "Master React JS Development",
+    "firstHeadingDescription": "Build interactive and high-performance web applications using React.",
+    "overview": "This course covers React fundamentals, component lifecycle, state management, and performance optimization.",
+    "whatYouWillLearn": [
+      "React fundamentals and JSX",
+      "Component-based architecture",
+      "Hooks and state management",
+      "Routing and API integration"
+    ],
+    "outline": [
+      {
+        "month": "Month 1",
+        "title": "Introduction to React",
+        "subTitle1": "React Basics",
+        "subTitle1Content": "Learn JSX and basic components.",
+        "subTitle2": "Environment Setup",
+        "subTitle2Content": "Set up your React development environment."
+      },
+      {
+        "month": "Month 2",
+        "title": "Component Development",
+        "subTitle1": "Functional Components",
+        "subTitle1Content": "Learn to build reusable components.",
+        "subTitle2": "Hooks Introduction",
+        "subTitle2Content": "Understand useState and useEffect."
+      },
+      {
+        "month": "Month 3",
+        "title": "State Management",
+        "subTitle1": "Managing State",
+        "subTitle1Content": "Learn state management techniques.",
+        "subTitle2": "Advanced Concepts",
+        "subTitle2Content": "Explore context and custom hooks."
+      },
+      {
+        "month": "Month 4",
+        "title": "Project and Optimization",
+        "subTitle1": "Real-world Project",
+        "subTitle1Content": "Implement a full-scale React application.",
+        "subTitle2": "Performance Tuning",
+        "subTitle2Content": "Learn optimization strategies."
+      }
+    ],
+    "details": {
+      "duration": "4 Months",
+      "classType": "Weekend Classes",
+      "classHours": "4 Hours",
+      "students": "3500 Students",
+      "courseType": "100% Online"
+    }
+  },
+  {
+    "courseId": "11",
+    "header": {
+      "title": "WordPress Development",
+      "description": "Learn to build and customize websites using WordPress, the world’s most popular content management system."
+    },
+    "firstHeading": "Master WordPress Development",
+    "firstHeadingDescription": "Build dynamic websites with custom themes and plugins.",
+    "overview": "This course covers WordPress fundamentals, theme development, plugin customization, and SEO best practices.",
+    "whatYouWillLearn": [
+      "WordPress installation and configuration",
+      "Theme customization",
+      "Plugin development",
+      "SEO and performance optimization"
+    ],
+    "outline": [
+      {
+        "month": "Month 1",
+        "title": "WordPress Basics",
+        "subTitle1": "Introduction",
+        "subTitle1Content": "Learn what makes WordPress popular.",
+        "subTitle2": "Setup and Installation",
+        "subTitle2Content": "Install and configure a WordPress site."
+      },
+      {
+        "month": "Month 2",
+        "title": "Theme Development",
+        "subTitle1": "Custom Themes",
+        "subTitle1Content": "Build your own WordPress themes.",
+        "subTitle2": "Customization",
+        "subTitle2Content": "Modify themes to fit your design."
+      },
+      {
+        "month": "Month 3",
+        "title": "Plugin Development",
+        "subTitle1": "Creating Plugins",
+        "subTitle1Content": "Learn to develop custom plugins.",
+        "subTitle2": "Extending Functionality",
+        "subTitle2Content": "Add new features to WordPress sites."
+      },
+      {
+        "month": "Month 4",
+        "title": "Project and Optimization",
+        "subTitle1": "Real-world Site",
+        "subTitle1Content": "Develop a complete WordPress website.",
+        "subTitle2": "Performance & SEO",
+        "subTitle2Content": "Optimize your site for speed and search."
+      }
+    ],
+    "details": {
+      "duration": "4 Months",
+      "classType": "Weekend Classes",
+      "classHours": "4 Hours",
+      "students": "3300 Students",
+      "courseType": "100% Online"
+    }
+  },
+  {
+    "courseId": "12",
+    "header": {
+      "title": "Shopify Development",
+      "description": "Learn to build and customize e-commerce stores using Shopify, a leading platform for online retail."
+    },
+    "firstHeading": "Master Shopify Development",
+    "firstHeadingDescription": "Create and manage successful e-commerce stores with Shopify.",
+    "overview": "This course covers Shopify store setup, theme customization, product management, and integration with payment gateways.",
+    "whatYouWillLearn": [
+      "Shopify store configuration",
+      "Customizing themes with Liquid",
+      "Product and inventory management",
+      "E-commerce best practices"
+    ],
+    "outline": [
+      {
+        "month": "Month 1",
+        "title": "Introduction to Shopify",
+        "subTitle1": "Understanding Shopify",
+        "subTitle1Content": "Learn about the Shopify platform.",
+        "subTitle2": "Store Setup",
+        "subTitle2Content": "Create your first online store."
+      },
+      {
+        "month": "Month 2",
+        "title": "Theme Customization",
+        "subTitle1": "Custom Themes",
+        "subTitle1Content": "Learn to modify and create themes.",
+        "subTitle2": "Liquid Templating",
+        "subTitle2Content": "Understand Shopify's templating language."
+      },
+      {
+        "month": "Month 3",
+        "title": "Store Management",
+        "subTitle1": "Product Management",
+        "subTitle1Content": "Organize and manage products efficiently.",
+        "subTitle2": "Integrations",
+        "subTitle2Content": "Connect your store with payment gateways."
+      },
+      {
+        "month": "Month 4",
+        "title": "Project and Optimization",
+        "subTitle1": "Building a Live Store",
+        "subTitle1Content": "Implement your skills in a real project.",
+        "subTitle2": "E-commerce Optimization",
+        "subTitle2Content": "Learn strategies to boost performance."
+      }
+    ],
+    "details": {
+      "duration": "4 Months",
+      "classType": "Weekend Classes",
+      "classHours": "4 Hours",
+      "students": "3100 Students",
+      "courseType": "100% Online"
+    }
+  },
+  {
+    "courseId": "13",
+    "header": {
+      "title": "Flutter App Development",
+      "description": "Learn to build cross-platform mobile apps using Flutter, Google’s UI toolkit for crafting natively compiled applications."
+    },
+    "firstHeading": "Master Flutter Development",
+    "firstHeadingDescription": "Create beautiful and high-performance mobile apps with Flutter.",
+    "overview": "This course covers Flutter fundamentals, widget building, state management, and deployment for cross-platform mobile apps.",
+    "whatYouWillLearn": [
+      "Flutter framework and Dart basics",
+      "Building responsive UIs",
+      "State management techniques",
+      "API integration and deployment"
+    ],
+    "outline": [
+      {
+        "month": "Month 1",
+        "title": "Introduction to Flutter",
+        "subTitle1": "Flutter & Dart Basics",
+        "subTitle1Content": "Learn the core concepts and setup your environment.",
+        "subTitle2": "First App",
+        "subTitle2Content": "Build a simple introductory app."
+      },
+      {
+        "month": "Month 2",
+        "title": "Building UIs",
+        "subTitle1": "Widgets and Layouts",
+        "subTitle1Content": "Learn to create custom UI components.",
+        "subTitle2": "Responsive Design",
+        "subTitle2Content": "Ensure your app looks great on all devices."
+      },
+      {
+        "month": "Month 3",
+        "title": "State Management",
+        "subTitle1": "Managing State",
+        "subTitle1Content": "Explore different state management approaches.",
+        "subTitle2": "Advanced Widgets",
+        "subTitle2Content": "Utilize advanced features in Flutter."
+      },
+      {
+        "month": "Month 4",
+        "title": "Project and Deployment",
+        "subTitle1": "Full-scale App Development",
+        "subTitle1Content": "Integrate all learned concepts into a complete app.",
+        "subTitle2": "Deployment",
+        "subTitle2Content": "Learn to deploy your app to app stores."
+      }
+    ],
+    "details": {
+      "duration": "4 Months",
+      "classType": "Weekend Classes",
+      "classHours": "5 Hours",
+      "students": "2700 Students",
+      "courseType": "100% Online"
+    }
+  },
+  {
+    "courseId": "14",
+    "header": {
+      "title": "React Native App Development",
+      "description": "Build native mobile applications using React Native to leverage your React skills for cross-platform development."
+    },
+    "firstHeading": "Master React Native Development",
+    "firstHeadingDescription": "Develop high-performance mobile apps with React Native.",
+    "overview": "This course focuses on using React Native to build mobile applications, covering component design, state management, and native integrations.",
+    "whatYouWillLearn": [
+      "React Native fundamentals",
+      "Building native components",
+      "State and lifecycle management",
+      "Integration with native APIs"
+    ],
+    "outline": [
+      {
+        "month": "Month 1",
+        "title": "Introduction",
+        "subTitle1": "Setting Up",
+        "subTitle1Content": "Install and configure React Native.",
+        "subTitle2": "Core Components",
+        "subTitle2Content": "Learn about basic components and layouts."
+      },
+      {
+        "month": "Month 2",
+        "title": "Component Development",
+        "subTitle1": "Reusable Components",
+        "subTitle1Content": "Design and build reusable UI components.",
+        "subTitle2": "Styling",
+        "subTitle2Content": "Style your components using best practices."
+      },
+      {
+        "month": "Month 3",
+        "title": "Advanced Concepts",
+        "subTitle1": "State Management",
+        "subTitle1Content": "Manage state using hooks and context.",
+        "subTitle2": "Native Integrations",
+        "subTitle2Content": "Integrate with device features."
+      },
+      {
+        "month": "Month 4",
+        "title": "Project and Deployment",
+        "subTitle1": "Full-scale App",
+        "subTitle1Content": "Develop a complete mobile application.",
+        "subTitle2": "Deployment",
+        "subTitle2Content": "Learn deployment strategies for mobile apps."
+      }
+    ],
+    "details": {
+      "duration": "4 Months",
+      "classType": "Weekend Classes",
+      "classHours": "5 Hours",
+      "students": "2900 Students",
+      "courseType": "100% Online"
+    }
+  },
+  {
+    "courseId": "15",
+    "header": {
+      "title": "FlutterFlow App Development",
+      "description": "Learn to build mobile apps using FlutterFlow, a low-code platform powered by Flutter for rapid development."
+    },
+    "firstHeading": "Master FlutterFlow Development",
+    "firstHeadingDescription": "Create mobile apps quickly with an intuitive low-code interface.",
+    "overview": "This course introduces FlutterFlow, guiding you through building, customizing, and deploying mobile applications with minimal coding.",
+    "whatYouWillLearn": [
+      "Understanding FlutterFlow's interface",
+      "Building and customizing UIs",
+      "Integrating APIs",
+      "Deployment and project management"
+    ],
+    "outline": [
+      {
+        "month": "Month 1",
+        "title": "Getting Started",
+        "subTitle1": "Introduction to FlutterFlow",
+        "subTitle1Content": "Learn the basics of the FlutterFlow platform.",
+        "subTitle2": "Project Setup",
+        "subTitle2Content": "Create your first FlutterFlow project."
+      },
+      {
+        "month": "Month 2",
+        "title": "Design and Customization",
+        "subTitle1": "UI Design Principles",
+        "subTitle1Content": "Learn to design intuitive user interfaces.",
+        "subTitle2": "Component Customization",
+        "subTitle2Content": "Customize pre-built components."
+      },
+      {
+        "month": "Month 3",
+        "title": "Advanced FlutterFlow",
+        "subTitle1": "API Integrations",
+        "subTitle1Content": "Connect your app with external APIs.",
+        "subTitle2": "State Management",
+        "subTitle2Content": "Manage app state effectively."
+      },
+      {
+        "month": "Month 4",
+        "title": "Project and Deployment",
+        "subTitle1": "Complete App Development",
+        "subTitle1Content": "Build a fully functional app using FlutterFlow.",
+        "subTitle2": "Deployment",
+        "subTitle2Content": "Learn how to launch your app."
+      }
+    ],
+    "details": {
+      "duration": "4 Months",
+      "classType": "Weekend Classes",
+      "classHours": "5 Hours",
+      "students": "2600 Students",
+      "courseType": "100% Online"
+    }
+  },
+  {
+    "courseId": "16",
+    "header": {
+      "title": "Android App Development",
+      "description": "Learn native Android app development using Java and Kotlin to build user-friendly mobile applications."
+    },
+    "firstHeading": "Master Android Development",
+    "firstHeadingDescription": "Build robust Android apps with modern development tools and best practices.",
+    "overview": "This course covers native Android development, focusing on Java/Kotlin, UI design, data handling, and deployment.",
+    "whatYouWillLearn": [
+      "Android SDK fundamentals",
+      "Java and Kotlin programming",
+      "UI design and material principles",
+      "API integration and data storage"
+    ],
+    "outline": [
+      {
+        "month": "Month 1",
+        "title": "Introduction to Android",
+        "subTitle1": "Android Basics",
+        "subTitle1Content": "Understand the Android ecosystem and setup.",
+        "subTitle2": "Development Tools",
+        "subTitle2Content": "Learn to use Android Studio and emulators."
+      },
+      {
+        "month": "Month 2",
+        "title": "UI and User Experience",
+        "subTitle1": "Layouts and Views",
+        "subTitle1Content": "Design engaging and responsive user interfaces.",
+        "subTitle2": "Material Design",
+        "subTitle2Content": "Implement modern design principles."
+      },
+      {
+        "month": "Month 3",
+        "title": "Backend Integration",
+        "subTitle1": "APIs and Data",
+        "subTitle1Content": "Learn to connect your app to external data sources.",
+        "subTitle2": "Local Databases",
+        "subTitle2Content": "Manage data storage with SQLite or Room."
+      },
+      {
+        "month": "Month 4",
+        "title": "Project and Deployment",
+        "subTitle1": "Building a Complete App",
+        "subTitle1Content": "Apply your skills in a full-fledged project.",
+        "subTitle2": "Testing & Deployment",
+        "subTitle2Content": "Learn strategies to test and launch your app."
+      }
+    ],
+    "details": {
+      "duration": "4 Months",
+      "classType": "Weekend Classes",
+      "classHours": "5 Hours",
+      "students": "2800 Students",
+      "courseType": "100% Online"
+    }
+  },
+  {
+    "courseId": "17",
+    "header": {
+      "title": "Social Media Marketing",
+      "description": "Learn to leverage social media platforms to promote brands, engage audiences, and drive business growth."
+    },
+    "firstHeading": "Master Social Media Marketing",
+    "firstHeadingDescription": "Develop effective strategies for various social platforms.",
+    "overview": "This course covers content creation, platform strategies, and analytics to build a strong social media presence.",
+    "whatYouWillLearn": [
+      "Social media strategy",
+      "Content creation and curation",
+      "Platform-specific tactics",
+      "Engagement and community management"
+    ],
+    "outline": [
+      {
+        "month": "Month 1",
+        "title": "Introduction to Social Media",
+        "subTitle1": "Platform Overview",
+        "subTitle1Content": "Learn about key social media channels.",
+        "subTitle2": "Audience Engagement",
+        "subTitle2Content": "Understand how to engage your audience."
+      },
+      {
+        "month": "Month 2",
+        "title": "Content Strategy",
+        "subTitle1": "Content Creation",
+        "subTitle1Content": "Develop compelling content for social media.",
+        "subTitle2": "Content Calendar",
+        "subTitle2Content": "Plan and schedule your posts effectively."
+      },
+      {
+        "month": "Month 3",
+        "title": "Platform Tactics",
+        "subTitle1": "Optimizing Content",
+        "subTitle1Content": "Tailor your approach for each platform.",
+        "subTitle2": "Engagement Strategies",
+        "subTitle2Content": "Increase user interaction and reach."
+      },
+      {
+        "month": "Month 4",
+        "title": "Analytics and Growth",
+        "subTitle1": "Measuring Success",
+        "subTitle1Content": "Track and analyze performance metrics.",
+        "subTitle2": "Scaling Strategies",
+        "subTitle2Content": "Learn to expand your social presence."
+      }
+    ],
+    "details": {
+      "duration": "4 Months",
+      "classType": "Weekend Classes",
+      "classHours": "4 Hours",
+      "students": "3400 Students",
+      "courseType": "100% Online"
+    }
+  },
+  {
+    "courseId": "18",
+    "header": {
+      "title": "Digital Marketing",
+      "description": "Gain a comprehensive understanding of digital marketing—from SEO to email campaigns—to boost your online presence."
+    },
+    "firstHeading": "Master Digital Marketing",
+    "firstHeadingDescription": "Learn a full suite of digital marketing strategies for business growth.",
+    "overview": "This course provides in-depth training on SEO, content marketing, social media, and PPC strategies to drive online success.",
+    "whatYouWillLearn": [
+      "SEO and content marketing",
+      "Social media and email marketing",
+      "Analytics and campaign management",
+      "PPC advertising strategies"
+    ],
+    "outline": [
+      {
+        "month": "Month 1",
+        "title": "Digital Marketing Fundamentals",
+        "subTitle1": "Introduction",
+        "subTitle1Content": "Learn the basics of digital marketing.",
+        "subTitle2": "Market Analysis",
+        "subTitle2Content": "Understand the digital landscape."
+      },
+      {
+        "month": "Month 2",
+        "title": "SEO and Content",
+        "subTitle1": "SEO Strategies",
+        "subTitle1Content": "Optimize your website for search engines.",
+        "subTitle2": "Content Marketing",
+        "subTitle2Content": "Develop engaging and targeted content."
+      },
+      {
+        "month": "Month 3",
+        "title": "Social Media & Email",
+        "subTitle1": "Social Media Marketing",
+        "subTitle1Content": "Leverage social platforms for brand growth.",
+        "subTitle2": "Email Campaigns",
+        "subTitle2Content": "Create effective email marketing strategies."
+      },
+      {
+        "month": "Month 4",
+        "title": "Analytics and Optimization",
+        "subTitle1": "Performance Analysis",
+        "subTitle1Content": "Track and analyze your marketing efforts.",
+        "subTitle2": "Optimization Techniques",
+        "subTitle2Content": "Improve campaign effectiveness."
+      }
+    ],
+    "details": {
+      "duration": "4 Months",
+      "classType": "Weekend Classes",
+      "classHours": "4 Hours",
+      "students": "3600 Students",
+      "courseType": "100% Online"
+    }
+  },
+  {
+    "courseId": "19",
+    "header": {
+      "title": "Google Ads",
+      "description": "Learn to create, manage, and optimize Google Ads campaigns. This course will teach you how to drive traffic, increase conversions, and grow your business with targeted advertising on Google's platform."
+    },
+    "firstHeading": "Master Google Ads",
+    "firstHeadingDescription": "Unlock the power of Google Ads to reach your audience effectively and achieve measurable results.",
+    "overview": "This course provides step-by-step guidance on Google Ads—from campaign setup to optimization. Learn to target the right audience, manage budgets, and measure performance effectively.",
+    "whatYouWillLearn": [
+      "Google Ads account and campaign setup",
+      "Keyword research and bidding strategies",
+      "Creating high-performing ad copies",
+      "Targeting options and audience segmentation",
+      "Analyzing and optimizing ad performance",
+      "Retargeting and advanced strategies"
+    ],
+    "outline": [
+      {
+        "month": "Month 1",
+        "title": "Getting Started with Google Ads",
+        "subTitle1": "Introduction to Google Ads",
+        "subTitle1Content": "Understand the basics of Google Ads and its advertising network.",
+        "subTitle2": "Campaign Setup",
+        "subTitle2Content": "Create your first ad campaign step by step."
+      },
+      {
+        "month": "Month 2",
+        "title": "Targeting and Bidding",
+        "subTitle1": "Keyword Research",
+        "subTitle1Content": "Learn to identify and target the right keywords for your ads.",
+        "subTitle2": "Bidding Strategies",
+        "subTitle2Content": "Optimize bids to maximize ROI within your budget."
+      },
+      {
+        "month": "Month 3",
+        "title": "Ad Creation and Optimization",
+        "subTitle1": "Writing Ad Copy",
+        "subTitle1Content": "Craft compelling ad copies to boost click-through rates.",
+        "subTitle2": "Performance Tracking",
+        "subTitle2Content": "Use analytics tools to measure and optimize ad performance."
+      },
+      {
+        "month": "Month 4",
+        "title": "Advanced Google Ads Strategies",
+        "subTitle1": "Retargeting Campaigns",
+        "subTitle1Content": "Re-engage visitors with retargeting strategies.",
+        "subTitle2": "Scaling Ads",
+        "subTitle2Content": "Learn advanced tactics to scale successful campaigns."
+      }
+    ],
+    "details": {
+      "duration": "4 Months",
+      "classType": "Weekend Classes",
+      "classHours": "4 Hours",
+      "students": "2500 Students",
+      "courseType": "100% Online"
+    }
+  },
+  {
+    "courseId": "20",
+    "header": {
+      "title": "Microsoft Office",
+      "description": "Learn the essentials of Microsoft Office—including Word, Excel, and PowerPoint—to boost your productivity and career prospects."
+    },
+    "firstHeading": "Master Microsoft Office",
+    "firstHeadingDescription": "Become proficient in essential Office tools for business and personal productivity.",
+    "overview": "This course covers key Microsoft Office applications, teaching you to create professional documents, analyze data, and deliver impactful presentations.",
+    "whatYouWillLearn": [
+      "Word processing and document creation",
+      "Excel for data analysis and visualization",
+      "PowerPoint for creating compelling presentations",
+      "Time-saving tips and advanced features"
+    ],
+    "outline": [
+      {
+        "month": "Month 1",
+        "title": "Introduction to Office",
+        "subTitle1": "Overview of Office Tools",
+        "subTitle1Content": "Learn the basics of Word, Excel, and PowerPoint.",
+        "subTitle2": "Basic Operations",
+        "subTitle2Content": "Understand core functionalities of each application."
+      },
+      {
+        "month": "Month 2",
+        "title": "Word Processing",
+        "subTitle1": "Document Creation",
+        "subTitle1Content": "Master formatting and styling in Word.",
+        "subTitle2": "Advanced Features",
+        "subTitle2Content": "Learn about templates and collaboration tools."
+      },
+      {
+        "month": "Month 3",
+        "title": "Excel Mastery",
+        "subTitle1": "Data Analysis",
+        "subTitle1Content": "Use formulas, functions, and data visualization techniques.",
+        "subTitle2": "Advanced Excel",
+        "subTitle2Content": "Work with pivot tables and advanced charting."
+      },
+      {
+        "month": "Month 4",
+        "title": "PowerPoint and Integration",
+        "subTitle1": "Creating Presentations",
+        "subTitle1Content": "Design impactful and professional slides.",
+        "subTitle2": "Office Integration",
+        "subTitle2Content": "Learn to integrate Office tools for enhanced productivity."
+      }
+    ],
+    "details": {
+      "duration": "4 Months",
+      "classType": "Weekend Classes",
+      "classHours": "3 Hours",
+      "students": "3500 Students",
+      "courseType": "100% Online"
+    }
+  },
+  {
+    "courseId": "21",
+    "header": {
+      "title": "Graphic Designing",
+      "description": "Learn the principles of design—including color theory, typography, and layout—to create visually stunning graphics."
+    },
+    "firstHeading": "Master Graphic Designing",
+    "firstHeadingDescription": "Unlock your creative potential with professional design techniques.",
+    "overview": "This course covers graphic design fundamentals, teaching you how to use industry-standard software and design principles to produce eye-catching visuals.",
+    "whatYouWillLearn": [
+      "Design principles and theory",
+      "Color theory and typography",
+      "Using Adobe Photoshop and Illustrator",
+      "Creating digital illustrations and marketing materials"
+    ],
+    "outline": [
+      {
+        "month": "Month 1",
+        "title": "Introduction to Design",
+        "subTitle1": "Design Fundamentals",
+        "subTitle1Content": "Learn the basic principles of graphic design.",
+        "subTitle2": "Software Overview",
+        "subTitle2Content": "Introduction to popular design tools."
+      },
+      {
+        "month": "Month 2",
+        "title": "Digital Techniques",
+        "subTitle1": "Using Photoshop,Illustrator and Figma",
+        "subTitle1Content": "Master essential design tools.",
+        "subTitle2": "Practical Projects",
+        "subTitle2Content": "Work on real-world design assignments."
+      },
+      {
+        "month": "Month 3",
+        "title": "Advanced Design Concepts",
+        "subTitle1": "Typography and Layout",
+        "subTitle1Content": "Learn advanced text and layout techniques.",
+        "subTitle2": "Color Theory",
+        "subTitle2Content": "Apply color theory in your designs."
+      },
+      {
+        "month": "Month 4",
+        "title": "Portfolio Development",
+        "subTitle1": "Creating a Portfolio",
+        "subTitle1Content": "Compile your work into a professional portfolio.",
+        "subTitle2": "Final Project",
+        "subTitle2Content": "Showcase your design skills in a capstone project."
+      }
+    ],
+    "details": {
+      "duration": "4 Months",
+      "classType": "Weekend Classes",
+      "classHours": "3 Hours",
+      "students": "3200 Students",
+      "courseType": "100% Online"
+    }
+  },
+  {
+    "courseId": "22",
+    "header": {
+      "title": "Freelancing",
+      "description": "Learn the essentials of freelancing—from building a portfolio to managing clients—to kickstart your independent career."
+    },
+    "firstHeading": "Master Freelancing",
+    "firstHeadingDescription": "Gain the skills and strategies to succeed as a freelancer.",
+    "overview": "This course covers all aspects of freelancing including business setup, personal branding, client management, and project delivery.",
+    "whatYouWillLearn": [
+      "Setting up your freelancing business",
+      "Building an impressive portfolio",
+      "Effective client communication",
+      "Pricing, negotiations, and project management"
+    ],
+    "outline": [
+      {
+        "month": "Month 1",
+        "title": "Introduction to Freelancing",
+        "subTitle1": "Understanding the Market",
+        "subTitle1Content": "Learn about freelancing opportunities and challenges.",
+        "subTitle2": "Business Setup",
+        "subTitle2Content": "Establish your freelance brand and workspace."
+      },
+      {
+        "month": "Month 2",
+        "title": "Portfolio & Branding",
+        "subTitle1": "Creating a Portfolio",
+        "subTitle1Content": "Showcase your skills with a standout portfolio.",
+        "subTitle2": "Personal Branding",
+        "subTitle2Content": "Develop a brand that attracts clients."
+      },
+      {
+        "month": "Month 3",
+        "title": "Client Management",
+        "subTitle1": "Effective Communication",
+        "subTitle1Content": "Master communication techniques with clients.",
+        "subTitle2": "Project Management",
+        "subTitle2Content": "Learn to manage projects and meet deadlines."
+      },
+      {
+        "month": "Month 4",
+        "title": "Scaling Your Business",
+        "subTitle1": "Pricing Strategies",
+        "subTitle1Content": "Learn to price your services competitively.",
+        "subTitle2": "Long-term Growth",
+        "subTitle2Content": "Build lasting relationships and scale your business."
+      }
+    ],
+    "details": {
+      "duration": "4 Months",
+      "classType": "Weekend Classes",
+      "classHours": "3 Hours",
+      "students": "3000 Students",
+      "courseType": "100% Online"
+    }
+  }
 ]

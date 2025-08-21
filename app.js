@@ -5,6 +5,7 @@ const Register = require('./Router/Register');
 const Contact = require('./Router/Contact');
 const Instructor = require('./Router/Instructor');
 const applicationRoutes = require("./Router/Job");
+const coursesRouter = require("./Router/courses");
 const app = express();
 const path = require("path");
 // Middleware to parse incoming JSON
@@ -21,7 +22,7 @@ app.use('/api/viv', Register);
 app.use('/api/con', Contact);
 app.use('/api/ins', Instructor);
 app.use("/api", applicationRoutes);
-
+app.use("/api/courses", coursesRouter);
 
 app.use((err, req, res, next) => {
   console.error(err.stack);

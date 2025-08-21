@@ -68,7 +68,7 @@ select:-webkit-autofill {
 }
 
 /* Hiding Elements and Adjusting Layout for Small Screens */
-@media (max-width: 1618px) {
+@media (max-width: 1268px) {
   .hide {
     display: none;
   }
@@ -76,11 +76,31 @@ select:-webkit-autofill {
     width: 80vw;
   }
   .left-nav {
-    font-size: 1rem;
+    font-size: 1.5rem;
     display: flex;
   }
 }
 
+
+@media (max-width: 1730px) {
+  .hide {
+    display: flex;
+  }
+  .bottom {
+    width: 90vw;
+  }
+  .left-nav {
+    font-size: 1rem;
+    display: flex;
+  }
+}
+@media (max-width: 1438px) {
+
+  .left-nav {
+    font-size: 1rem;
+    display: flex;
+  }
+}
 /* Mobile View: Display Bar and Hide Left Navigation */
 @media (max-width: 1095px) {
   .bar {

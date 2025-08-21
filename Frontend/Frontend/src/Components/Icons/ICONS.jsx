@@ -51,43 +51,43 @@ export const ICONS = () => {
     </div>
   );
 };
-
+const iconClasses = "w-[90px] h-[90px] p-2 bg-white bg-opacity-90 rounded-lg shadow-md object-contain mx-auto block";
 // Slider Component
 const CategorySlider = ({ settings }) => (
   <Slider {...settings}>
     <div className="slider-item">
       <img
-        src="https://skillseducation.pk/assets/img/brand/brand-2-1.png"
-        alt="img1"
-        className="slider-image"
+        src="https://img.icons8.com/color/96/react-native.png"
+        alt="React"
+        className={iconClasses}
       />
     </div>
     <div className="slider-item">
       <img
-        src="https://skillseducation.pk/assets/img/brand/brand-2-2.png"
-        alt="img2"
-        className="slider-image"
+        src="https://img.icons8.com/color/96/javascript--v1.png"
+        alt="JavaScript"
+        className={iconClasses}
       />
     </div>
     <div className="slider-item">
       <img
-        src="https://skillseducation.pk/assets/img/brand/brand-2-3.png"
-        alt="img3"
-        className="slider-image"
+        src="https://img.icons8.com/color/96/nodejs.png"
+        alt="Node.js"
+        className={iconClasses}
       />
     </div>
     <div className="slider-item">
       <img
-        src="https://skillseducation.pk/assets/img/brand/brand-2-4.png"
-        alt="img4"
-        className="slider-image"
+        src="https://img.icons8.com/color/96/html-5--v1.png"
+        alt="HTML5"
+        className={iconClasses}
       />
     </div>
     <div className="slider-item">
       <img
-        src="https://skillseducation.pk/assets/img/brand/brand-2-5.png"
-        alt="img5"
-        className="slider-image"
+        src="https://img.icons8.com/color/96/css3.png"
+        alt="CSS3"
+        className={iconClasses}
       />
     </div>
   </Slider>

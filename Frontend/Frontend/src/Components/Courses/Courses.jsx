@@ -68,14 +68,14 @@ const HeaderSection = () => (
 
 // Slider Component
 const CategorySlider = ({ settings }) => (
-  <Slider {...settings} className="flex gap-4">
+  <Slider {...settings} className="flex gap-5">
     {Course.map((item, index) => (
-      <div key={index} className="w-[420px] h-auto bg-[#098E68] rounded-3xl">
-        <div className="md:m-4 m-2">
+      <div key={index} className="w-[350px] m-2 h-auto bg-[#098E68] rounded-3xl">
+        <div className="md:m-4 m-2 ">
           <img
             src={item.img}
             alt=""
-            className="h-[350px] object-cover rounded-2xl filter brightness-75 transition duration-300 hover:brightness-50 cursor-pointer"
+            className="h-[350px] w-full object-cover rounded-2xl filter brightness-75 transition duration-300 hover:brightness-50 cursor-pointer"
           />
           <div className="flex justify-between flex-wrap">
             <div className="flex gap-1">

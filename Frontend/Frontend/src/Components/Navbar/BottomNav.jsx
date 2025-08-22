@@ -42,7 +42,7 @@ export const BottomNav = () => {
 
   // Fetch courses data when component mounts
   useEffect(() => {
-    fetch(`http://localhost:5000/api/courses`)
+    fetch(`${window.location.origin}/api/courses`)
       .then((res) => res.json())
       .then((data) => setCoursesData(data))
       .catch((error) => console.error("Error fetching courses data:", error));
@@ -199,7 +199,7 @@ export const BottomNav = () => {
           </Offcanvas.Header>
 
           <Offcanvas.Body className='p-0'>
-            <div className="bg-[#6247AA] w-full text-white h-full flex flex-col items-start px-5 py-8 gap-4">
+            <div className="bg-[#098E68] w-full text-white h-full flex flex-col items-start px-5 py-8 gap-4">
               <nav className="w-full">
                 <ul className="flex flex-col gap-6 text-[1.2rem]">
                   <Link to="/">

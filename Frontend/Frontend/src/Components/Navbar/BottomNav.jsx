@@ -256,9 +256,14 @@ export const BottomNav = () => {
                       </ul>
                     )}
                   </li>
-
+<Link to="/choose">
+                          <li className="py-2 hover:text-[#098E68] text-white transition-colors">Why TechFighters</li>
+                        </Link>
+                        <Link to="/instructors">
+                          <li className="py-2 hover:text-[#098E68] text-white transition-colors">Our Instructors</li>
+                        </Link>
                   {/* About Us Dropdown in Offcanvas */}
-                  <li className="flex flex-col w-full">
+                  {/* <li className="flex flex-col w-full">
                     <div className="flex items-center justify-between text-white cursor-pointer" onClick={() => setShowAboutUs(!showAboutUs)}>
                       <span>About Us</span>
                       {showAboutUs ? <MdOutlineKeyboardArrowDown /> : <FaPlus />}
@@ -273,7 +278,7 @@ export const BottomNav = () => {
                         </Link>
                       </ul>
                     )}
-                  </li>
+                  </li> */}
 
                   {/* Contact Us in Offcanvas */}
                   <Link to="/contact">

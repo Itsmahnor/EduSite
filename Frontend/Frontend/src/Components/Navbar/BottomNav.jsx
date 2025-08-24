@@ -266,7 +266,7 @@ export const BottomNav = () => {
                     {showAboutUs && (
                       <ul className="pl-4 mt-2 text-[1rem] flex flex-col gap-2">
                         <Link to="/choose">
-                          <li className="py-2 hover:text-[#098E68] text-white transition-colors">Why TechFighters</li>
+                          <li className="py-2 hover:text-[#098E68] text-white transition-colors">Why ProlernoX</li>
                         </Link>
                         <Link to="/instructors">
                           <li className="py-2 hover:text-[#098E68] text-white transition-colors">Our Instructors</li>

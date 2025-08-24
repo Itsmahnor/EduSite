@@ -42,7 +42,7 @@ export const BottomNav = () => {
 
   // Fetch courses data when component mounts
   useEffect(() => {
-    fetch(`${window.location.origin}/api/courses`)
+    fetch(`/api/courses`)
       .then((res) => res.json())
       .then((data) => setCoursesData(data))
       .catch((error) => console.error("Error fetching courses data:", error));
@@ -52,15 +52,15 @@ export const BottomNav = () => {
   const handleShow = () => setShow(true);
 
   return (
-    <div className='w-[100vw] h-[16vh] bg-white flex justify-center items-center text-[#04211e] font-bold text-[1.4rem]'>
-      <div className='w-[80vw] flex justify-around bottom'>
+    <div className='w-[100vw] h-[16vh] bg-white flex justify-center items-center text-[#04211e] font-bold text-[1rem]'>
+      <div className='w-[90vw] flex justify-between bottom'>
         {/* Logo Section */}
-        <div className='w-[280px] h-[215px] lg:h-[215px] p-[15px] flex justify-center items-center'>
+        <div className='w-[280px] h-[200px] lg:h-[215px] p-[15px] flex justify-center items-center'>
           <img src={tech} alt="Logo" className='h-[100%] object-cover' />
         </div>
 
         {/* Navigation Links */}
-        <div className='flex justify-center items-center gap-7 left-nav'>
+        <div className='flex justify-center items-center gap-5 left-nav'>
           {/* Home Link */}
           <Link to="/">
             <span className='text-[#098E68] transition-colors'>Home</span>
@@ -135,7 +135,7 @@ export const BottomNav = () => {
             <div className="absolute top-full left-0 mt-2 bg-[#098E68] text-white lg:w-[14vw] border p-4 rounded-md shadow-lg hidden group-hover:block z-10 transition-all duration-300 ease-in-out">
               <ul>
                 <Link to="/choose">
-                  <li className="py-2 hover:text-[#098E68] text-white transition-colors">Why TechFighters</li>
+                  <li className="py-2 hover:text-[#098E68] text-white transition-colors">Why ProlernoX</li>
                 </Link>
                 <Link to="/instructors">
                   <li className="py-2 hover:text-[#098E68] text-white transition-colors">Our Instructors</li>

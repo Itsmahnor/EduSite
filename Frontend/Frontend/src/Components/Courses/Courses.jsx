@@ -40,7 +40,7 @@ export const Courses = () => {
           {Course.map((item, index) => (
             <div
               key={index}
-              className="bg-white w-[20vw] h-[85vh] sm:h-[65vh] shadow-md flex flex-col rounded-lg overflow-hidden m-3 border border-gray-200"
+              className="bg-white w-[20vw] h-auto shadow-md flex flex-col rounded-lg overflow-hidden m-3 border border-gray-200"
             >
               {/* Course Image */}
               <img

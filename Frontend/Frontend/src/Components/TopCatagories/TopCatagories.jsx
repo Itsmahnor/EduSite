@@ -23,7 +23,7 @@ export const TopCatagories = () => {
   };
 
   return (
-    <div className='w-[100vw]  h-[100vh] pt-10 py-10  bg-white flex justify-center font-bold text-[1.2rem]'>
+    <div className='w-[100vw]  h-auto pt-10 py-10   bg-white flex justify-center font-bold text-[1.2rem]'>
       <div className='w-[85vw] flex flex-col gap-8'>
         {/* Section Header */}
         <HeaderSection />
@@ -52,7 +52,7 @@ const HeaderSection = () => (
 const CategorySlider = ({ settings }) => (
   <Slider {...settings}>
     {Data.map((item, index) => (
-      <div key={index} className='px-4 h-[30rem]'>
+      <div key={index} className='px-4 h-auto'>
         <div className='bg-white shadow-inner rounded-2xl border border-[#61dbd1]/40 h-[300px] w-[200px] mx-auto text-[#04211e] flex flex-col justify-center items-center gap-2 p-2 transform transition duration-300 hover:-translate-y-3 hover:scale-90'>
           
           {/* Icon Box */}

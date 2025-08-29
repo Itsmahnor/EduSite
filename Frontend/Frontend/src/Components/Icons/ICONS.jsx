@@ -37,8 +37,8 @@ export const ICONS = () => {
   };
 
   return (
-    <div className="w-[100vw] h-[30vh] md:pt-16 bg-[#04211e] flex justify-center text-[#098E68]">
-      <div className="w-full h-auto flex justify-around flex-wrap gap-10 bg-[#098E68] items-center">
+    <div className="w-[100vw] h-[30vh] mb-1 md:pt-16 bg-white flex justify-center text-[#098E68]">
+      <div className="w-full h-auto flex justify-around flex-wrap gap-10 bg-[#80e2da] items-center">
         {/* Slider or Grid */}
         <div className="lg:w-[70vw] w-[90vw]">
           {isSmallScreen ? (

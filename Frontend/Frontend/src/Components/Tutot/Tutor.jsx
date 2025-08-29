@@ -1,96 +1,62 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import TutorData from './Tutor.json';
-import { IoMdStar } from "react-icons/io";
-import { FaRegUserCircle } from "react-icons/fa";
-import { IoMdTime } from "react-icons/io";
 
 export const Tutor = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 600,
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 4000,
     arrows: false,
     responsive: [
-      {
-        breakpoint: 1507,
-        settings: { slidesToShow: 2 },
-      },
-      {
-        breakpoint: 610,
-        settings: { slidesToShow: 1 },
-      },
+      { breakpoint: 1507, settings: { slidesToShow: 3 } },
+      { breakpoint: 700, settings: { slidesToShow: 2 } },
+      { breakpoint: 610, settings: { slidesToShow: 1 } },
     ],
   };
 
   return (
-    <div className="w-[100vw] h-auto pt-40 pb-7 bg-[#04211e] flex justify-center text-[#098E68]">
-      <div className="w-[80vw] sm:w-100 h-auto flex justify-around flex-wrap gap-10">
+    <div className="w-[100vw] py-16 bg-white flex justify-center">
+      <div className="w-[85vw] flex flex-col items-center gap-12">
         {/* Section Header */}
-        <HeaderSection />
+        <div className="text-center">
+          <p className="text-[#04211e] text-lg font-semibold tracking-wide uppercase">Our Experts</p>
+          <h1 className="text-3xl md:text-4xl font-bold text-[#04211e]">Qualified Teachers</h1>
+        </div>
+
         {/* Slider */}
-        <div className="w-[80vw] sm:w-100">
-          <CategorySlider settings={settings} />
+        <div className="w-full">
+          <Slider {...settings}>
+            {TutorData.map((item, index) => (
+              <div key={index} className="px-3">
+                <div
+                  className="flex flex-col  items-center text-center 
+                  bg-white 
+                  "
+                >
+                 <div className='w-[180px] h-[180px] flex justify-center rounded-full items-center bg-sky-100 shadow-gray-500 '>
+                  <img
+                    src={item.img}
+                    alt="teacher"
+                    className="rounded-full w-[160px] h-[160px] object-cover  shadow-2xl  hover:scale-105 transition-transform duration-300"
+                  />
+                  </div> 
+                  <h2 className="text-lg font-bold mt-2 text-gray-800">{item.name}</h2>
+                  <p className="text-sky-500 font-medium ">Teacher</p>
+                  <p className="text-[#04211e] font-bold text-[1.3rem] ">{item.subject}</p>
+                  <p className="text-gray-900 text-xs">{item.description}</p>
+                </div>
+              </div>
+            ))}
+          </Slider>
         </div>
       </div>
     </div>
   );
 };
-
-// Header Section Component
-const HeaderSection = () => (
-  <div>
-    <p className="text-center animate text-[#ffffff]">IDEAL TUTOR EVERYONE</p>
-    <h1 className="md:text-[3rem] font-bold text-center animate text-[#ffffff]">Qualified Online Tutors</h1>
-  </div>
-);
-
-// Slider Component
-const CategorySlider = ({ settings }) => (
-  <Slider {...settings}>
-    {TutorData.map((item, index) => (
-      <div key={index} className="px-2"> {/* Add padding here */}
-        <div
-          className="h-auto flex justify-center items-center flex-col 
-          bg-[#098E68] hover:bg-[#056f52] rounded-3xl cursor-pointer 
-          text-center p-4 hover:border hover:border-[#ffffff] transition-all"
-        >
-          <h2 className="text-[#ffffff] mb-2">{item.name}</h2>
-          <p className="text-[#b8b8b8] font-bold mb-2 text-[1.2rem]">{item.subject}</p>
-          <p
-            className="text-[#ffffff] font-bold border border-[#ffffff] hover:text-[#ffffff] transition-all 
-            mx-auto py-2 px-12 rounded mb-2"
-          >
-            {item.course} COURSE
-          </p>
-          <div className="flex justify-center items-center w-full mt-7">
-            <img
-              src={item.img}
-              alt="img"
-              className="rounded-full w-[200px] h-[200px] object-cover"
-            />
-          </div>
-          <h3 className="text-[#ffffff] mb-2">{item.no}</h3>
-          <p className="text-[#b8b8b8] font-bold mb-3 text-[1.2rem]">{item.experience}</p>
-          <div className="flex justify-center items-center mt-3">
-            <span className="text-[#04211e] text-[1.5rem] mx-1">
-              <IoMdStar />
-            </span>
-            <span className="text-[#04211e] text-[1.5rem] mx-1">
-              <IoMdStar />
-            </span>
-            <span className="text-[#04211e] text-[1.5rem] mx-1">
-              <IoMdStar />
-            </span>
-          </div>
-        </div>
-      </div>
-    ))}
-  </Slider>
-);

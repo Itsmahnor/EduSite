@@ -1,61 +1,78 @@
-import React from 'react';
-import { BsArrowRightCircle } from "react-icons/bs";
-import { IoIosArrowDropright } from "react-icons/io";
-import { Link } from 'react-router-dom';
+import React from "react";
+import { FaCheckCircle } from "react-icons/fa";
+
 export const AboutMe = () => {
   return (
-    <div className="w-[100vw] h-auto pt-20 bg-[#04211e] flex justify-center text-[#ffffff] text-[1.2rem]">
-      <div className="w-100 lg:mx-28 mx-13 h-auto flex flex-wrap">
-        {/* img section */}
-        <div className="md:w-[50%] md:h-[70%] flex gap-7 flex-wrap justify-center items-center">
-          <div className="w-100 h-100 p-2 relative overflow-hidden text-center">
-            <img 
-              src="https://i1.rgstatic.net/ii/profile.image/1055204350885891-1628591730832_Q512/Dr-Hamid.jpg" 
-              alt="image" 
-              className="h-full w-full lg:object-contain filter brightness-75 transition duration-300 hover:brightness-50" 
-            />
-            <p className="absolute -bottom-3 right-36 flex justify-center items-center bg-[#098E68] px-3 rounded-lg text-[#ffffff] md:font-bold">
-              7 years of experience in teaching
-            </p>
-            <p className="absolute top-0 left-36 flex justify-center items-center bg-[#098E68] px-3 rounded-lg text-[#ffffff] md:font-bold">
-              Dr. Muhammad Hamid
-            </p>
-          </div>
-        </div>
-        {/* text section */}
-        <div className="md:w-[50%] p-5 h-auto flex justify-start flex-col">
-          <h3 className="text-[20px] font-bold text-[#ffffff]">About me</h3>
-          <h1 className="md:w-[30vw] md:text-[3rem] font-bold text-[#ffffff]">
-            Educated Over 30,000+ Students In Pakistan
-          </h1>
-          <p className="mt-2 text-[#b8b8b8]">
-            Over 30,000 Students Have Learned Under My Guidance, Many Of Whom Are Now Successfully Employed In Various Jobs Across Pakistan. I Have Also Completed 300+ Projects And Worked Alongside Industry Experts In The Field.
+    <div className="relative w-full bg-white py-5 flex justify-center overflow-hidden">
+      <div className="w-[70vw] max-w-[1200px] grid grid-cols-1 md:grid-cols-2 gap-6 items-center relative z-10">
+        
+        {/* Left Content */}
+        <div className="text-[#04211e] space-y-5 relative">
+          {/* Decorative circle behind "About Me" */}
+          <div className="absolute -top-6 -left-6 w-16 h-16 bg-[#61dbd1]/30 rounded-full -z-10"></div>
+          
+          {/* Small Heading */}
+          <p className="uppercase text-sm font-semibold text-[#61dbd1] relative inline-block">
+            About <span className="bg-[#61dbd1]/20 text-[#04211e] px-2 rounded-md">Me</span>
           </p>
-          <div className="mt-2 flex gap-2 items-center">
-            <div className="bg-[#098E68] rounded-full flex items-center justify-center">
-              <BsArrowRightCircle className="text-[#04211e]" />
+
+          {/* Main Heading */}
+          <h2 className="text-2xl md:text-4xl font-bold leading-snug">
+            Educated Over <span className="text-[#61dbd1]">10,000+</span> Students In Pakistan
+          </h2>
+
+          {/* Description */}
+          <p className="text-gray-600 text-sm md:text-base leading-relaxed">
+            I am passionate about empowering students with hands-on coding skills, 
+            IT services knowledge, and real-world problem-solving approaches. Over the past decade, 
+            I have mentored thousands of learners through structured programs, guiding them 
+            in mastering programming, development, and emerging technologies.
+          </p>
+
+          {/* Bullet Points */}
+          <ul className="space-y-2">
+            {[
+              "15+ years of teaching & coding experience",
+              "Delivered 10,000+ hours of training & mentorship",
+              "Specialized in Web Development, IT Services & Programming",
+            ].map((item, idx) => (
+              <li
+                key={idx}
+                className="flex items-center gap-2 text-sm md:text-base"
+              >
+                <FaCheckCircle className="text-[#61dbd1]" />
+                {item}
+              </li>
+            ))}
+          </ul>
+
+          {/* Button */}
+          <button className="mt-4 px-6 py-3 bg-[#61dbd1] text-white font-semibold rounded-lg shadow-md hover:bg-[#4cb6aa] transition">
+            Get More Info
+          </button>
+        </div>
+
+        {/* Right Content - Image with decoration */}
+        <div className="relative flex justify-center md:justify-end">
+          {/* Decorative rectangle behind image */}
+          <div className="absolute -bottom-6 -right-6 w-[150px] h-[200px] bg-[#29aea3] rounded-xl -z-10"></div>
+          {/* <div className="absolute -top-4 left-0 w-[120px] h-[100px] bg-[#4ff7e6] rounded-xl -z-10"></div> */}
+
+          {/* Main Image */}
+          <div className="relative">
+            <img
+              src="https://i1.rgstatic.net/ii/profile.image/1055204350885891-1628591730832_Q512/Dr-Hamid.jpg"
+              alt="about"
+              className="rounded-2xl shadow-lg object-cover w-full max-w-[400px] h-[400px]"
+            />
+            {/* Instructor Name Overlay */}
+            <div className="absolute -top-2 left-0 bg-[#04211e]/80 text-white text-sm md:text-base font-semibold px-3 py-1 rounded-lg shadow">
+              Dr. Muhammad Hamid
             </div>
-            <p className="mt-3 text-[#ffffff]">Helping students build their careers</p>
           </div>
-          <div className="flex gap-2 items-center">
-            <div className="bg-[#098E68] rounded-full flex items-center justify-center">
-              <BsArrowRightCircle className="text-[#04211e]" />
-            </div>
-            <p className="mt-3 text-[#ffffff]">Over 300+ successful projects</p>
-          </div>
-          <div className="flex gap-2 items-center">
-            <div className="bg-[#098E68] rounded-full flex items-center justify-center">
-              <BsArrowRightCircle className="text-[#04211e]" />
-            </div>
-            <p className="mt-3 text-[#ffffff]">Industry collaboration with experts</p>
-          </div>
-          <div className="flex gap-4 items-center mt-3">
-          <Link to="/instructors">
-            <div className="bg-[#098E68] rounded-full p-3 flex items-center justify-center">
-              <IoIosArrowDropright className="text-[#04211e]" />
-            </div></Link>
-            <p className="mt-3 text-[#ffffff]">Get more Info</p>
-          </div>
+
+          {/* Floating small circle */}
+          <div className="absolute -top-4 -left-16 w-8 h-8 bg-[#61dbd1] rounded-full shadow-lg"></div>
         </div>
       </div>
     </div>

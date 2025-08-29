@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding: 0;
@@ -83,9 +84,7 @@ select:-webkit-autofill {
 
 
 @media (max-width: 1730px) {
-  .hide {
-    display: flex;
-  }
+ 
   .bottom {
     width: 90vw;
   }
@@ -206,3 +205,10 @@ select:-webkit-autofill {
     }
     
 
+/* hero img */
+.hero-img {
+  background-image: linear-gradient(rgba(65, 211, 199, 0.7), rgba(97, 219, 209, 0.7)), url('assets/hero-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

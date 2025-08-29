@@ -1,42 +1,32 @@
 [
   {
-    "name":"Umair Farooqi",
-    "subject":"WP developer",
-    "course":15,
-    "img":"data:image/webp;base64,UklGRoACAABXRUJQVlA4IHQCAADQIwCdASrqABgBPp1IoU2lo64sIJQJOcATiWluul8KYeXovmHJACecG2beN32fIgPTirILFoSYfH5LJpnMtLUB7HrSKiMS8MixN4RT3CQ+f1g5dOB2Wsu3tKVENDEOG5nT6ZRUsJizlSEsqfFRIUv7LEx4aTspbgEwa43wbXmZwasjeZ1rDekd5jQsnH8dJ/FIo0qBgF5C+3bBHGk2rILoilv1BI3qYz4ztG4+8xhwN5Ga1tUyL5KtbmPBz9f3snVYPu06t/q0bM/zHA3MUSEOo6QlubPfcFGk7HdB0DmKSqP391UQGoBmI3YTHmD5PuRMRNb0dDiVpd0RZ47SlyIWZNM36BgQA6fBDsnWwIv4GFAQAZG1qeg86b6gR4QhlyE+DbLrVXNQAP7yBcm6DC9lHp/dW2vDOMwWD5290BH5dFco65FMmELGAY6dCv18ZzU2LG9eKrRZQdQ+K/7xdRAlA3QIOsawONzELs7eGjsohFomlHZjOfAc4lTF0SFP+Sl1HpSODSlR4GWHqKBHa+1imbp7VG9VQfRoU+qwBqVemI1LBa/FpuL0a965tLXr3RM4kRSdyMbiZRcY3G+Y/5q8S6tWFVYSxRpGOPBoMJiGn31++Qu1E1znfGfG9tKdc7u8jo04adbKos6ScSLD0w2+6dbIxVVDvM6d/EV4wwP8UuBKT75nBWvTUtHljdij+zC9j8dvtGa5d9MjGZ9hEMVLFTdURLni9L5grZTPov/bUXCUDz1A26OjqeFREOIi4RKJP8Slbohk309E9cJn/VOv1SHfKYvQOemwW7Yd1ijgU+sB97sysM7rtqMKN+DiFErkAAAA",
-    "no":"30k+ Students",
-    "experience":"5+ years experience"
+    "name": "Mahnoor",
+    "subject": "Frontend Development",
+    "description": "Expert in building modern, responsive web applications using React and Tailwind.",
+    "img": "https://randomuser.me/api/portraits/women/68.jpg"
   },
   {
-    "name":"Sumair",
-    "subject":"WordPress",
-    "course":2,
-    "img":"data:image/webp;base64,UklGRoACAABXRUJQVlA4IHQCAADQIwCdASrqABgBPp1IoU2lo64sIJQJOcATiWluul8KYeXovmHJACecG2beN32fIgPTirILFoSYfH5LJpnMtLUB7HrSKiMS8MixN4RT3CQ+f1g5dOB2Wsu3tKVENDEOG5nT6ZRUsJizlSEsqfFRIUv7LEx4aTspbgEwa43wbXmZwasjeZ1rDekd5jQsnH8dJ/FIo0qBgF5C+3bBHGk2rILoilv1BI3qYz4ztG4+8xhwN5Ga1tUyL5KtbmPBz9f3snVYPu06t/q0bM/zHA3MUSEOo6QlubPfcFGk7HdB0DmKSqP391UQGoBmI3YTHmD5PuRMRNb0dDiVpd0RZ47SlyIWZNM36BgQA6fBDsnWwIv4GFAQAZG1qeg86b6gR4QhlyE+DbLrVXNQAP7yBcm6DC9lHp/dW2vDOMwWD5290BH5dFco65FMmELGAY6dCv18ZzU2LG9eKrRZQdQ+K/7xdRAlA3QIOsawONzELs7eGjsohFomlHZjOfAc4lTF0SFP+Sl1HpSODSlR4GWHqKBHa+1imbp7VG9VQfRoU+qwBqVemI1LBa/FpuL0a965tLXr3RM4kRSdyMbiZRcY3G+Y/5q8S6tWFVYSxRpGOPBoMJiGn31++Qu1E1znfGfG9tKdc7u8jo04adbKos6ScSLD0w2+6dbIxVVDvM6d/EV4wwP8UuBKT75nBWvTUtHljdij+zC9j8dvtGa5d9MjGZ9hEMVLFTdURLni9L5grZTPov/bUXCUDz1A26OjqeFREOIi4RKJP8Slbohk309E9cJn/VOv1SHfKYvQOemwW7Yd1ijgU+sB97sysM7rtqMKN+DiFErkAAAA",
-    "no":"5k+ Students",
-    "experience":"2+ years experience"
+    "name": "Dr. Hamid",
+    "subject": "Artificial Intelligence",
+    "description": "Specialist in AI and machine learning, with a passion for research and innovation.",
+    "img": "https://randomuser.me/api/portraits/men/32.jpg"
   },
   {
-    "name":"Arsha Noor",
-    "subject":"Frontend Developer",
-    "course":2,
-    "img":"data:image/webp;base64,UklGRoACAABXRUJQVlA4IHQCAADQIwCdASrqABgBPp1IoU2lo64sIJQJOcATiWluul8KYeXovmHJACecG2beN32fIgPTirILFoSYfH5LJpnMtLUB7HrSKiMS8MixN4RT3CQ+f1g5dOB2Wsu3tKVENDEOG5nT6ZRUsJizlSEsqfFRIUv7LEx4aTspbgEwa43wbXmZwasjeZ1rDekd5jQsnH8dJ/FIo0qBgF5C+3bBHGk2rILoilv1BI3qYz4ztG4+8xhwN5Ga1tUyL5KtbmPBz9f3snVYPu06t/q0bM/zHA3MUSEOo6QlubPfcFGk7HdB0DmKSqP391UQGoBmI3YTHmD5PuRMRNb0dDiVpd0RZ47SlyIWZNM36BgQA6fBDsnWwIv4GFAQAZG1qeg86b6gR4QhlyE+DbLrVXNQAP7yBcm6DC9lHp/dW2vDOMwWD5290BH5dFco65FMmELGAY6dCv18ZzU2LG9eKrRZQdQ+K/7xdRAlA3QIOsawONzELs7eGjsohFomlHZjOfAc4lTF0SFP+Sl1HpSODSlR4GWHqKBHa+1imbp7VG9VQfRoU+qwBqVemI1LBa/FpuL0a965tLXr3RM4kRSdyMbiZRcY3G+Y/5q8S6tWFVYSxRpGOPBoMJiGn31++Qu1E1znfGfG9tKdc7u8jo04adbKos6ScSLD0w2+6dbIxVVDvM6d/EV4wwP8UuBKT75nBWvTUtHljdij+zC9j8dvtGa5d9MjGZ9hEMVLFTdURLni9L5grZTPov/bUXCUDz1A26OjqeFREOIi4RKJP8Slbohk309E9cJn/VOv1SHfKYvQOemwW7Yd1ijgU+sB97sysM7rtqMKN+DiFErkAAAA",
-    "no":"3k+ Students",
-    "experience":"1+ years experience"
+    "name": "Arsha Noor",
+    "subject": "UI/UX Design",
+    "description": "Creative designer focused on user-friendly interfaces and engaging digital experiences.",
+    "img": "https://randomuser.me/api/portraits/women/50.jpg"
   },
   {
-    "name":"Imran Noori",
-    "subject":"English Tutor",
-    "course":1,
-    "img":"data:image/webp;base64,UklGRoACAABXRUJQVlA4IHQCAADQIwCdASrqABgBPp1IoU2lo64sIJQJOcATiWluul8KYeXovmHJACecG2beN32fIgPTirILFoSYfH5LJpnMtLUB7HrSKiMS8MixN4RT3CQ+f1g5dOB2Wsu3tKVENDEOG5nT6ZRUsJizlSEsqfFRIUv7LEx4aTspbgEwa43wbXmZwasjeZ1rDekd5jQsnH8dJ/FIo0qBgF5C+3bBHGk2rILoilv1BI3qYz4ztG4+8xhwN5Ga1tUyL5KtbmPBz9f3snVYPu06t/q0bM/zHA3MUSEOo6QlubPfcFGk7HdB0DmKSqP391UQGoBmI3YTHmD5PuRMRNb0dDiVpd0RZ47SlyIWZNM36BgQA6fBDsnWwIv4GFAQAZG1qeg86b6gR4QhlyE+DbLrVXNQAP7yBcm6DC9lHp/dW2vDOMwWD5290BH5dFco65FMmELGAY6dCv18ZzU2LG9eKrRZQdQ+K/7xdRAlA3QIOsawONzELs7eGjsohFomlHZjOfAc4lTF0SFP+Sl1HpSODSlR4GWHqKBHa+1imbp7VG9VQfRoU+qwBqVemI1LBa/FpuL0a965tLXr3RM4kRSdyMbiZRcY3G+Y/5q8S6tWFVYSxRpGOPBoMJiGn31++Qu1E1znfGfG9tKdc7u8jo04adbKos6ScSLD0w2+6dbIxVVDvM6d/EV4wwP8UuBKT75nBWvTUtHljdij+zC9j8dvtGa5d9MjGZ9hEMVLFTdURLni9L5grZTPov/bUXCUDz1A26OjqeFREOIi4RKJP8Slbohk309E9cJn/VOv1SHfKYvQOemwW7Yd1ijgU+sB97sysM7rtqMKN+DiFErkAAAA",
-    "no":"4k+ Students",
-    "experience":"7+ years experience"
+    "name": "Imran Noori",
+    "subject": "English Tutor",
+    "description": "Dedicated English teacher helping students improve communication and writing skills.",
+    "img": "https://randomuser.me/api/portraits/men/41.jpg"
   },
   {
-    "name":"Mr. Altaf",
-    "subject":"Freelancing",
-    "course":3,
-    "img":"data:image/webp;base64,UklGRoACAABXRUJQVlA4IHQCAADQIwCdASrqABgBPp1IoU2lo64sIJQJOcATiWluul8KYeXovmHJACecG2beN32fIgPTirILFoSYfH5LJpnMtLUB7HrSKiMS8MixN4RT3CQ+f1g5dOB2Wsu3tKVENDEOG5nT6ZRUsJizlSEsqfFRIUv7LEx4aTspbgEwa43wbXmZwasjeZ1rDekd5jQsnH8dJ/FIo0qBgF5C+3bBHGk2rILoilv1BI3qYz4ztG4+8xhwN5Ga1tUyL5KtbmPBz9f3snVYPu06t/q0bM/zHA3MUSEOo6QlubPfcFGk7HdB0DmKSqP391UQGoBmI3YTHmD5PuRMRNb0dDiVpd0RZ47SlyIWZNM36BgQA6fBDsnWwIv4GFAQAZG1qeg86b6gR4QhlyE+DbLrVXNQAP7yBcm6DC9lHp/dW2vDOMwWD5290BH5dFco65FMmELGAY6dCv18ZzU2LG9eKrRZQdQ+K/7xdRAlA3QIOsawONzELs7eGjsohFomlHZjOfAc4lTF0SFP+Sl1HpSODSlR4GWHqKBHa+1imbp7VG9VQfRoU+qwBqVemI1LBa/FpuL0a965tLXr3RM4kRSdyMbiZRcY3G+Y/5q8S6tWFVYSxRpGOPBoMJiGn31++Qu1E1znfGfG9tKdc7u8jo04adbKos6ScSLD0w2+6dbIxVVDvM6d/EV4wwP8UuBKT75nBWvTUtHljdij+zC9j8dvtGa5d9MjGZ9hEMVLFTdURLni9L5grZTPov/bUXCUDz1A26OjqeFREOIi4RKJP8Slbohk309E9cJn/VOv1SHfKYvQOemwW7Yd1ijgU+sB97sysM7rtqMKN+DiFErkAAAA",
-    "no":"6k+ Students",
-    "experience":"8+ years experience"
+    "name": "Mr. Altaf",
+    "subject": "Freelancing & Business",
+    "description": "Guides students in freelancing, entrepreneurship, and online business strategies.",
+    "img": "https://randomuser.me/api/portraits/men/23.jpg"
   }
 ]

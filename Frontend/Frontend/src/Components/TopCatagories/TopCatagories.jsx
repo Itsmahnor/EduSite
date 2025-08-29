@@ -6,41 +6,29 @@ import "slick-carousel/slick/slick-theme.css";
 
 export const TopCatagories = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
-    speed: 500,
+    speed: 700,
     slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 4000,
     arrows: false,
     responsive: [
-      {
-        breakpoint: 1576,
-        settings: { slidesToShow: 4 },
-      },
-      {
-        breakpoint: 1188,
-        settings: { slidesToShow: 3 },
-      },
-      {
-        breakpoint: 942,
-        settings: { slidesToShow: 2 },
-      },
-      {
-        breakpoint: 600,
-        settings: { slidesToShow: 1 },
-      },
+      { breakpoint: 1576, settings: { slidesToShow: 4 } },
+      { breakpoint: 1188, settings: { slidesToShow: 3 } },
+      { breakpoint: 942, settings: { slidesToShow: 2 } },
+      { breakpoint: 600, settings: { slidesToShow: 1 } },
     ],
   };
 
   return (
-    <div className='w-[100vw] lg:h-[90vh] pt-5 bg-[#04211e] flex justify-center text-[#ffffff] font-bold text-[1.2rem]'>
-      <div className='w-[80vw] h-auto flex justify-around flex-wrap gap-3 flex-col'>
+    <div className='w-[100vw]  h-[100vh] pt-10 py-10  bg-white flex justify-center font-bold text-[1.2rem]'>
+      <div className='w-[85vw] flex flex-col gap-8'>
         {/* Section Header */}
         <HeaderSection />
         {/* Slider Component */}
-        <div className='w-[80vw]  '>
+        <div className='w-full'>
           <CategorySlider settings={settings} />
         </div>
       </div>
@@ -50,10 +38,12 @@ export const TopCatagories = () => {
 
 // Header Section Component
 const HeaderSection = () => (
-  <div>
-    <p className='text-center text-[#ffffff] animate'>OUR TOP CATEGORIES</p>
-    <h1 className='md:text-[3rem] font-bold text-center text-[#ffffff] animate'>
-      Browse Learn Skills You Need
+  <div className="text-center">
+    <p className='text-[#04211e] text-[0.9rem] md:text-[1rem] tracking-wider uppercase animate'>
+      OUR TOP CATEGORIES
+    </p>
+    <h1 className='md:text-[2.5rem] text-[1.5rem] font-extrabold text-[#04211e] leading-tight animate'>
+      EMPOWERING SKILLS FOR TOMORROW
     </h1>
   </div>
 );
@@ -62,13 +52,24 @@ const HeaderSection = () => (
 const CategorySlider = ({ settings }) => (
   <Slider {...settings}>
     {Data.map((item, index) => (
-      <div key={index} className='w-[240px] sm:w-[200px] h-[350px] '>
-        <div className='bg-[#098E68] rounded-[40%] border-[3px] border-dotted border-[#ffffff] h-[330px] w-[240px] text-[#04211e] flex flex-col justify-center items-center gap-3 p-4'>
-          <div className='w-[150px] h-[150px] flex justify-center items-center border-[3px] border-dashed text-white border-[#ffffff] bg-[#04211e]   rounded-full'>
-            <span className='text-[3rem]'>{item.img}</span>
+      <div key={index} className='px-4 h-[30rem]'>
+        <div className='bg-white shadow-inner rounded-2xl border border-[#61dbd1]/40 h-[300px] w-[200px] mx-auto text-[#04211e] flex flex-col justify-center items-center gap-2 p-2 transform transition duration-300 hover:-translate-y-3 hover:scale-90'>
+          
+          {/* Icon Box */}
+          <div className='w-[100px] h-[100px] flex justify-center items-center text-white bg-gradient-to-tr from-[#61dbd1] to-[#42a199] rounded-2xl shadow-sm'>
+            <span className='text-[2rem]'>{item.img}</span>
           </div>
-          <h4 className='text-[#ffffff]'>{item.title}</h4>
-          <p className='text-[#04211e]'>{item.Para}</p>
+          
+          {/* Title */}
+          <h4 className='text-[#04211e] text-lg font-semibold text-center'>
+            {item.title}
+          </h4>
+          
+          {/* Description */}
+          <p className='text-[#04211e] text-sm text-center leading-relaxed opacity-80'>
+            {item.Para}
+          </p>
+         
         </div>
       </div>
     ))}

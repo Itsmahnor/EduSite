@@ -25,12 +25,12 @@ function ScrollToTopButton() {
   return (
     <div
       onClick={handleScrollToTop}
-      className={`fixed bottom-4 right-4 w-[50px] h-[50px] flex items-center justify-center bg-white text-[#04211e] rounded cursor-pointer ${
+      className={`fixed bottom-4 right-4 w-[40px] h-[40px] flex items-center justify-center bg-sky-200 text-[#04211e] rounded cursor-pointer ${
         show ? "block" : "hidden"
       }`}
       style={{ zIndex: 50 }}
     >
-      <FaArrowUpLong className="w-[30px] h-[30px]" />
+      <FaArrowUpLong className="w-[20px] h-[20px]" />
     </div>
   );
 }

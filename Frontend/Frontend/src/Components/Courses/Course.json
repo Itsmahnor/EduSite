@@ -1,20 +1,26 @@
 [
   {
-    "img":"https://www.shutterstock.com/image-photo/profile-side-view-portrait-beautiful-260nw-2148238991.jpg",
-"rupees":30000,
-"title":"PHP Laravel Development",
-"duration":6
+    "img": "https://preview.colorlib.com/theme/ezuca/images/1.jpg",
+    "title": "Full Stack Development",
+    "duration": 6,
+    "description": "Master frontend and backend  with modern frameworks and databases."
   },
   {
-    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Yob8S56T9_RXhMqg_RKy5Npf-dfAkZ_LFA&s",
-    "rupees":25000,
-"title":"Mern Stack Web Development",
-"duration":4
+    "img": "https://preview.colorlib.com/theme/ezuca/images/2.jpg",
+    "title": "Web Development with AI & Python",
+    "duration": 5,
+    "description": "Build intelligent web applications by integrating AI and Python automation."
   },
   {
-    "img":"https://th.bing.com/th/id/OIP.N24PTqHmfYF2MKtnatUvAwHaFj?w=225&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3",
-    "rupees":25000,
-"title":"App Development",
-"duration":4
+    "img": "https://preview.colorlib.com/theme/ezuca/images/3.jpg",
+    "title": "Frontend Development with React",
+    "duration": 3,
+    "description": "Learn React, TailwindCSS, and modern UI practices for professional frontends."
+  },
+  {
+    "img": "https://preview.colorlib.com/theme/ezuca/images/4.jpg",
+    "title": "Data Science & Machine Learning",
+    "duration": 6,
+    "description": "Gain skills in data analysis, visualization, and machine learning algorithms."
   }
 ]

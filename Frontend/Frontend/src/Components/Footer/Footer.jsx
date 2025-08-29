@@ -1,90 +1,70 @@
 import React from 'react';
 import { FaFacebook, FaInstagramSquare, FaWhatsapp } from "react-icons/fa";
-import logo from '../Navbar/Images/logo.png';
+
 const Footer = () => {
   return (
-    <footer className="pt-8 text-white text-lg" style={{ backgroundColor: "#04211e" }}>
-      {/* Footer Content */}
-      <div className="container mx-auto p-10">
-        <div className="flex flex-wrap justify-between">
-          {/* Left Section: Logo and Description */}
-          <div className="w-full md:w-1/3 mb-8">
-            <div className="mb-4">
-              <p className='font-extrabold text-[2.4rem]'>ProLernoX</p>
-            </div>
-            <p className="mb-4 text-light-gray">
-              We work for the betterment of society by training its people in the field of Information Technology and other technologies. We envision making this company an opportunity hub to reduce unemployment.
+    <footer className="bg-[#80e2da] text-[#04211e]">
+      {/* Top Content */}
+      <div className="container mx-auto px-6 lg:px-12 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+          
+          {/* Left Section: Logo + About */}
+          <section>
+            {/* Logo Section */}
+       <p className='text-[1.8rem] text-white font-extrabold'>Pro<span className='text-[#04211e]'>LernoX</span></p>
+
+            <p className="text-sm leading-relaxed mb-6">
+              We work for the betterment of society by training people in IT and other technologies. 
+              Our vision is to create opportunities and reduce unemployment.
             </p>
-            <p className="flex items-center mb-2">
-              <i className="bi bi-telephone-fill mr-2"></i> +923276381819
+            <p className="text-sm mb-2">
+              <i className="bi bi-telephone-fill mr-2"></i> +92 327 6381819
             </p>
-            <p className="flex items-center">
+            <p className="text-sm">
               <i className="bi bi-envelope-fill mr-2"></i> info@ProLernoX.pk
             </p>
-          </div>
+          </section>
 
-          {/* Middle Section: Study Links */}
-          <div className="w-full md:w-1/6 mb-8">
-            <h5 className="text-neon-green mb-4 ml-5">Study Links</h5>
-            <ul className="list-none space-y-3">
-              <li><a href="#" className="text-white hover:text-neon-green">Opportunities</a></li>
-              <li><a href="#" className="text-white hover:text-neon-green">All Courses</a></li>
-              <li><a href="#" className="text-white hover:text-neon-green">About Us</a></li>
-              <li><a href="#" className="text-white hover:text-neon-green">Become Tutor</a></li>
+          {/* Study Links */}
+          <section>
+            <h5 className="font-semibold text-lg mb-4">Study Links</h5>
+            <ul className="space-y-2 text-sm">
+              <li><a href="#" className="hover:text-gray-900 text-black">Opportunities</a></li>
+              <li><a href="#" className="hover:text-gray-900 text-black">All Courses</a></li>
+              <li><a href="#" className="hover:text-gray-900 text-black">About Us</a></li>
+              <li><a href="#" className="hover:text-gray-900 text-black">Become Tutor</a></li>
             </ul>
-          </div>
+          </section>
 
-          {/* Middle Section: Quick Links */}
-          <div className="w-full md:w-1/6 mb-8">
-            <h5 className="text-neon-green mb-4 ml-5">Quick Links</h5>
-            <ul className="list-none space-y-3">
-              <li><a href="#" className="text-white hover:text-neon-green">Community</a></li>
-              <li><a href="#" className="text-white hover:text-neon-green">Support</a></li>
-              <li><a href="#" className="text-white hover:text-neon-green">Terms | Privacy</a></li>
+          {/* Quick Links */}
+          <section>
+            <h5 className="font-semibold text-lg mb-4">Quick Links</h5>
+            <ul className="space-y-2 text-sm">
+              <li><a href="#" className="hover:text-gray-900 text-black">Community</a></li>
+              <li><a href="#" className="hover:text-gray-900 text-black">Support</a></li>
+              <li><a href="#" className="hover:text-gray-900 text-black">Terms & Privacy</a></li>
             </ul>
-          </div>
+          </section>
 
           {/* Right Section: Trusted Institutes */}
-          <div className="w-full md:w-1/3">
-            <h5 className="text-neon-green mb-4">Trusted Institute:</h5>
-
-            {/* FBR Section */}
-            <div className="flex items-center gap-2 mb-4">
-              <div className="flex-shrink-0 w-16 sm:w-24 md:w-28 lg:w-32">
-                {/* <img
-                  src="https://skillseducation.pk/assets/skillsimages/nav-courses-images/fbr%20logo.png"
-                  alt="FBR Logo"
-                  className="w-full h-auto"
-                /> */}
-              </div>
-              <p className="m-0">Registered by FBR</p>
+          <section>
+            <h5 className="font-semibold text-lg mb-4">Trusted Institute</h5>
+            <div className="space-y-4 text-sm">
+              <p>✔ Registered by FBR</p>
+              <p>✔ Registered by SECP</p>
             </div>
-
-            {/* SECP Section */}
-            <div className="flex items-center gap-3">
-              <div className="flex-shrink-0 w-16 sm:w-24 md:w-28 lg:w-28">
-                {/* <img
-                  src="https://skillseducation.pk/assets/skillsimages/nav-courses-images/sssss.png"
-                  alt="SECP Logo"
-                  className="w-full h-auto"
-                /> */}
-              </div>
-              <p className="m-0">Registered by SECP</p>
-            </div>
-          </div>
+          </section>
         </div>
       </div>
 
-      {/* Bottom Section */}
-      <div className="py-4 text-[1.2rem] text-black" style={{ backgroundColor: "#098E68" }}>
-        <div className="container mx-auto flex justify-between items-center">
-          <p className="mb-0">
-            © 2024 ProLernoX. All Rights Reserved.
-          </p>
-          <div className="flex space-x-6">
-            <a href="#" className="text-black hover:text-gray-300"><FaFacebook /> </a>
-            <a href="#" className="text-black hover:text-gray-300"><FaInstagramSquare /></a>
-            <a href="#" className="text-black hover:text-gray-300"><FaWhatsapp /></a>
+      {/* Bottom Bar */}
+      <div className="bg-white text-black py-2">
+        <div className="container mx-auto flex flex-col md:flex-row justify-between items-center text-sm px-6 lg:px-12">
+          <p>© 2024 ProLernoX. All Rights Reserved.</p>
+          <div className="flex space-x-6 mt-4 md:mt-0 text-xl">
+            <a href="#" className="hover:text-gray-600"><FaFacebook /></a>
+            <a href="#" className="hover:text-gray-600"><FaInstagramSquare /></a>
+            <a href="#" className="hover:text-gray-600"><FaWhatsapp /></a>
           </div>
         </div>
       </div>

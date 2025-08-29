@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Course from "./Course.json";
 import { IoMdStar } from "react-icons/io";
+import { Link } from "react-router";
 
 export const Courses = () => {
   const settings = {
@@ -30,7 +31,7 @@ export const Courses = () => {
             Featured Courses
           </h1>
           <button className="px-5 py-2 text-[0.8rem] sm:text-[1rem] border border-[#04211e] text-[#04211e] font-semibold rounded hover:bg-[#61dbd1] hover:text-white transition">
-            View All
+         <Link  to={'/findProgram'}>View All</Link>   
           </button>
         </div>
 

@@ -17,7 +17,7 @@ export const SearchProgram = () => {
   );
 
   return (
-    <div className="w-full min-h-screen pt-10 bg-[#04211e] flex justify-center ">
+    <div className="w-full min-h-screen pt-10 bg-white flex justify-center ">
       <div className="w-[90%] flex flex-col gap-y-10">
         <div className="lg:w-[80%] w-full mx-auto">
           {/* Search Input and Dropdown */}
@@ -25,32 +25,30 @@ export const SearchProgram = () => {
             <input
               type="text"
               placeholder="Search Course..."
-              className="bg-transparent w-full md:w-[60%] lg:w-[50%] px-5 py-3 placeholder-white border rounded-full text-white focus:outline-none"
+              className="bg-transparent w-full md:w-[60%]  lg:w-[50%] px-5 py-3 placeholder-[#04211e] border rounded-full text-[#04211e] focus:outline-none"
               onChange={(e) => setSearchTerm(e.target.value)}
             />
-            <div className="w-full md:w-auto flex items-center bg-[#098E68] rounded-lg text-white px-4">
+            <div className="w-full md:w-auto flex items-center bg-[#52cac0] rounded-lg text-[#04211e] px-4">
               <select
                 className="w-full md:w-auto py-2 bg-transparent focus:outline-none text-white"
                 value={selectedCategory}
                 onChange={(e) => setSelectedCategory(e.target.value)}
               >
-                <option value="" className="bg-[#098E68] text-white font-bold">
+                <option value="" className="bg-[#80e2da] text-[#04211e] font-bold">
                   Select a Category
                 </option>
-                <option value="frontend" className="bg-[#098E68] text-white">
+                <option value="frontend" className="bg-[#80e2da] text-[#04211e]">
                   Frontend
                 </option>
-                <option value="backend" className="bg-[#098E68] text-white">
+                <option value="backend" className="bg-[#80e2da] text-[#04211e]">
                   Backend
                 </option>
-                <option value="fullstack" className="bg-[#098E68] text-white">
+                <option value="fullstack" className="bg-[#80e2da] text-[#04211e]">
                   Fullstack
                 </option>
-                <option value="mobile" className="bg-[#098E68] text-white">
-                  Mobile
-                </option>
-                <option value="ecommerce" className="bg-[#098E68] text-white">
-                  E-commerce
+               
+                <option value="Artificial Intelligence" className="bg-[#80e2da] text-[#04211e]">
+                 Artificial Intelligence
                 </option>
               </select>
             </div>
@@ -66,18 +64,18 @@ export const SearchProgram = () => {
 
 // Grid Component
 const CategoryGrid = ({ courses }) => (
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 py-10 search place-items-center">
+  <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-5 py-10 search place-items-center">
     {courses.length > 0 ? (
       courses.map((item, index) => (
         <div
           key={index}
-          className="w-full sm:w-[350px] lg:w-[420px] h-auto bg-[#098E68] rounded-3xl shadow-lg hover:scale-105 transition-transform"
+          className="w-full sm:w-[350px] lg:w-[400px] h-auto bg-[#47a49c] rounded-3xl shadow-lg hover:scale-105 transition-transform"
         >
           <div className="m-4">
             <img
               src={item.img}
               alt={item.title}
-              className="w-full h-[200px] sm:h-[250px] lg:h-[350px] object-cover rounded-2xl"
+              className="w-full h-[200px] sm:h-[250px] lg:h-[150px] object-cover rounded-2xl"
             />
             <div className="flex justify-between mt-3">
               <div className="flex gap-1">
@@ -99,7 +97,7 @@ const CategoryGrid = ({ courses }) => (
           <div className="m-4 flex justify-between flex-wrap gap-4">
             <div className="flex gap-1 text-white items-center">
               <FaRegUserCircle className="text-lg" />
-              <span>By: Umair Farooqi</span>
+              <span>By: Dr. Muhammad Hamid</span>
             </div>
             <div className="flex gap-1 text-white items-center">
               <IoMdTime className="text-lg" />

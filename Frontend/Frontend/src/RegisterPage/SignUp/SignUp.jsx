@@ -81,7 +81,7 @@ const SignUp = () => {
       try {
         // Adjust the URL as necessary
         const response = await axios.post(`${window.location.origin}/api/viv/register`, formData);
-        alert('Form submitted successfully: ' + response.data.message);
+        alert('Form submitted successfully');
         setFormData({
           fullName: '',
           email: '',
@@ -107,8 +107,8 @@ const SignUp = () => {
   const selectedCategoryData = coursesData.find(cat => cat.category === formData.category);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#04211e] overflow-hidden">
-      <div className="w-full max-w-md bg-[#098E68] p-8 rounded-lg shadow-lg">
+    <div className="min-h-screen flex items-center justify-center bg-white overflow-hidden">
+      <div className="w-full max-w-md bg-[#80e2da] my-20 p-8 rounded-lg shadow-lg">
         <h1 className="text-center text-3xl font-bold text-[#ffffff] mb-6">SIGN UP</h1>
         <form className="space-y-5" onSubmit={handleSubmit}>
           {/* Full Name */}
@@ -301,7 +301,7 @@ const SignUp = () => {
           <div className="text-center">
             <button
               type="submit"
-              className="w-full py-3 bg-[#04211e] text-[#098E68] rounded-lg font-bold hover:bg-[#031a15] transition-all"
+              className="w-full py-3 bg-[#06a5a3] uppercase text-white rounded-lg font-bold hover:bg-[#031a15] transition-all"
               disabled={isSubmitting}
             >
               {isSubmitting ? "Submitting..." : "Submit"}

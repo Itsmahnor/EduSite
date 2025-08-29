@@ -10,7 +10,7 @@ export const TopNav = () => {
         
         {/* Left Side */}
         <div className='hideRes flex'>
-          <p className='text-[1rem]  md:pt-2  text-[#098E68] '>
+          <p className='text-[1rem]  md:pt-2  text-[#04211e] '>
             +923276381819 | info@ProLernoX.pk
           </p>
         </div>
@@ -18,7 +18,7 @@ export const TopNav = () => {
         {/* Right Side */}
         <div className='flex gap-8 justify-center items-center '>
           <Link to="/register">
-            <div className="flex gap-2 justify-center text-[#098E68] items-center cursor-pointer ">
+            <div className="flex gap-2 justify-center text-[#04211e] items-center cursor-pointer ">
               <FaRegUserCircle />
               <p className='text-[1rem] pt-2'>Register</p>
             </div>
@@ -29,7 +29,7 @@ export const TopNav = () => {
             {[FaFacebookF, FaInstagram, FaWhatsapp, SiGmail].map((Icon, index) => (
               <Icon
                 key={index}
-                className='text-[#098E68] cursor-pointer transition-all duration-100 ease-in-out p-1 rounded-full hover:text-white hover:bg-[#098E68] hover:p-5'
+                className='text-[#04211e] cursor-pointer transition-all duration-100 ease-in-out p-1 rounded-full hover:text-white hover:bg-[#098E68] hover:p-5'
                 size={22}
               />
             ))}

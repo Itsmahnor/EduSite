@@ -60,7 +60,7 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="bg-white text-black py-2">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center text-sm px-6 lg:px-12">
-          <p>© 2024 ProLernoX. All Rights Reserved.</p>
+          <p className='pt-4'>© 2024 ProLernoX. All Rights Reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0 text-xl">
             <a href="#" className="hover:text-gray-600"><FaFacebook /></a>
             <a href="#" className="hover:text-gray-600"><FaInstagramSquare /></a>

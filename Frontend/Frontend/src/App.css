@@ -171,7 +171,7 @@ select:-webkit-autofill {
     .breadcrumb-wrapper {
       position: relative; /* Needed for the pseudo-element to position properly */
       overflow: hidden; /* Ensures the shimmer stays within the element's boundaries */
-      background-color: #098E68; /* Placeholder background (light gray) */
+      background-color: #06a5a3; /* Placeholder background (light gray) */
     
       padding: 20px; /* Adds some spacing */
      

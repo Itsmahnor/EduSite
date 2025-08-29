@@ -16,7 +16,7 @@ export const WhyChooseUs = () => {
     <Header />
   <WhyChoose />
 
-<Opportunities />
+{/* <Opportunities /> */}
 <ICONS />
 <Footer />
     </>

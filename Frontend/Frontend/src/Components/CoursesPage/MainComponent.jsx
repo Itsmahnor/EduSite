@@ -29,12 +29,12 @@ export const MainContent = ({ courses }) => {
       <TopNav />
       <BottomNav />
 
-      <div className="w-full bg-[#04211e] text-white">
+      <div className="w-full  text-white ">
         {selectedCourse ? (
           <>
             {/* HEADER (same as you said) */}
             <div className="breadcrumb-wrapper md:h-[50vh] flex justify-center items-center flex-col">
-              <h1 className="text-white font-bold text-4xl">
+              <h1 className="text-white font-bold text-4xl text-center" >
                 {selectedCourse.header.title}
               </h1>
               <p
@@ -46,8 +46,8 @@ export const MainContent = ({ courses }) => {
             </div>
 
             {/* MAIN SECTION */}
-            <div className="w-full flex justify-center pt-16 bg-white">
-              <div className="md:w-[90%] flex lg:flex-row flex-col gap-10">
+            <div className="w-full flex justify-center pt-16 p-6 bg-white">
+              <div className="md:w-[80%] flex lg:flex-row flex-col gap-10">
 
                 {/* LEFT CONTENT */}
                 <div className="lg:w-[65%]">

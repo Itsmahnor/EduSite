@@ -207,11 +207,15 @@ export const BottomNav = () => {
                 <ul className="flex flex-col gap-6 text-[1.2rem]">
                   <Link to="/">
                     <li className="hover:text-white text-white cursor-pointer">Home</li>
+                    {/* <br className='h-3 text-black' /> */}
+                  </Link>
+                   <Link to="/findprogram">
+                    <li className="hover:text-white text-white cursor-pointer">Courses</li>
                   </Link>
                   
 
                   {/* Courses Dropdown in Offcanvas */}
-                  <li className="flex flex-col w-full">
+                  {/* <li className="flex flex-col w-full">
                     <div className="flex items-center justify-between text-white cursor-pointer" onClick={() => setShowCourses(!showCourses)}>
                       <span>Courses</span>
                       {showCourses ? <MdOutlineKeyboardArrowDown /> : <FaPlus />}
@@ -238,7 +242,7 @@ export const BottomNav = () => {
                         ))}
                       </ul>
                     )}
-                  </li>
+                  </li> */}
 
                   {/* Opportunities Dropdown in Offcanvas */}
                   {/* <li className="flex flex-col w-full">
@@ -289,7 +293,7 @@ export const BottomNav = () => {
                   </Link>
                  <Link to="/findProgram">
   <li className='list-none'>
-    <div className='flex gap-1 justify-center items-center bg-white px-7 py-4 rounded-full transition-colors'>
+    {/* <div className='flex gap-1 justify-center items-center bg-white px-7 py-4 rounded-full transition-colors'>
       <span>
         <PiGraduationCapBold className='text-[1.6rem] text-sky-700' />
       </span>
@@ -297,7 +301,7 @@ export const BottomNav = () => {
         <PiLineVerticalLight className='text-[2rem] text-sky-700' />
       </span>
       <span className='text-[1rem] text-sky-700'>Find Program</span>
-    </div>
+    </div> */}
   </li>
 </Link>
 

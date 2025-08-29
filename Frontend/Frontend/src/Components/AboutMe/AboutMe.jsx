@@ -3,7 +3,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 export const AboutMe = () => {
   return (
-    <div className="relative w-full bg-white py-5 flex justify-center overflow-hidden">
+    <div className="relative w-full bg-white py-2 flex justify-center overflow-hidden">
       <div className="w-[70vw] max-w-[1200px] grid grid-cols-1 md:grid-cols-2 gap-6 items-center relative z-10">
         
         {/* Left Content */}

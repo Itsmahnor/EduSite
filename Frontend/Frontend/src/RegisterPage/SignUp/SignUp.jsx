@@ -236,9 +236,9 @@ const SignUp = () => {
                 name="programmingBackground"
                 value={formData.programmingBackground}
                 onChange={handleChange}
-                className="flex-grow py-2 bg-transparent placeholder-[#b8b8b8] focus:outline-none"
+                className="flex-grow py-2 bg-transparent text-[0.7rem] sm:text-[1rem] placeholder-[#b8b8b8] focus:outline-none"
               >
-                <option value="" disabled>
+                <option value="" disabled className=''>
                   Do you have Programming Background?
                 </option>
                 <option value="yes">Yes</option>

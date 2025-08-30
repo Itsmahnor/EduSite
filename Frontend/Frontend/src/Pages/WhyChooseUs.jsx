@@ -7,6 +7,8 @@ import WhyChoose from '../Components/ChooseUS/Content'
 import Opportunities from '../Components/ChooseUS/slider'
 import Footer from '../Components/Footer/Footer'
 import { ICONS } from '../Components/Icons/Icons'
+import { Tutor } from '../Components/Tutot/Tutor'
+import { ServicesList } from '../Components/ServicesList'
 
 export const WhyChooseUs = () => {
   return (
@@ -15,7 +17,8 @@ export const WhyChooseUs = () => {
     <BottomNav />
     <Header />
   <WhyChoose />
-
+<Tutor />
+<ServicesList />
 {/* <Opportunities /> */}
 <ICONS />
 <Footer />

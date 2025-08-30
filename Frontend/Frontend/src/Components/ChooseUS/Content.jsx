@@ -25,19 +25,20 @@ const WhyChoose = () => {
         {/* Right Side - Text Content */}
         <div>
           <h2 className="text-4xl font-bold text-[#04211e]">
-            Skills Education and Training
-          </h2>
-          <h3 className="text-2xl font-semibold text-[#04211e] mt-4">
-            Online Courses Web Development & App Development
-          </h3>
-          <p className="mt-6 leading-relaxed text-[#04211e]">
-            Our institute provides high-quality online development courses in
-            marketing and app development, designed to equip you with the latest
-            skills in the industry. Whether you are looking to build a career in
-            digital marketing or mobile app development, our specialized
-            certifications and programs offer practical knowledge and hands-on
-            experience to help you succeed.
-          </p>
+  Skills, Education, and Training
+</h2>
+<h3 className="text-2xl font-semibold text-[#04211e] mt-4">
+  Online Courses in Web & Software Development
+</h3>
+<p className="mt-6 leading-relaxed text-[#04211e]">
+  At <span className="font-semibold">ProLernoX</span>, we offer professional online 
+  training programs in web development, software engineering, and emerging technologies. 
+  Our courses are designed to provide a strong foundation along with hands-on projects, 
+  ensuring you gain both theoretical knowledge and practical expertise. Whether you want 
+  to become a front-end developer, full-stack engineer, or explore the latest AI-powered 
+  tools, our programs prepare you for real-world challenges.
+</p>
+
           {/* <ul className="mt-6 space-y-2 text-sky-700 font-medium">
             <li>✓ Specialized certifications in marketing and app development</li>
             <li>✓ Flexible online programs for busy professionals</li>

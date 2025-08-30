@@ -2,9 +2,17 @@ import React from 'react'
 
 export const Header = () => {
   return (
-    <div class="breadcrumb-wrapper md:h-[50vh] flex justify-center items-center flex-col ">
- <h1 className='text-white font-bold'>Our Tutors</h1>
- <p className='w-[70vw] text-white'>At <span className='bg-[#04211e] text-white p-1'>ProLernoX</span>we are proud to have a team of expert tutors who are passionate about helping students achieve their goals. Our tutors bring years of experience, industry knowledge, and a commitment to delivering high-quality education. Whether you're learning online or in person, you can trust that our tutors will provide personalized support and guidance throughout your learning journey.</p>
-  </div>
+    <div className="breadcrumb-wrapper md:h-[50vh] flex justify-center items-center flex-col text-center  px-6">
+      <h1 className="text-white font-bold text-3xl md:text-4xl">Our Services</h1>
+      <p className="md:w-[70vw] w-[85vw] text-white mt-4">
+        At <span className="bg-sky-900 text-white p-1 rounded">ProLernoX</span>, we provide 
+        a wide range of digital solutions designed to help businesses and learners succeed. 
+        From <strong>web development</strong> and <strong>application development</strong> to 
+        <strong> AI integration</strong>, <strong>chatbot solutions</strong>, and 
+        <strong> machine learning</strong>, our services are tailored to meet modern 
+        industry demands. With a focus on quality, innovation, and scalability, we ensure 
+        that every solution delivers real value and long-term growth.
+      </p>
+    </div>
   )
 }

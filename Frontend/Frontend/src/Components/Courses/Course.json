@@ -2,13 +2,13 @@
   {
     "img": "https://preview.colorlib.com/theme/ezuca/images/1.jpg",
     "title": "Full Stack Development",
-    "duration": 6,
+    "duration": 3,
     "description": "Master frontend and backend  with modern frameworks and databases."
   },
   {
     "img": "https://preview.colorlib.com/theme/ezuca/images/2.jpg",
     "title": "Web Development with AI & Python",
-    "duration": 5,
+    "duration": 3,
     "description": "Build intelligent web applications by integrating AI and Python automation."
   },
   {
@@ -20,7 +20,7 @@
   {
     "img": "https://preview.colorlib.com/theme/ezuca/images/4.jpg",
     "title": "Data Science & Machine Learning",
-    "duration": 6,
+    "duration": 3,
     "description": "Gain skills in data analysis, visualization, and machine learning algorithms."
   }
 ]

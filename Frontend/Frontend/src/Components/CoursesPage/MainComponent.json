@@ -51,7 +51,7 @@
       }
     ],
     "details": {
-      "duration": "4 Months",
+      "duration": "3 Months",
       "classType": "Weekend Classes",
       "classHours": "4 Hours",
       "students": "3000 Students",
@@ -109,7 +109,7 @@
       }
     ],
     "details": {
-      "duration": "4 Months",
+      "duration": "3 Months",
       "classType": "Weekend Classes",
       "classHours": "4 Hours",
       "students": "2000 Students",
@@ -166,7 +166,7 @@
       }
     ],
     "details": {
-      "duration": "4 Months",
+      "duration": "3 Months",
       "classType": "Weekend Classes",
       "classHours": "4 Hours",
       "students": "2500 Students",
@@ -223,7 +223,7 @@
       }
     ],
     "details": {
-      "duration": "4 Months",
+      "duration": "3 Months",
       "classType": "Weekend Classes",
       "classHours": "4 Hours",
       "students": "2200 Students",
@@ -280,7 +280,7 @@
       }
     ],
     "details": {
-      "duration": "4 Months",
+      "duration": "3 Months",
       "classType": "Weekend Classes",
       "classHours": "5 Hours",
       "students": "2800 Students",
@@ -337,7 +337,7 @@
       }
     ],
     "details": {
-      "duration": "4 Months",
+      "duration": "3 Months",
       "classType": "Weekend Classes",
       "classHours": "5 Hours",
       "students": "2600 Students",
@@ -394,7 +394,7 @@
       }
     ],
     "details": {
-      "duration": "4 Months",
+      "duration": "3 Months",
       "classType": "Weekend Classes",
       "classHours": "5 Hours",
       "students": "2400 Students",
@@ -451,7 +451,7 @@
       }
     ],
     "details": {
-      "duration": "4 Months",
+      "duration": "3 Months",
       "classType": "Weekend Classes",
       "classHours": "4 Hours",
       "students": "3200 Students",
@@ -508,7 +508,7 @@
       }
     ],
     "details": {
-      "duration": "4 Months",
+      "duration": "3 Months",
       "classType": "Weekend Classes",
       "classHours": "4 Hours",
       "students": "3000 Students",
@@ -565,127 +565,15 @@
       }
     ],
     "details": {
-      "duration": "4 Months",
+      "duration": "3 Months",
       "classType": "Weekend Classes",
       "classHours": "4 Hours",
       "students": "3500 Students",
       "courseType": "100% Online"
     }
   },
-  {
-    "courseId": "11",
-    "header": {
-      "title": "WordPress Development",
-      "description": "Learn to build and customize websites using WordPress, the world’s most popular content management system."
-    },
-    "firstHeading": "Master WordPress Development",
-    "firstHeadingDescription": "Build dynamic websites with custom themes and plugins.",
-    "overview": "This course covers WordPress fundamentals, theme development, plugin customization, and SEO best practices.",
-    "whatYouWillLearn": [
-      "WordPress installation and configuration",
-      "Theme customization",
-      "Plugin development",
-      "SEO and performance optimization"
-    ],
-    "outline": [
-      {
-        "month": "Month 1",
-        "title": "WordPress Basics",
-        "subTitle1": "Introduction",
-        "subTitle1Content": "Learn what makes WordPress popular.",
-        "subTitle2": "Setup and Installation",
-        "subTitle2Content": "Install and configure a WordPress site."
-      },
-      {
-        "month": "Month 2",
-        "title": "Theme Development",
-        "subTitle1": "Custom Themes",
-        "subTitle1Content": "Build your own WordPress themes.",
-        "subTitle2": "Customization",
-        "subTitle2Content": "Modify themes to fit your design."
-      },
-      {
-        "month": "Month 3",
-        "title": "Plugin Development",
-        "subTitle1": "Creating Plugins",
-        "subTitle1Content": "Learn to develop custom plugins.",
-        "subTitle2": "Extending Functionality",
-        "subTitle2Content": "Add new features to WordPress sites."
-      },
-      {
-        "month": "Month 4",
-        "title": "Project and Optimization",
-        "subTitle1": "Real-world Site",
-        "subTitle1Content": "Develop a complete WordPress website.",
-        "subTitle2": "Performance & SEO",
-        "subTitle2Content": "Optimize your site for speed and search."
-      }
-    ],
-    "details": {
-      "duration": "4 Months",
-      "classType": "Weekend Classes",
-      "classHours": "4 Hours",
-      "students": "3300 Students",
-      "courseType": "100% Online"
-    }
-  },
-  {
-    "courseId": "12",
-    "header": {
-      "title": "Shopify Development",
-      "description": "Learn to build and customize e-commerce stores using Shopify, a leading platform for online retail."
-    },
-    "firstHeading": "Master Shopify Development",
-    "firstHeadingDescription": "Create and manage successful e-commerce stores with Shopify.",
-    "overview": "This course covers Shopify store setup, theme customization, product management, and integration with payment gateways.",
-    "whatYouWillLearn": [
-      "Shopify store configuration",
-      "Customizing themes with Liquid",
-      "Product and inventory management",
-      "E-commerce best practices"
-    ],
-    "outline": [
-      {
-        "month": "Month 1",
-        "title": "Introduction to Shopify",
-        "subTitle1": "Understanding Shopify",
-        "subTitle1Content": "Learn about the Shopify platform.",
-        "subTitle2": "Store Setup",
-        "subTitle2Content": "Create your first online store."
-      },
-      {
-        "month": "Month 2",
-        "title": "Theme Customization",
-        "subTitle1": "Custom Themes",
-        "subTitle1Content": "Learn to modify and create themes.",
-        "subTitle2": "Liquid Templating",
-        "subTitle2Content": "Understand Shopify's templating language."
-      },
-      {
-        "month": "Month 3",
-        "title": "Store Management",
-        "subTitle1": "Product Management",
-        "subTitle1Content": "Organize and manage products efficiently.",
-        "subTitle2": "Integrations",
-        "subTitle2Content": "Connect your store with payment gateways."
-      },
-      {
-        "month": "Month 4",
-        "title": "Project and Optimization",
-        "subTitle1": "Building a Live Store",
-        "subTitle1Content": "Implement your skills in a real project.",
-        "subTitle2": "E-commerce Optimization",
-        "subTitle2Content": "Learn strategies to boost performance."
-      }
-    ],
-    "details": {
-      "duration": "4 Months",
-      "classType": "Weekend Classes",
-      "classHours": "4 Hours",
-      "students": "3100 Students",
-      "courseType": "100% Online"
-    }
-  },
+
+
   {
     "courseId": "13",
     "header": {
@@ -736,7 +624,7 @@
       }
     ],
     "details": {
-      "duration": "4 Months",
+      "duration": "3 Months",
       "classType": "Weekend Classes",
       "classHours": "5 Hours",
       "students": "2700 Students",
@@ -793,7 +681,7 @@
       }
     ],
     "details": {
-      "duration": "4 Months",
+      "duration": "3 Months",
       "classType": "Weekend Classes",
       "classHours": "5 Hours",
       "students": "2900 Students",
@@ -850,7 +738,7 @@
       }
     ],
     "details": {
-      "duration": "4 Months",
+      "duration": "3 Months",
       "classType": "Weekend Classes",
       "classHours": "5 Hours",
       "students": "2600 Students",
@@ -907,7 +795,7 @@
       }
     ],
     "details": {
-      "duration": "4 Months",
+      "duration": "3 Months",
       "classType": "Weekend Classes",
       "classHours": "5 Hours",
       "students": "2800 Students",
@@ -964,7 +852,7 @@
       }
     ],
     "details": {
-      "duration": "4 Months",
+      "duration": "3 Months",
       "classType": "Weekend Classes",
       "classHours": "4 Hours",
       "students": "3400 Students",
@@ -1021,7 +909,7 @@
       }
     ],
     "details": {
-      "duration": "4 Months",
+      "duration": "3 Months",
       "classType": "Weekend Classes",
       "classHours": "4 Hours",
       "students": "3600 Students",
@@ -1080,7 +968,7 @@
       }
     ],
     "details": {
-      "duration": "4 Months",
+      "duration": "3 Months",
       "classType": "Weekend Classes",
       "classHours": "4 Hours",
       "students": "2500 Students",
@@ -1137,7 +1025,7 @@
       }
     ],
     "details": {
-      "duration": "4 Months",
+      "duration": "3 Months",
       "classType": "Weekend Classes",
       "classHours": "3 Hours",
       "students": "3500 Students",
@@ -1194,7 +1082,7 @@
       }
     ],
     "details": {
-      "duration": "4 Months",
+      "duration": "3 Months",
       "classType": "Weekend Classes",
       "classHours": "3 Hours",
       "students": "3200 Students",
@@ -1251,7 +1139,7 @@
       }
     ],
     "details": {
-      "duration": "4 Months",
+      "duration": "3 Months",
       "classType": "Weekend Classes",
       "classHours": "3 Hours",
       "students": "3000 Students",

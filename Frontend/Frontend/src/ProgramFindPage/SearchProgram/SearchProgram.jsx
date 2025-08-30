@@ -97,7 +97,7 @@ const CategoryGrid = ({ courses }) => (
           <div className="m-4 flex justify-between flex-wrap gap-4">
             <div className="flex gap-1 text-white items-center">
               <FaRegUserCircle className="text-lg" />
-              <span>By: Dr. Muhammad Hamid</span>
+              <span>By: {item.by}</span>
             </div>
             <div className="flex gap-1 text-white items-center">
               <IoMdTime className="text-lg" />

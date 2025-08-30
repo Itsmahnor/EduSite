@@ -55,15 +55,17 @@ export const BottomNav = () => {
     <div className='w-[100vw] uppercase h-[16vh] bg-[#80e2da] flex justify-center items-center text-[#04211e] font-bold text-[1rem]'>
       <div className='w-[90vw] flex items-center justify-between  '>
         {/* Logo Section */}
-       <p className='text-[1.8rem] text-white font-extrabold'>Pro<span className='text-[#04211e]'>LernoX</span></p>
-
+     <Link to={'/'}> <p className='text-[1.8rem] text-white font-extrabold'>Pro<span className='text-[#04211e]'>LernoX</span></p>
+</Link> 
         {/* Navigation Links */}
         <div className='flex justify-center items-center gap-5 left-nav'>
           {/* Home Link */}
           <Link to="/">
             <span className='text-white hover:text-white  text-[0.9rem] hover:underline h-0.5  transition-colors'>Home</span>
           </Link>
-
+ <Link to="/choose">
+            <span className='text-white text-[0.9rem] hover:underline hover:text-white transition-colors'>About</span>
+          </Link>
           {/* Courses Dropdown */}
           <button className="  text-white hover:text-white transition-colors text-[0.9rem] hover:underline uppercase px-4 py-2 rounded-md flex justify-center items-center gap-2 relative group">
             Courses
@@ -104,21 +106,23 @@ export const BottomNav = () => {
               </ul>
             </div>
           </button>
-
-          {/* Opportunities Dropdown */}
+  <Link to="/instructors">
+            <span className='text-white [1.6rem] hover:underline hover:text-white transition-colors'>Services</span>
+          </Link>
+          {/* services Dropdown */}
           {/* <div className="flex gap-2 justify-center items-center relative group cursor-pointer text-white">
-            <span>Opportunities</span>
+            <span>Services</span>
             <MdOutlineKeyboardArrowDown />
-            <div className="group-hover:flex hidden bg-[#098E68] border border-[#098E68] text-white lg:w-[13vw] h-auto absolute top-[30px] left-1/2 transform -translate-x-1/2 p-2 cursor-pointer shadow-lg rounded-md z-10 flex-col transition-all duration-300 ease-in-out">
+            <div className="group-hover:flex hidden bg-[#1eb2a6] text-white lg:w-[17vw] h-auto absolute top-[30px] left-1/2 transform -translate-x-1/2 p-2 cursor-pointer shadow-lg rounded-md z-10 flex-col transition-all duration-300 ease-in-out">
               <ul className="flex flex-col gap-2">
                 <Link to="/internship">
-                  <li className="py-2 hover:text-white text-white transition-colors">Internship Offer</li>
+                  <li className="py-2 pt-2 hover:text-white text-white transition-colors">Web Solutions</li>
                 </Link>
                 <Link to="/tutor">
-                  <li className="py-2 hover:text-white text-white transition-colors">Become Tutor</li>
+                  <li className="py-2 hover:text-white text-white transition-colors">App Solutions</li>
                 </Link>
                 <Link to="/job">
-                  <li className="py-2 hover:text-white text-white transition-colors">Job Offer</li>
+                  <li className="py-1 hover:text-white text-white transition-colors">AI Solutions</li>
                 </Link>
               </ul>
             </div>
@@ -158,10 +162,8 @@ export const BottomNav = () => {
               </ul>
             </div>
           </div> */}
-           <Link to="/choose">
-            <span className='text-white text-[0.9rem] hover:underline hover:text-white transition-colors'>About Us</span>
-          </Link>
-
+          
+            
           {/* Contact Us Link */}
           <Link to="/contact">
             <span className='text-white text-[0.9rem] hover:underline hover:text-white transition-colors'>Contact Us</span>

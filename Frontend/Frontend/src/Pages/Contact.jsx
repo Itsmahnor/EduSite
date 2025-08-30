@@ -65,9 +65,9 @@ export const Contact = () => {
 
       {/* Hero Section */}
       <div className="breadcrumb-wrapper md:h-[50vh] flex justify-center items-center flex-col text-center py-12">
-        <h1 className="text-[#04211e] font-bold text-4xl mb-4">Get in Touch with ProLernoX</h1>
-        <p className="w-[70vw] text-[#04211e] text-lg leading-relaxed">
-          At <span className="bg-white text-sky-700 px-2 py-1 rounded">ProLernoX</span>, we are always happy to hear from you! 
+        <h1 className="text-white font-bold text-4xl mb-4">Get in Touch with ProLernoX</h1>
+        <p className="w-[70vw] text-white text-lg leading-relaxed">
+          At <span className="text-white bg-sky-900 px-2 py-1 rounded">ProLernoX</span>, we are always happy to hear from you! 
           Whether you have questions about our courses, need support, or want to learn more about how we can help you achieve 
           your educational goals, feel free to reach out. Our team is here to assist you every step of the way.
         </p>

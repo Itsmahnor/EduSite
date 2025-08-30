@@ -2,9 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { IoMdStar } from "react-icons/io";
-import { FaRegUserCircle } from "react-icons/fa";
-import { IoMdTime } from "react-icons/io";
 
 export const ICONS = () => {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -51,55 +48,46 @@ export const ICONS = () => {
     </div>
   );
 };
-const iconClasses = "w-[90px] h-[90px] p-2 bg-white bg-opacity-90 rounded-lg shadow-md object-contain mx-auto block";
-// Slider Component
+
+const iconClasses =
+  "w-[90px] h-[90px] p-2 bg-white bg-opacity-90 rounded-lg shadow-md object-contain mx-auto block";
+
+// Slider Component (for smaller screens)
 const CategorySlider = ({ settings }) => (
   <Slider {...settings}>
-    <div className="slider-item">
-      <img
-        src="https://img.icons8.com/color/96/react-native.png"
-        alt="React"
-        className={iconClasses}
-      />
-    </div>
-    <div className="slider-item">
-      <img
-        src="https://img.icons8.com/color/96/javascript--v1.png"
-        alt="JavaScript"
-        className={iconClasses}
-      />
-    </div>
-    <div className="slider-item">
-      <img
-        src="https://img.icons8.com/color/96/nodejs.png"
-        alt="Node.js"
-        className={iconClasses}
-      />
-    </div>
-    <div className="slider-item">
-      <img
-        src="https://img.icons8.com/color/96/html-5--v1.png"
-        alt="HTML5"
-        className={iconClasses}
-      />
-    </div>
-    <div className="slider-item">
-      <img
-        src="https://img.icons8.com/color/96/css3.png"
-        alt="CSS3"
-        className={iconClasses}
-      />
-    </div>
+    {/* Existing Tech Icons */}
+    
+    <div><img src="https://img.icons8.com/color/96/html-5--v1.png" alt="HTML5" className={iconClasses} /></div>
+    <div><img src="https://img.icons8.com/color/96/css3.png" alt="CSS3" className={iconClasses} /></div>
+
+    {/* AI / ML Related Icons */}
+    <div><img src="https://img.icons8.com/color/96/artificial-intelligence.png" alt="AI" className={iconClasses} /></div>
+    {/* <div><img src="https://img.icons8.com/color/96/machine-learning.png" alt="Machine Learning" className={iconClasses} /></div> */}
+    <div><img src="https://img.icons8.com/color/96/chatgpt.png" alt="ChatGPT" className={iconClasses} /></div>
+    <div><img src="https://img.icons8.com/color/96/brain.png" alt="Neural Networks" className={iconClasses} /></div>
+    <div><img src="https://img.icons8.com/color/96/python.png" alt="Python (AI/ML)" className={iconClasses} /></div>
+    <div><img src="https://img.icons8.com/color/96/react-native.png" alt="React" className={iconClasses} /></div>
+    <div><img src="https://img.icons8.com/color/96/javascript--v1.png" alt="JavaScript" className={iconClasses} /></div>
+    <div><img src="https://img.icons8.com/color/96/nodejs.png" alt="Node.js" className={iconClasses} /></div>
   </Slider>
 );
 
-// Grid Component for larger screens
+// Grid Component (for larger screens)
 const CategoryGrid = () => (
-  <div className="grid grid-cols-5 gap-0 animate">
-    <img src="https://skillseducation.pk/assets/img/brand/brand-2-1.png" alt="img1" />
-    <img src="https://skillseducation.pk/assets/img/brand/brand-2-2.png" alt="img2" />
-    <img src="https://skillseducation.pk/assets/img/brand/brand-2-3.png" alt="img3" />
-    <img src="https://skillseducation.pk/assets/img/brand/brand-2-4.png" alt="img4" />
-    <img src="https://skillseducation.pk/assets/img/brand/brand-2-5.png" alt="img5" />
+  <div className="grid grid-cols-5 gap-4 animate">
+    {/* Tech Icons */}
+    
+    <img src="https://img.icons8.com/color/96/html-5--v1.png" alt="HTML5" className={iconClasses} />
+    <img src="https://img.icons8.com/color/96/css3.png" alt="CSS3" className={iconClasses} />
+
+    {/* AI / ML Icons */}
+    <img src="https://img.icons8.com/color/96/artificial-intelligence.png" alt="AI" className={iconClasses} />
+   
+    <img src="https://img.icons8.com/color/96/chatgpt.png" alt="ChatGPT" className={iconClasses} />
+    <img src="https://img.icons8.com/color/96/brain.png" alt="Neural Networks" className={iconClasses} />
+    <img src="https://img.icons8.com/color/96/python.png" alt="Python" className={iconClasses} />
+    <img src="https://img.icons8.com/color/96/react-native.png" alt="React" className={iconClasses} />
+    <img src="https://img.icons8.com/color/96/javascript--v1.png" alt="JavaScript" className={iconClasses} />
+    <img src="https://img.icons8.com/color/96/nodejs.png" alt="Node.js" className={iconClasses} />
   </div>
 );

@@ -23,7 +23,7 @@ export const BottomNav = () => {
 
   // Fetch courses data
   useEffect(() => {
-    fetch(`http://localhost:5000/api/courses`)
+    fetch(`/api/courses`)
       .then(res => res.json())
       .then(data => setCoursesData(data))
       .catch(err => console.error("Error fetching courses data:", err));

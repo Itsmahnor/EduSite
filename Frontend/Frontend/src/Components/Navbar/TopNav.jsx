@@ -11,7 +11,7 @@ export const TopNav = () => {
         {/* Left Side */}
         <div className='hideRes flex'>
           <p className='text-[1rem]  md:pt-2  text-[#04211e] '>
-            +923276381819 | info@ProLernoX.pk
+            03245678956 | info@ProLernoX.pk
           </p>
         </div>
 

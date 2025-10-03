@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Left Section: Logo + About */}
           <section>
             {/* Logo Section */}
-       <p className='text-[1.8rem] text-white font-extrabold'>Pro<span className='text-[#04211e]'>LernoX</span></p>
+       <p className='text-[1.8rem] text-white font-extrabold'>SKILL<span className='text-[#04211e]'>.PRO</span></p>
 
             <p className="text-sm leading-relaxed mb-6">
               We work for the betterment of society by training people in IT and other technologies. 
@@ -21,7 +21,7 @@ const Footer = () => {
               <i className="bi bi-telephone-fill mr-2"></i> +92 327 6381819
             </p>
             <p className="text-sm">
-              <i className="bi bi-envelope-fill mr-2"></i> info@ProLernoX.pk
+              <i className="bi bi-envelope-fill mr-2"></i> info@skill.pro.pk
             </p>
           </section>
 
@@ -30,6 +30,7 @@ const Footer = () => {
             <h5 className="font-semibold text-lg mb-4">Study Links</h5>
             <ul className="space-y-2 text-sm">
               <li><a href="#" className="hover:text-gray-900 text-black">Opportunities</a></li>
+              
               <li><a href="#" className="hover:text-gray-900 text-black">All Courses</a></li>
               <li><a href="#" className="hover:text-gray-900 text-black">About Us</a></li>
               <li><a href="#" className="hover:text-gray-900 text-black">Become Tutor</a></li>
@@ -60,7 +61,7 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="bg-white text-black py-2">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center text-sm px-6 lg:px-12">
-          <p className='pt-4'>© 2024 ProLernoX. All Rights Reserved.</p>
+          <p className='pt-4'>© 2024 SKILL.PRO. All Rights Reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0 text-xl">
             <a href="#" className="hover:text-gray-600"><FaFacebook /></a>
             <a href="#" className="hover:text-gray-600"><FaInstagramSquare /></a>

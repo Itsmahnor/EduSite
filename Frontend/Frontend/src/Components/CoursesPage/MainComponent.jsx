@@ -1,179 +1,429 @@
-import React, { useState, useEffect } from "react";
-import { useParams, Link } from "react-router-dom";
+import React, { useState } from "react";
+import { useParams } from "react-router-dom";
+import courses from "./MainComponent.json";
+import {
+  FaUserGraduate,
+  FaTasks,
+  FaCheckCircle,
+  FaLightbulb,
+  FaChalkboardTeacher,
+  FaDownload,
+  FaStar,
+  FaUsers,
+  FaClock,
+  FaGraduationCap,
+  FaLinkedin,
+  FaClipboardList,
+  FaGlobe,
+  FaBook,
+  FaPlay,
+} from "react-icons/fa";
 import { TopNav } from "../Navbar/TopNav";
-import { BottomNav } from "../Navbar/BottomNav";
-import Footer from "../Footer/Footer";
+import BottomNav from "../Navbar/BottomNav";
 import CareerOpportunities from "../CareerOpertunities";
-import { FaClock, FaUsers, FaBookOpen } from "react-icons/fa";
+import Footer from "../Footer/Footer";
 
-
-export const MainContent = ({ courses }) => {
+export const MainContent = () => {
   const { courseId } = useParams();
-  const [selectedCourse, setSelectedCourse] = useState(null);
-  const [openOutlineItems, setOpenOutlineItems] = useState({});
+  const selectedCourse = courses.find((course) => course.courseId === courseId);
+  const [activeTab, setActiveTab] = useState("about");
 
-  useEffect(() => {
-    const course = courses.find((course) => course.courseId === courseId);
-    setSelectedCourse(course);
-  }, [courseId, courses]);
+  if (!selectedCourse) {
+    return (
+      <div className="text-center py-10 text-red-600">
+        Course not found.
+      </div>
+    );
+  }
 
-  const toggleOutlineItem = (index) => {
-    setOpenOutlineItems((prev) => ({
-      ...prev,
-      [index]: !prev[index],
-    }));
+  const handleEnrollClick = () => {
+    window.scrollTo(0, 0);
+  };
+
+  const renderTabContent = () => {
+    switch (activeTab) {
+      case "about":
+        return <AboutContent course={selectedCourse} />;
+      case "outcomes":
+        return <OutcomesContent course={selectedCourse} />;
+      case "modules":
+        return <ModulesContent course={selectedCourse} />;
+      case "details":
+        return <DetailsContent course={selectedCourse} />;
+      default:
+        return <AboutContent course={selectedCourse} />;
+    }
   };
 
   return (
     <>
       <TopNav />
       <BottomNav />
+      {/* Hero Section */}
+      <div className="bg-gradient-to-r breadcrumb-wrapper md:h-[50vh] flex justify-center items-center flex-col">
+        <h1 className="text-white font-bold text-4xl text-center">
+          {selectedCourse.header.title}
+        </h1>
+        <p
+          className="w-[70vw] text-lg text-white mt-4 text-center"
+          dangerouslySetInnerHTML={{
+            __html: selectedCourse.header.description,
+          }}
+        ></p>
+      </div>
 
-      <div className="w-full  text-white ">
-        {selectedCourse ? (
-          <>
-            {/* HEADER (same as you said) */}
-            <div className="breadcrumb-wrapper md:h-[50vh] flex justify-center items-center flex-col">
-              <h1 className="text-white font-bold text-4xl text-center" >
-                {selectedCourse.header.title}
-              </h1>
-              <p
-                className="w-[70vw] text-lg text-white mt-4 text-center"
-                dangerouslySetInnerHTML={{
-                  __html: selectedCourse.header.description,
-                }}
-              ></p>
+      <div className="px-6 md:px-16 py-12 bg-white text-gray-900">
+        {/* Course Stats Section - Updated to match visual flow */}
+        <div className="grid md:grid-cols-3 gap-6 mb-12 bg-gray-50 p-8 rounded-xl">
+          <div className="text-center">
+            <div className="flex items-center justify-center gap-2 mb-2">
+              <span className="text-2xl font-bold text-sky-600">
+                {selectedCourse.courseStats.rating}
+              </span>
+              <FaStar className="text-yellow-500" />
             </div>
+            <p className="text-sm text-gray-600">
+              ({selectedCourse.courseStats.reviews} reviews)
+            </p>
+          </div>
 
-            {/* MAIN SECTION */}
-            <div className="w-full flex justify-center pt-16 p-6 bg-white">
-              <div className="md:w-[80%] flex lg:flex-row flex-col gap-10">
+          <div className="text-center">
+            <div className="flex items-center justify-center gap-2 mb-2">
+              <span className="text-2xl font-bold text-sky-600">
+                {selectedCourse.courseStats.modules}
+              </span>
+              <FaBook className="text-sky-600" />
+            </div>
+            <p className="text-sm text-gray-600">modules</p>
+          </div>
 
-                {/* LEFT CONTENT */}
-                <div className="lg:w-[65%]">
-                  <h1 className="text-3xl font-bold text-sky-700">
-                    {selectedCourse.firstHeading}
-                  </h1>
-                  <p className="text-gray-600 mt-3 text-sm leading-relaxed">
-                    {selectedCourse.firstHeadingDescription}
-                  </p>
-
-                  {/* Overview */}
-                  <div className="mt-10">
-                    <h2 className="text-xl font-semibold text-sky-700">Overview</h2>
-                    <p className="text-gray-600 mt-3">{selectedCourse.overview}</p>
-                  </div>
-
-                  {/* Learnings */}
-                  <div className="mt-10">
-                    <h2 className="text-xl font-semibold text-sky-700">What You Will Learn</h2>
-                    <ul className="list-disc pl-6 mt-3 space-y-2 text-gray-700">
-                      {selectedCourse.whatYouWillLearn.map((point, i) => (
-                        <li key={i}>{point}</li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  {/* Outline */}
-                 {/* Outline */}
-<div className="mt-12">
-  <h2 className="text-xl font-semibold text-sky-700">Course Outline</h2>
-  <div className="mt-4 space-y-3">
-    {selectedCourse.outline.map((item, index) => (
-      <div key={index} className="border rounded-lg overflow-hidden">
-        
-        {/* Outline Header */}
-        <div
-          className="flex justify-between items-center px-4 py-3 cursor-pointer bg-sky-50 hover:bg-sky-100 transition-colors duration-300"
-          onClick={() => toggleOutlineItem(index)}
-        >
-          <p className="font-medium text-gray-800 text-sm md:text-base">
-            {item.month}: {item.title}
-          </p>
-          <span
-            className={`transition-transform duration-300 ${
-              openOutlineItems[index] ? "rotate-180" : "rotate-0"
-            }`}
-          >
-            ▼
-          </span>
+          <div className="text-center">
+            <div className="flex items-center justify-center gap-2 mb-2">
+              <span className="text-2xl font-bold text-green-600">
+                {selectedCourse.courseStats.satisfaction}
+              </span>
+            </div>
+            <p className="text-sm text-gray-600">
+              {selectedCourse.courseStats.satisfactionText}
+            </p>
+          </div>
         </div>
 
-        {/* Animated Content */}
-        <div
-          className={`transition-all duration-500 ease-in-out overflow-hidden ${
-            openOutlineItems[index] ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
-          }`}
-        >
-          <div className="px-5 py-4 text-gray-600 space-y-3 text-sm leading-relaxed">
-            <div>
-              <h3 className="font-semibold text-gray-800">{item.subTitle1}</h3>
-              <p className="text-xs md:text-sm text-gray-500">{item.subTitle1Content}</p>
-            </div>
-            <div>
-              <h3 className="font-semibold text-gray-800">{item.subTitle2}</h3>
-              <p className="text-xs md:text-sm text-gray-500">{item.subTitle2Content}</p>
-            </div>
+        {/* Tab Navigation */}
+        <div className="border-b border-gray-200 mb-8">
+          <nav className="flex space-x-8 flex-wrap">
+            {[
+              { id: "about", label: "About" },
+              { id: "outcomes", label: "Outcomes" },
+              { id: "modules", label: "Modules" },
+              { id: "details", label: "Details" },
+            ].map((tab) => (
+              <button
+                key={tab.id}
+                onClick={() => setActiveTab(tab.id)}
+                className={`py-4 px-2 border-b-2 font-medium text-sm ${
+                  activeTab === tab.id
+                    ? "border-sky-500 text-sky-600"
+                    : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                }`}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </nav>
+        </div>
+
+        {/* Tab Content */}
+        {renderTabContent()}
+
+        {/* Download PDF & Enroll */}
+        <div className="bg-sky-100 p-6 rounded-lg flex flex-col md:flex-row items-center justify-between shadow-md mt-12">
+          <div>
+            <h2 className="text-xl font-semibold text-sky-700">
+              Detailed Course Outline
+            </h2>
+            <p className="text-gray-600 mt-2">
+              For a complete overview of this course, download the detailed PDF
+              outline.
+            </p>
+          </div>
+          <div className="flex flex-col md:flex-row gap-4 mt-4 md:mt-0">
+            <a
+              href={selectedCourse.outlinePdf}
+              download
+              className="inline-flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white px-5 py-3 rounded-lg shadow-lg transition"
+            >
+              <FaDownload /> Download PDF
+            </a>
+
+            <button
+              onClick={handleEnrollClick}
+              className="inline-flex items-center gap-2 bg-sky-500 text-white px-5 py-3 rounded-lg shadow-lg transition"
+            >
+              Enroll Now
+            </button>
           </div>
         </div>
       </div>
-    ))}
-  </div>
-</div>
-
-                </div>
-
-                {/* SIDEBAR */}
-                <div className="lg:w-[30%] w-full">
-                  <div className="bg-sky-50 rounded-xl p-6 shadow-md sticky top-24">
-                    <h3 className="text-lg font-semibold text-sky-700 border-b pb-3">
-                      Course Details
-                    </h3>
-                    <div className="mt-4 space-y-4 text-gray-700">
-                      <div className="flex justify-between items-center">
-                        <span className="flex items-center gap-2">
-                          <FaClock size={18} /> Duration
-                        </span>
-                        <p>{selectedCourse.details?.duration}</p>
-                      </div>
-                      <div className="flex justify-between items-center">
-                        <span className="flex items-center gap-2">
-                          <FaBookOpen size={18} /> Weekend Classes
-                        </span>
-                        <p>{selectedCourse.details?.classHours}</p>
-                      </div>
-                      <div className="flex justify-between items-center">
-                        <span className="flex items-center gap-2">
-                          <FaUsers size={18} /> Students
-                        </span>
-                        <p>{selectedCourse.details?.students}</p>
-                      </div>
-                      <div className="flex justify-between items-center">
-                        <span className="flex items-center gap-2">
-                          📘 Course Type
-                        </span>
-                        <p>{selectedCourse.details?.courseType}</p>
-                      </div>
-                    </div>
-
-                    <Link to="/register" onClick={scrollTo(0,0)}>
-                      <button className="mt-6 w-full bg-sky-600 hover:bg-sky-700 text-white font-semibold py-3 rounded-lg transition-all">
-                        Enroll Now
-                      </button>
-                    </Link>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </>
-        ) : (
-          <div className="text-center text-gray-500 mt-16">Course not found.</div>
-        )}
-      </div>
-
       <CareerOpportunities />
       <Footer />
     </>
   );
 };
+
+// About Tab Content (Matches Screenshot 195821.png)
+const AboutContent = ({ course }) => (
+  <div className="space-y-12">
+    {/* What You'll Learn */}
+    <div>
+      <h2 className="text-2xl font-bold text-gray-900 mb-6">What you'll learn</h2>
+      <div className="grid md:grid-cols-3 gap-3">
+        {course.whatYoullLearn.map((item, i) => (
+          <div key={i} className="flex items-start gap-3 p-2 rounded-lg">
+            <FaCheckCircle className="text-sky-600 mt-1 flex-shrink-0" />
+            <span className="text-gray-700">{item}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    {/* Skills You'll Gain */}
+    <div>
+      <h2 className="text-2xl font-bold text-gray-900 mb-6">Skills you'll gain</h2>
+      <div className="flex flex-wrap gap-3 w-[60vw]">
+        {course.skillsYoullGain.map((skill, i) => (
+          <span
+            key={i}
+            className="px-4 py-2 bg-sky-100 text-gray-700 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors"
+          >
+            {skill}
+          </span>
+        ))}
+      </div>
+    </div>
+
+    {/* Details to Know */}
+    <div>
+      <h2 className="text-2xl font-bold text-gray-900 mb-6">Details to know</h2>
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {course.detailsToKnow.map((detail, i) => {
+          const IconComponent = {
+            linkedin: FaLinkedin,
+            clipboard: FaClipboardList,
+            globe: FaGlobe,
+            users: FaUsers,
+          }[detail.icon];
+
+          return (
+            <div key={i} className="text-center p-4">
+              <IconComponent className="text-3xl text-sky-600 mx-auto mb-3" />
+              <h3 className="font-semibold text-gray-900 mb-2 text-[1rem]">{detail.title}</h3>
+              <p className="text-sm text-gray-600">{detail.description}</p>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+
+    {/* Overview */}
+    <div>
+      <h2 className="text-2xl font-bold text-gray-900 mb-4">Overview</h2>
+      <p className="text-gray-700 leading-relaxed text-lg">{course.overview}</p>
+    </div>
+
+    {/* Audience & Prerequisites (Using the original 'prerequisites' for compatibility) */}
+    <div className="grid md:grid-cols-2 gap-8">
+      <div className="bg-gray-50 p-6 rounded-lg">
+        <h3 className="text-xl font-semibold text-sky-600 flex items-center gap-2 mb-4">
+          <FaUserGraduate /> Target Audience
+        </h3>
+        <ul className="space-y-3">
+          {course.targetAudience.map((audience, i) => (
+            <li key={i} className="flex items-start gap-2">
+              <FaCheckCircle className="text-sky-500 mt-1 flex-shrink-0" />
+              <span className="text-gray-700">{audience}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="bg-gray-50 p-6 rounded-lg">
+        <h3 className="text-xl font-semibold text-sky-600 flex items-center gap-2 mb-4">
+          <FaTasks /> Prerequisites
+        </h3>
+        <ul className="space-y-3">
+          {course.prerequisites.map((req, i) => (
+            <li key={i} className="flex items-start gap-2">
+              <FaCheckCircle className="text-sky-500 mt-1 flex-shrink-0" />
+              <span className="text-gray-700">{req}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+
+    {/* Instructor */}
+    <div className="bg-sky-100 p-6 rounded-lg">
+      <h3 className="text-xl font-semibold text-sky-600 flex items-center gap-2 mb-4">
+        <FaChalkboardTeacher /> Instructor
+      </h3>
+      <h4 className="font-semibold text-lg">{course.instructor.name}</h4>
+      <p className="text-gray-600 mb-2">{course.instructor.designation}</p>
+      <p className="text-gray-600 mb-4">{course.instructor.experience}</p>
+      <p className="text-gray-700">{course.instructor.bio}</p>
+    </div>
+  </div>
+);
+
+// Outcomes Tab Content (Matches Screenshot 195827.png)
+const OutcomesContent = ({ course }) => (
+  <div>
+    <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+      <FaGraduationCap className="text-sky-600" /> Learning Outcomes
+    </h2>
+    <div className="grid md:grid-cols-2 gap-6">
+      {course.learningOutcomes.map((outcome, i) => (
+        <div key={i} className="bg-green-50 p-6 rounded-lg shadow-sm">
+          <div className="flex items-start gap-3">
+            <FaLightbulb className="text-sky-600 mt-1 flex-shrink-0 text-xl" />
+            <span className="text-gray-800 font-medium">{outcome}</span>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <div className="mt-12">
+      <h3 className="text-xl font-semibold text-gray-900 mb-6">Course Highlights</h3>
+      <div className="grid md:grid-cols-2 gap-4">
+        {course.courseHighlights.map((highlight, i) => (
+          <div key={i} className="flex items-start gap-3">
+            <FaCheckCircle className="text-sky-600 mt-1 flex-shrink-0" />
+            <span className="text-gray-700">{highlight}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+);
+
+// Modules Tab Content (Matches Screenshot 195834.png)
+const ModulesContent = ({ course }) => {
+  // show only first 3 modules
+  const visibleModules = course.modules.slice(0, 3);
+
+  return (
+    <div>
+      <div className="space-y-4">
+        {visibleModules.map((module, i) => (
+          <div
+            key={i}
+            className="bg-white p-6 border border-gray-200 rounded-xl hover:shadow-lg transition-shadow"
+          >
+            <div className="flex items-start justify-between">
+              <div className="flex-1">
+                <div className="flex items-center gap-3 mb-3">
+                  <span className="text-sky-700 text-base font-semibold">
+                    Module {module.number}
+                  </span>
+                  <span className="text-sm text-gray-500">
+                    {module.duration}
+                  </span>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">
+                  {module.title}
+                </h3>
+                <p className="text-gray-700 mb-4">{module.description}</p>
+                <div className="flex flex-wrap gap-2">
+                  {module.topics.map((topic, j) => (
+                    <span
+                      key={j}
+                      className="text-sm text-sky-600 px-3 py-1 rounded-full border border-sky-100 bg-sky-50"
+                    >
+                      {topic}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              <FaPlay className="text-sky-600 mt-2 text-xl cursor-pointer ml-4" />
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* See more & Download Outline */}
+      {course.modules.length > 3 && (
+        <div className="mt-8 text-center">
+          <a
+            href={course.outlinePdf}
+            download
+            className="inline-flex items-center gap-2 bg-sky-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-sky-700 transition-colors"
+          >
+            <FaDownload />
+            See All Modules – Download Course Outline
+          </a>
+        </div>
+      )}
+    </div>
+  );
+};
+
+const DetailsContent = ({ course }) => (
+  <div className="space-y-6">
+    {/* Course Level + Pace */}
+    <div className="flex items-center justify-between text-gray-700 text-sm mb-6">
+      <span className="text-base font-semibold text-gray-800 bg-gray-100 px-3 py-1 rounded-md">
+        {course.courseStats?.level}
+      </span>
+      <span className="text-base font-semibold text-gray-800 bg-gray-100 px-3 py-1 rounded-md">
+        {course.courseStats?.pace}
+      </span>
+    </div>
+
+    <div className="grid md:grid-cols-3 gap-8">
+      {/* Course Information */}
+      <div className="md:col-span-2 space-y-4">
+        <h2 className="text-xl font-bold text-gray-900 mb-4">
+          Course Information
+        </h2>
+        <div className="divide-y divide-gray-200 border border-sky-200 rounded-lg bg-white">
+          {course.courseInformation &&
+            Object.entries(course.courseInformation).map(([key, value], i) => (
+              <div
+                key={i}
+                className="flex justify-between items-center px-4 py-3"
+              >
+                <span className="font-medium text-gray-600">{key}</span>
+                <p
+                  className={`font-semibold ${
+                    key === "Duration" ? "text-sky-600" : "text-gray-800"
+                  }`}
+                >
+                  {String(value)}
+                </p>
+              </div>
+            ))}
+        </div>
+      </div>
+
+      {/* Prerequisites */}
+      <div>
+        <h2 className="text-xl font-bold text-gray-900 mb-4">
+          Prerequisites
+        </h2>
+        <ul className="space-y-3">
+          {course.prerequisitesDetails?.map((req, i) => (
+            <li
+              key={i}
+              className="flex items-start gap-2 bg-gray-50 p-3 rounded-md"
+            >
+              <FaCheckCircle className="text-sky-600 mt-1 flex-shrink-0 text-lg" />
+              <span className="text-gray-700 text-sm leading-snug">{req}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </div>
+);
+
+export default MainContent;

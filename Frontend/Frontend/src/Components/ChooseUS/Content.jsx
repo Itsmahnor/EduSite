@@ -31,7 +31,7 @@ const WhyChoose = () => {
   Online Courses in Web & Software Development
 </h3>
 <p className="mt-6 leading-relaxed text-[#04211e]">
-  At <span className="font-semibold">ProLernoX</span>, we offer professional online 
+  At <span className="font-semibold">SKILL.PRO</span>, we offer professional online 
   training programs in web development, software engineering, and emerging technologies. 
   Our courses are designed to provide a strong foundation along with hands-on projects, 
   ensuring you gain both theoretical knowledge and practical expertise. Whether you want 

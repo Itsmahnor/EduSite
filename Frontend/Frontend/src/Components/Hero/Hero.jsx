@@ -7,11 +7,11 @@ export const Hero = () => {
     { name: "Python", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
     { name: "Express", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
   
-    { name: "Django", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" },
+    // { name: "Django", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" },
     { name: "PHP", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" },
     { name: "Machine Learning", src: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" },
-    { name: "Java", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
-    { name: "WordPress", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" },
+    // { name: "Java", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+    // { name: "WordPress", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" },
   ];
   return (
     // Main container: Full width, responsive height, dark green-based color scheme
@@ -31,7 +31,7 @@ export const Hero = () => {
 
           {/* Subtext paragraph */}
           <p className='text-white text-[0.8rem] md:text-[1.2rem] md:w-[50vw] mt-3 text-center'>
-            Join ProLernoX and learn from top instructors around the world. 
+            Join SKILL.PRO and learn from top instructors around the world. 
             Live, interactive, and flexible online learning at your fingertips.
           </p>
 

@@ -65,9 +65,9 @@ export const Contact = () => {
 
       {/* Hero Section */}
       <div className="breadcrumb-wrapper md:h-[50vh] flex justify-center items-center flex-col text-center py-12">
-        <h1 className="text-white font-bold text-4xl mb-4">Get in Touch with ProLernoX</h1>
+        <h1 className="text-white font-bold text-4xl mb-4">Get in Touch with SKILL.PRO</h1>
         <p className="w-[70vw] text-white text-lg leading-relaxed">
-          At <span className="text-white bg-sky-900 px-2 py-1 rounded">ProLernoX</span>, we are always happy to hear from you! 
+          At <span className="text-white bg-sky-900 px-2 py-1 rounded">SKILL.PRO</span>, we are always happy to hear from you! 
           Whether you have questions about our courses, need support, or want to learn more about how we can help you achieve 
           your educational goals, feel free to reach out. Our team is here to assist you every step of the way.
         </p>
@@ -87,7 +87,7 @@ export const Contact = () => {
             <h3 className="text-xl font-semibold mb-2">Regional Office</h3>
             <p className="mb-2 text-[#04211e]">⏰ 9am - 9pm Monday-Thursday; Friday closed.</p>
             <p className="mb-2 text-[#04211e]">📍 Near Bay High School, Ahmed Pur Road, Bahawalpur</p>
-            <p className="mb-6 text-[#04211e]">📧 ProLernoX@gmail.com</p>
+            <p className="mb-6 text-[#04211e]">📧 SKILL.PRO@gmail.com</p>
             
             <div className="relative w-full h-60 rounded-lg overflow-hidden shadow-lg">
               <iframe

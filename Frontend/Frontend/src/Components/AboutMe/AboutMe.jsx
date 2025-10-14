@@ -3,22 +3,22 @@ import { FaCheckCircle } from "react-icons/fa";
 
 export const AboutMe = () => {
   return (
-    <div className="relative w-full bg-white py-2 flex justify-center overflow-hidden">
+    <div className="relative w-full bg-white py-6 flex justify-center overflow-hidden">
       <div className="w-[70vw] max-w-[1200px] grid grid-cols-1 md:grid-cols-2 gap-6 items-center relative z-10">
         
         {/* Left Content */}
         <div className="text-[#04211e] space-y-5 relative">
           {/* Decorative circle behind "About Me" */}
-          <div className="absolute -top-6 -left-6 w-16 h-16 bg-[#61dbd1]/30 rounded-full -z-10"></div>
+          <div className="absolute -top-6 -left-6 w-16 h-16 bg-[#6a35ff]/30 rounded-full -z-10"></div>
           
           {/* Small Heading */}
-          <p className="uppercase text-sm font-semibold text-[#61dbd1] relative inline-block">
-            About <span className="bg-[#61dbd1]/20 text-[#04211e] px-2 rounded-md">Me</span>
+          <p className="uppercase text-sm font-semibold text-[#6a35ff] relative inline-block">
+            About <span className="bg-[#6a35ff]/20 text-[#04211e] px-2 rounded-md">Me</span>
           </p>
 
           {/* Main Heading */}
           <h2 className="text-2xl md:text-4xl font-bold leading-snug">
-            Educated Over <span className="text-[#61dbd1]">10,000+</span> Students In Pakistan
+            Educated Over <span className="text-[#6a35ff]">10,000+</span> Students In Pakistan
           </h2>
 
           {/* Description */}
@@ -40,22 +40,22 @@ export const AboutMe = () => {
                 key={idx}
                 className="flex items-center gap-2 text-sm md:text-base"
               >
-                <FaCheckCircle className="text-[#61dbd1]" />
+                <FaCheckCircle className="text-[#6a35ff]" />
                 {item}
               </li>
             ))}
           </ul>
 
           {/* Button */}
-          <button className="mt-4 px-6 py-3 bg-[#61dbd1] text-white font-semibold rounded-lg shadow-md hover:bg-[#4cb6aa] transition">
+          {/* <button className="mt-4 px-6 py-3 bg-[#6a35ff] text-white font-semibold rounded-lg shadow-md hover:bg-[#7637bd] transition">
             Get More Info
-          </button>
+          </button> */}
         </div>
 
         {/* Right Content - Image with decoration */}
         <div className="relative flex justify-center md:justify-end">
           {/* Decorative rectangle behind image */}
-          <div className="absolute -bottom-6 -right-6 w-[150px] h-[200px] bg-[#29aea3] rounded-xl -z-10"></div>
+          <div className="absolute -bottom-6 -right-6 w-[150px] h-[200px] bg-[#7637bd] rounded-xl -z-10"></div>
           {/* <div className="absolute -top-4 left-0 w-[120px] h-[100px] bg-[#4ff7e6] rounded-xl -z-10"></div> */}
 
           {/* Main Image */}
@@ -72,7 +72,7 @@ export const AboutMe = () => {
           </div>
 
           {/* Floating small circle */}
-          <div className="absolute -top-4 -left-16 w-8 h-8 bg-[#61dbd1] rounded-full shadow-lg"></div>
+          <div className="absolute -top-4 -left-16 w-8 h-8 bg-[#6a35ff] rounded-full shadow-lg"></div>
         </div>
       </div>
     </div>

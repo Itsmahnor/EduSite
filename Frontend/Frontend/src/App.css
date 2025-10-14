@@ -1,4 +1,7 @@
 
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
 *{
   margin: 0;
   padding: 0;
@@ -171,7 +174,7 @@ select:-webkit-autofill {
     .breadcrumb-wrapper {
       position: relative; /* Needed for the pseudo-element to position properly */
       overflow: hidden; /* Ensures the shimmer stays within the element's boundaries */
-      background-color: #06a5a3; /* Placeholder background (light gray) */
+      background-color: #7637bd; /* Placeholder background (light gray) */
     
       padding: 20px; /* Adds some spacing */
      
@@ -207,7 +210,13 @@ select:-webkit-autofill {
 
 /* hero img */
 .hero-img {
-  background-image: linear-gradient(rgba(65, 211, 199, 0.7), rgba(97, 219, 209, 0.7)), url('assets/hero-img.jpg');
+  background-image: 
+    linear-gradient(
+      rgba(20, 20, 43, 0.85),   /* deep black-purple tone */
+      rgba(118, 55, 189, 0.75), /* main purple */
+      rgba(106, 53, 255, 0.75)  /* secondary purple */
+    ),
+    url('assets/hero-img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

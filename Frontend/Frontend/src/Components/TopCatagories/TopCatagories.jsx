@@ -56,7 +56,7 @@ const CategorySlider = ({ settings }) => (
         <div className='bg-white shadow-inner rounded-2xl border border-[#61dbd1]/40 h-[300px] w-[200px] mx-auto text-[#04211e] flex flex-col justify-center items-center gap-2 p-2 transform transition duration-300 hover:-translate-y-3 hover:scale-90'>
           
           {/* Icon Box */}
-          <div className='w-[100px] h-[100px] flex justify-center items-center text-white bg-gradient-to-tr from-[#61dbd1] to-[#42a199] rounded-2xl shadow-sm'>
+          <div className='w-[100px] h-[100px] flex justify-center items-center text-white bg-[#7637bd] rounded-2xl shadow-sm'>
             <span className='text-[2rem]'>{item.img}</span>
           </div>
           

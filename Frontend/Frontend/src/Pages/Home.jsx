@@ -13,7 +13,7 @@ import { Tutor } from "../Components/Tutot/Tutor";
 function Home() {
   return ( 
     <>
-    <TopNav />
+    {/* <TopNav /> */}
     <BottomNav />
     <Hero />
     <TopCatagories />

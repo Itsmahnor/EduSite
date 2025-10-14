@@ -9,7 +9,7 @@ import { ICONS } from '../Components/Icons/Icons'
 export const FindProgram = () => {
   return (
   <>
-  <TopNav />
+
   <BottomNav />
 <Header />
   <SearchProgram  />

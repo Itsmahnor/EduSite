@@ -13,7 +13,7 @@ import { ServicesList } from '../Components/ServicesList'
 export const WhyChooseUs = () => {
   return (
     <>
-    <TopNav />
+ 
     <BottomNav />
     <Header />
   <WhyChoose />

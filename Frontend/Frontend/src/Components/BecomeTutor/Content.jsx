@@ -7,7 +7,7 @@ const BecomeInstructorSection = () => {
         {/* Title Section */}
         <div className="mb-8">
           <h2 className="text-2xl font-bold uppercase mb-4 text-white">Become an Instructor</h2>
-          <h3 className="text-3xl font-bold mb-6 text-[#098E68]">Start Teaching with SkillsEducation</h3>
+          <h3 className="text-3xl font-bold mb-6 text-[#14142b]">Start Teaching with SkillsEducation</h3>
           <p className="text-lg">
             Join SkillsEducation to make a positive impact on students' lives. As an instructor, you'll have the
             chance to teach a variety of subjects and engage with a global audience through our platform. We offer
@@ -17,7 +17,7 @@ const BecomeInstructorSection = () => {
 
         {/* Requirements Section */}
         <div className="mb-8">
-          <h2 className="text-2xl font-bold uppercase mb-4 text-[#098E68]">Requirements to Become an Instructor:</h2>
+          <h2 className="text-2xl font-bold uppercase mb-4 text-[#14142b]">Requirements to Become an Instructor:</h2>
           <ul className="list-none space-y-3">
             <li>✔️ A degree or certification in your area of expertise</li>
             <li>✔️ Proven teaching experience or a passion for teaching</li>
@@ -29,7 +29,7 @@ const BecomeInstructorSection = () => {
 
         {/* Benefits Section */}
         <div className="mb-8">
-          <h2 className="text-2xl font-bold uppercase mb-4 text-[#098E68]">Benefits of Becoming an Instructor:</h2>
+          <h2 className="text-2xl font-bold uppercase mb-4 text-[#14142b]">Benefits of Becoming an Instructor:</h2>
           <ul className="list-none space-y-3">
             <li>✔️ Earn a competitive salary based on the courses you teach</li>
             <li>✔️ Flexible working hours and remote teaching opportunities</li>
@@ -41,7 +41,7 @@ const BecomeInstructorSection = () => {
 
         {/* Salary Section */}
         <div>
-          <h2 className="text-2xl font-bold uppercase mb-4 text-[#098E68]">Instructor Salary:</h2>
+          <h2 className="text-2xl font-bold uppercase mb-4 text-[#14142b]">Instructor Salary:</h2>
           <p className="text-lg">
             Instructors are compensated based on the number of courses they offer and the number of students
             enrolled. We offer competitive rates that reward your hard work and dedication.

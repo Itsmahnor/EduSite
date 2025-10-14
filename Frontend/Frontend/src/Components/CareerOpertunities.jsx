@@ -10,7 +10,7 @@ const CareerOpportunities = () => {
   ];
 
   return (
-    <div className="bg-[#52cac0] text-white py-16 mt-12 px-4 w-[100vw] flex justify-center">
+    <div className="bg-[#7637bd] text-white py-16 mt-12 px-4 w-[100vw] flex justify-center">
       <section className="md:w-[50vw]">
         <h2 className="text-2xl font-bold text-center mb-8 text-neon-green">
           Career Opportunities & Earning Potential After Completing the Course
@@ -19,7 +19,7 @@ const CareerOpportunities = () => {
           {opportunities.map((opportunity, index) => (
             <div
               key={index}
-              className="bg-[#035b54] text-white p-6 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 md:w-[20vw]"
+              className="bg-[#6a35ff] text-white p-6 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 md:w-[20vw]"
             >
               <div className="text-4xl mb-4 text-sky-700">{opportunity.icon}</div>
               <h3 className="text-xl font-bold mb-2">{opportunity.title}</h3>

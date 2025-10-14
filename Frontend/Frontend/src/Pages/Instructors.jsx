@@ -80,7 +80,7 @@ export const Instructors = () => {
 
   return (
     <div className="bg-white text-gray-800">
-      <TopNav />
+   
       <BottomNav />
       <Header />
       <ServicesList />
@@ -99,7 +99,7 @@ export const Instructors = () => {
             className="rounded-2xl shadow-xl w-full object-cover"
           />
           <div className="text-left">
-            <h2 className="text-3xl font-bold text-sky-500 mb-6">Why Our Services Are Important</h2>
+            <h2 className="text-3xl font-bold text-[#7637bd] mb-6">Why Our Services Are Important</h2>
             <p className="text-gray-600 leading-relaxed">
               In today’s competitive digital world, businesses that lack strong online strategies struggle to survive. 
               From building trust with professional websites to developing applications that provide convenience, 
@@ -119,7 +119,7 @@ export const Instructors = () => {
               onClick={() => setActiveCategory(cat)}
               className={`px-8 py-2 rounded-full font-semibold transition-all duration-300 ${
                 activeCategory === cat
-                  ? "bg-sky-500 text-white shadow-lg"
+                  ? "bg-[#7637bd] text-white shadow-lg"
                   : "bg-gray-100 text-gray-700 hover:bg-gray-200"
               }`}
             >
@@ -136,7 +136,7 @@ export const Instructors = () => {
           className="grid md:grid-cols-2 gap-12 items-center mb-16"
         >
           <div className="text-left">
-            <h2 className="text-3xl font-bold text-sky-500 mb-6">Our Core Services</h2>
+            <h2 className="text-3xl font-bold text-[#7637bd] mb-6">Our Core Services</h2>
             <ul className="list-disc pl-5 space-y-3 text-gray-700">
               <li><strong>Web Design & Development</strong> – Stunning, mobile-responsive websites built for conversions.</li>
               <li><strong>Application Development</strong> – High-performing mobile & desktop apps to boost engagement.</li>
@@ -166,9 +166,9 @@ export const Instructors = () => {
               <>
                 {/* Text */}
                 <div className="text-left">
-                  <h2 className="text-3xl font-bold text-sky-500 mb-6">{service.whyTitle}</h2>
+                  <h2 className="text-3xl font-bold text-[#7637bd] mb-6">{service.whyTitle}</h2>
                   <p className="text-gray-600 mb-8 leading-relaxed">{service.whyText}</p>
-                  <h3 className="text-2xl font-semibold text-sky-500 mb-4">{service.offeringsTitle}</h3>
+                  <h3 className="text-2xl font-semibold text-[#7637bd] mb-4">{service.offeringsTitle}</h3>
                   <ul className="list-disc pl-5 space-y-2 text-gray-700">
                     {service.offerings.map((offer, idx) => (
                       <li key={idx}>{offer}</li>
@@ -194,7 +194,7 @@ export const Instructors = () => {
 
                 {/* Text */}
                 <div className="text-left">
-                  <h2 className="text-3xl font-bold text-sky-500 mb-6">{service.whyTitle}</h2>
+                  <h2 className="text-3xl font-bold text-[#7637bd] mb-6">{service.whyTitle}</h2>
                   <p className="text-gray-600 mb-8 leading-relaxed">{service.whyText}</p>
                   <h3 className="text-2xl font-semibold text-[#03392a] mb-4">{service.offeringsTitle}</h3>
                   <ul className="list-disc pl-5 space-y-2 text-gray-700">
@@ -223,7 +223,7 @@ export const Instructors = () => {
             className="rounded-2xl shadow-xl w-full object-cover"
           />
           <div className="text-left">
-            <h2 className="text-3xl font-bold text-sky-500 mb-6">Innovation & Growth</h2>
+            <h2 className="text-3xl font-bold text-[#7637bd] mb-6">Innovation & Growth</h2>
             <p className="text-gray-600 leading-relaxed">
               Our solutions are built for growth. Whether you’re a startup or an enterprise, 
               we align our strategies with your vision. With future-proof designs, scalable architectures, 
@@ -240,7 +240,7 @@ export const Instructors = () => {
           href="/contact"
           whileHover={{ scale: 1.08, boxShadow: "0px 0px 20px rgba(64,184,227,0.6)" }}
           whileTap={{ scale: 0.95 }}
-          className="inline-block px-10 py-3 mb-4 uppercase rounded bg-gradient-to-r from-[#40b8e3] to-[#098E68] text-white font-bold text-lg shadow-lg hover:shadow-xl transition-all duration-300"
+          className="inline-block px-10 py-3 mb-4 uppercase rounded bg-[#14142b] text-white font-bold text-lg shadow-lg hover:shadow-xl transition-all duration-300"
         >
            Contact Us
         </motion.a>

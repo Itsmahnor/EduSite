@@ -57,7 +57,7 @@ export const MainContent = () => {
 
   return (
     <>
-      <TopNav />
+      {/* <TopNav /> */}
       <BottomNav />
       {/* Hero Section */}
       <div className="bg-gradient-to-r breadcrumb-wrapper md:h-[50vh] flex justify-center items-center flex-col">
@@ -77,7 +77,7 @@ export const MainContent = () => {
         <div className="grid md:grid-cols-3 gap-6 mb-12 bg-gray-50 p-8 rounded-xl">
           <div className="text-center">
             <div className="flex items-center justify-center gap-2 mb-2">
-              <span className="text-2xl font-bold text-sky-600">
+              <span className="text-2xl font-bold text-[#7637bd]">
                 {selectedCourse.courseStats.rating}
               </span>
               <FaStar className="text-yellow-500" />
@@ -89,10 +89,10 @@ export const MainContent = () => {
 
           <div className="text-center">
             <div className="flex items-center justify-center gap-2 mb-2">
-              <span className="text-2xl font-bold text-sky-600">
+              <span className="text-2xl font-bold text-[#7637bd]">
                 {selectedCourse.courseStats.modules}
               </span>
-              <FaBook className="text-sky-600" />
+              <FaBook className="text-[#7637bd]" />
             </div>
             <p className="text-sm text-gray-600">modules</p>
           </div>
@@ -123,7 +123,7 @@ export const MainContent = () => {
                 onClick={() => setActiveTab(tab.id)}
                 className={`py-4 px-2 border-b-2 font-medium text-sm ${
                   activeTab === tab.id
-                    ? "border-sky-500 text-sky-600"
+                    ? "border-[#7637bd] text-[#7637bd]"
                     : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
                 }`}
               >
@@ -151,14 +151,14 @@ export const MainContent = () => {
             <a
               href={selectedCourse.outlinePdf}
               download
-              className="inline-flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white px-5 py-3 rounded-lg shadow-lg transition"
+              className="inline-flex items-center gap-2 bg-[#7637bd] hover:bg-sky-700 text-white px-5 py-3 rounded-lg shadow-lg transition"
             >
               <FaDownload /> Download PDF
             </a>
 
             <button
               onClick={handleEnrollClick}
-              className="inline-flex items-center gap-2 bg-sky-500 text-white px-5 py-3 rounded-lg shadow-lg transition"
+              className="inline-flex items-center gap-2 bg-[#7637bd] text-white px-5 py-3 rounded-lg shadow-lg transition"
             >
               Enroll Now
             </button>
@@ -180,7 +180,7 @@ const AboutContent = ({ course }) => (
       <div className="grid md:grid-cols-3 gap-3">
         {course.whatYoullLearn.map((item, i) => (
           <div key={i} className="flex items-start gap-3 p-2 rounded-lg">
-            <FaCheckCircle className="text-sky-600 mt-1 flex-shrink-0" />
+            <FaCheckCircle className="text-[#7637bd] mt-1 flex-shrink-0" />
             <span className="text-gray-700">{item}</span>
           </div>
         ))}
@@ -216,7 +216,7 @@ const AboutContent = ({ course }) => (
 
           return (
             <div key={i} className="text-center p-4">
-              <IconComponent className="text-3xl text-sky-600 mx-auto mb-3" />
+              <IconComponent className="text-3xl text-[#7637bd] mx-auto mb-3" />
               <h3 className="font-semibold text-gray-900 mb-2 text-[1rem]">{detail.title}</h3>
               <p className="text-sm text-gray-600">{detail.description}</p>
             </div>
@@ -234,13 +234,13 @@ const AboutContent = ({ course }) => (
     {/* Audience & Prerequisites (Using the original 'prerequisites' for compatibility) */}
     <div className="grid md:grid-cols-2 gap-8">
       <div className="bg-gray-50 p-6 rounded-lg">
-        <h3 className="text-xl font-semibold text-sky-600 flex items-center gap-2 mb-4">
+        <h3 className="text-xl font-semibold text-[#7637bd] flex items-center gap-2 mb-4">
           <FaUserGraduate /> Target Audience
         </h3>
         <ul className="space-y-3">
           {course.targetAudience.map((audience, i) => (
             <li key={i} className="flex items-start gap-2">
-              <FaCheckCircle className="text-sky-500 mt-1 flex-shrink-0" />
+              <FaCheckCircle className="text-[#7637bd] mt-1 flex-shrink-0" />
               <span className="text-gray-700">{audience}</span>
             </li>
           ))}
@@ -248,13 +248,13 @@ const AboutContent = ({ course }) => (
       </div>
 
       <div className="bg-gray-50 p-6 rounded-lg">
-        <h3 className="text-xl font-semibold text-sky-600 flex items-center gap-2 mb-4">
+        <h3 className="text-xl font-semibold text-[#7637bd] flex items-center gap-2 mb-4">
           <FaTasks /> Prerequisites
         </h3>
         <ul className="space-y-3">
           {course.prerequisites.map((req, i) => (
             <li key={i} className="flex items-start gap-2">
-              <FaCheckCircle className="text-sky-500 mt-1 flex-shrink-0" />
+              <FaCheckCircle className="text-[#7637bd] mt-1 flex-shrink-0" />
               <span className="text-gray-700">{req}</span>
             </li>
           ))}
@@ -264,7 +264,7 @@ const AboutContent = ({ course }) => (
 
     {/* Instructor */}
     <div className="bg-sky-100 p-6 rounded-lg">
-      <h3 className="text-xl font-semibold text-sky-600 flex items-center gap-2 mb-4">
+      <h3 className="text-xl font-semibold text-[#7637bd] flex items-center gap-2 mb-4">
         <FaChalkboardTeacher /> Instructor
       </h3>
       <h4 className="font-semibold text-lg">{course.instructor.name}</h4>
@@ -279,13 +279,13 @@ const AboutContent = ({ course }) => (
 const OutcomesContent = ({ course }) => (
   <div>
     <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-      <FaGraduationCap className="text-sky-600" /> Learning Outcomes
+      <FaGraduationCap className="text-[#7637bd]" /> Learning Outcomes
     </h2>
     <div className="grid md:grid-cols-2 gap-6">
       {course.learningOutcomes.map((outcome, i) => (
         <div key={i} className="bg-green-50 p-6 rounded-lg shadow-sm">
           <div className="flex items-start gap-3">
-            <FaLightbulb className="text-sky-600 mt-1 flex-shrink-0 text-xl" />
+            <FaLightbulb className="text-[#7637bd] mt-1 flex-shrink-0 text-xl" />
             <span className="text-gray-800 font-medium">{outcome}</span>
           </div>
         </div>
@@ -297,7 +297,7 @@ const OutcomesContent = ({ course }) => (
       <div className="grid md:grid-cols-2 gap-4">
         {course.courseHighlights.map((highlight, i) => (
           <div key={i} className="flex items-start gap-3">
-            <FaCheckCircle className="text-sky-600 mt-1 flex-shrink-0" />
+            <FaCheckCircle className="text-[#7637bd] mt-1 flex-shrink-0" />
             <span className="text-gray-700">{highlight}</span>
           </div>
         ))}
@@ -337,14 +337,14 @@ const ModulesContent = ({ course }) => {
                   {module.topics.map((topic, j) => (
                     <span
                       key={j}
-                      className="text-sm text-sky-600 px-3 py-1 rounded-full border border-sky-100 bg-sky-50"
+                      className="text-sm text-[#7637bd] px-3 py-1 rounded-full border border-sky-100 bg-sky-50"
                     >
                       {topic}
                     </span>
                   ))}
                 </div>
               </div>
-              <FaPlay className="text-sky-600 mt-2 text-xl cursor-pointer ml-4" />
+              <FaPlay className="text-[#7637bd] mt-2 text-xl cursor-pointer ml-4" />
             </div>
           </div>
         ))}
@@ -356,7 +356,7 @@ const ModulesContent = ({ course }) => {
           <a
             href={course.outlinePdf}
             download
-            className="inline-flex items-center gap-2 bg-sky-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-sky-700 transition-colors"
+            className="inline-flex items-center gap-2 bg-[#7637bd] text-white px-6 py-3 rounded-lg font-semibold hover:bg-sky-700 transition-colors"
           >
             <FaDownload />
             See All Modules – Download Course Outline
@@ -395,7 +395,7 @@ const DetailsContent = ({ course }) => (
                 <span className="font-medium text-gray-600">{key}</span>
                 <p
                   className={`font-semibold ${
-                    key === "Duration" ? "text-sky-600" : "text-gray-800"
+                    key === "Duration" ? "text-[#7637bd]" : "text-gray-800"
                   }`}
                 >
                   {String(value)}
@@ -416,7 +416,7 @@ const DetailsContent = ({ course }) => (
               key={i}
               className="flex items-start gap-2 bg-gray-50 p-3 rounded-md"
             >
-              <FaCheckCircle className="text-sky-600 mt-1 flex-shrink-0 text-lg" />
+              <FaCheckCircle className="text-[#7637bd] mt-1 flex-shrink-0 text-lg" />
               <span className="text-gray-700 text-sm leading-snug">{req}</span>
             </li>
           ))}

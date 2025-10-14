@@ -25,29 +25,29 @@ export const SearchProgram = () => {
             <input
               type="text"
               placeholder="Search Course..."
-              className="bg-transparent w-full md:w-[60%]  lg:w-[50%] px-5 py-3 placeholder-[#04211e] border rounded-full text-[#04211e] focus:outline-none"
+              className="bg-transparent w-full md:w-[60%]  lg:w-[50%] px-5 py-3 placeholder-[#7637bd] border rounded-full text-[#7637bd] focus:outline-none"
               onChange={(e) => setSearchTerm(e.target.value)}
             />
-            <div className="w-full md:w-auto flex items-center bg-[#52cac0] rounded-lg text-[#04211e] px-4">
+            <div className="w-full md:w-auto flex items-center bg-[#7637bd] rounded-lg text-white px-4">
               <select
                 className="w-full md:w-auto py-2 bg-transparent focus:outline-none text-white"
                 value={selectedCategory}
                 onChange={(e) => setSelectedCategory(e.target.value)}
               >
-                <option value="" className="bg-[#80e2da] text-[#04211e] font-bold">
+                <option value="" className="bg-[#7637bd] text-white font-bold">
                   Select a Category
                 </option>
-                <option value="frontend" className="bg-[#80e2da] text-[#04211e]">
+                <option value="frontend" className="bg-[#7637bd] text-white">
                   Frontend
                 </option>
-                <option value="backend" className="bg-[#80e2da] text-[#04211e]">
+                <option value="backend" className="bg-[#7637bd] text-white">
                   Backend
                 </option>
-                <option value="fullstack" className="bg-[#80e2da] text-[#04211e]">
+                <option value="fullstack" className="bg-[#7637bd] text-white">
                   Fullstack
                 </option>
                
-                <option value="Artificial Intelligence" className="bg-[#80e2da] text-[#04211e]">
+                <option value="Artificial Intelligence" className="bg-[#7637bd] text-white">
                  Artificial Intelligence
                 </option>
               </select>
@@ -67,10 +67,11 @@ const CategoryGrid = ({ courses }) => (
   <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-5 py-10 search place-items-center">
     {courses.length > 0 ? (
       courses.map((item, index) => (
+         
         <div
           key={index}
-          className="w-full sm:w-[350px] lg:w-[400px] h-auto bg-[#47a49c] rounded-3xl shadow-lg hover:scale-105 transition-transform"
-        >
+          className="w-full sm:w-[350px] lg:w-[400px] h-auto bg-white rounded-3xl shadow-lg hover:scale-105 transition-transform"
+        ><Link to={`/course/${item.route}`} >
           <div className="m-4">
             <img
               src={item.img}
@@ -84,30 +85,31 @@ const CategoryGrid = ({ courses }) => (
                   <IoMdStar className="text-yellow-500 text-xl" />
                   <IoMdStar className="text-yellow-500 text-xl" />
                 </div>
-                <span className="text-white mt-1">(5.0)</span>
+                <span className="text-black mt-1">(5.0)</span>
               </div>
-              <span className="text-white font-bold mt-1 text-lg">
+              <span className="text-black font-bold mt-1 text-lg">
                 {item.rupees} /-
               </span>
             </div>
-          <Link to={`/course/${item.route}`} >
-              <h1 className="text-white text-lg font-bold mt-4">{item.title}</h1>
-            </Link>
+         
+              <h1 className="text-black text-lg font-bold mt-4">{item.title}</h1>
+           
           </div>
           <div className="m-4 flex justify-between flex-wrap gap-4">
-            <div className="flex gap-1 text-white items-center">
+            <div className="flex gap-1 text-black items-center">
               <FaRegUserCircle className="text-lg" />
               <span>By: {item.by}</span>
             </div>
-            <div className="flex gap-1 text-white items-center">
+            <div className="flex gap-1 text-black items-center">
               <IoMdTime className="text-lg" />
               <span>{item.duration}:Month</span>
             </div>
           </div>
+          </Link>
         </div>
       ))
     ) : (
-      <p className="col-span-3 text-center text-white">No courses found</p>
+      <p className="col-span-3 text-center text-black">No courses found</p>
     )}
   </div>
 );

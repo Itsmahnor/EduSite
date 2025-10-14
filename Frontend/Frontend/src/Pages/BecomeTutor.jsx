@@ -10,7 +10,7 @@ import { ICONS } from '../Components/Icons/Icons'
 export const BecomeTutor = () => {
   return (
    <>
-   <TopNav />
+   
    <BottomNav />
    <Header />
    <BecomeInstructorSection />

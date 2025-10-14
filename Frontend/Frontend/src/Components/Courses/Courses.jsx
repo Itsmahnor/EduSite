@@ -30,7 +30,7 @@ export const Courses = () => {
           <h1 className="text-2xl md:text-4xl font-bold text-[#04211e]">
             Featured Courses
           </h1>
-          <button className="px-5 py-2 text-[0.8rem] sm:text-[1rem] border border-[#04211e] text-[#04211e] font-semibold rounded hover:bg-[#61dbd1] hover:text-white transition">
+          <button className="px-5 py-2 text-[0.8rem] sm:text-[1rem] border border-[#04211e] text-[#04211e] font-semibold rounded  transition">
          <Link  to={'/findProgram'}>View All</Link>   
           </button>
         </div>

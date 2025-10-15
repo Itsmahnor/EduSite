@@ -78,10 +78,10 @@ export const Hero = () => {
                       <FaArrowRightLong className="text-[1.2rem] text-white pt-1 hidden md:block" />
                     </div>
                   </Link>
-                  <Link to="/instructors" className="md:block">
+                  <Link to="/register" className="md:block">
                     <div className="flex gap-2 justify-center items-center bg-[#6a35ff] px-4 py-3 md:px-7 md:py-4 rounded-full transition-colors">
                       <span className="text-[1rem] font-medium md:text-[1.2rem] text-white">
-                        Browse Services
+                       Enroll Now
                       </span>
                     </div>
                   </Link>

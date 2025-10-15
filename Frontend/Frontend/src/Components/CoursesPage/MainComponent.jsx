@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import courses from "./MainComponent.json";
 import {
   FaUserGraduate,
@@ -160,7 +160,8 @@ export const MainContent = () => {
               onClick={handleEnrollClick}
               className="inline-flex items-center gap-2 bg-[#7637bd] text-white px-5 py-3 rounded-lg shadow-lg transition"
             >
-              Enroll Now
+              <Link to={'/register'} className="text-white">
+              Enroll Now</Link>
             </button>
           </div>
         </div>

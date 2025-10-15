@@ -9,7 +9,7 @@ import { ICONS } from '../Components/Icons/Icons'
 export const Register = () => {
   return (
  <>
-<TopNav />
+{/* <TopNav /> */}
 <BottomNav />
  <Header />
  <SignUp />

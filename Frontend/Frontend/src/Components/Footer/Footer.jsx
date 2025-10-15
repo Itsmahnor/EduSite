@@ -42,7 +42,7 @@ const Footer = () => {
                  <li> <Link to={'/choose'}>
             <a href="#" className="hover:text-gray-900 text-black">About Us</a></Link></li>
            <li><Link to={'/instructors'} className='py-3' >
-             <a href="#" className="hover:text-gray-900 text-black">Become Tutor</a></Link></li>
+             <a href="#" className="hover:text-gray-900 text-black">Services</a></Link></li>
             </ul>
           </section>
 
